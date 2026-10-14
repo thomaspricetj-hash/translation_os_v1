@@ -1,0 +1,60 @@
+{
+  "session_id": "2026-10-13-baseline",
+  "start_time": "2026-10-13T16:00:00Z",
+  "end_time": "2026-10-13T16:05:00Z",
+  "queries": [
+    {
+      "query": "what is entropy",
+      "source": "knowledge_dictionary",
+      "model_called": false,
+      "latency_ms": 0.12,
+      "memory_reuse_hit": false
+    },
+    {
+      "query": "define gpu",
+      "source": "knowledge_dictionary",
+      "model_called": false,
+      "latency_ms": 0.11,
+      "memory_reuse_hit": false
+    },
+    {
+      "query": "Add GPU support to Translation OS",
+      "source": "memory_reuse",
+      "model_called": false,
+      "latency_ms": 0.18,
+      "memory_reuse_hit": true
+    },
+    {
+      "query": "Add GPU support to Translation OS",
+      "source": "memory_reuse",
+      "model_called": false,
+      "latency_ms": 0.15,
+      "memory_reuse_hit": true,
+      "note": "repeated query"
+    },
+    {
+      "query": "Write a Python function to find the maximum in a list",
+      "source": "model",
+      "model_called": true,
+      "latency_ms": 3200,
+      "problem_mapper_used": true
+    },
+    {
+      "query": "Write a Python function to find the maximum in a list",
+      "source": "memory_reuse",
+      "model_called": false,
+      "latency_ms": 0.22,
+      "memory_reuse_hit": true,
+      "note": "second attempt reused reasoning template"
+    }
+  ],
+  "metrics": {
+    "total_queries": 6,
+    "model_calls": 1,
+    "model_calls_avoided": 5,
+    "memory_reuse_hits": 3,
+    "repeated_work_reduction": 0.83,
+    "average_latency_ms": 540,
+    "project_continuity": "improved"
+  }
+}

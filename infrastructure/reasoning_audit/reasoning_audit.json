@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "built": "2026-10-13",
+    "purpose": "Verify reasoning layers improve answers"
+  },
+  "categories": [
+    "Arithmetic",
+    "Algebra",
+    "Number Theory",
+    "Combinatorics",
+    "Planning",
+    "Coding",
+    "General Reasoning"
+  ],
+  "layers": [
+    "Problem Mapper",
+    "Problem Solve Layer",
+    "Debate Layer",
+    "Reasoning Heatmap",
+    "Knowledge Grid",
+    "Weave Layer"
+  ],
+  "metrics": [
+    "correctness",
+    "reasoning_quality",
+    "token_count",
+    "latency",
+    "confidence"
+  ],
+  "results": [
+    {
+      "category": "Arithmetic",
+      "query": "Compute 123456789 * 987654321",
+      "baseline": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 100,
+        "latency_ms": 10.033607482910156,
+        "confidence": 0.5
+      },
+      "full": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 120,
+        "latency_ms": 20.169973373413086,
+        "confidence": 0.5
+      },
+      "delta": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "token_delta": 20,
+        "latency_delta_ms": 10.13636589050293,
+        "confidence_delta": 0.0
+      }
+    },
+    {
+      "category": "Algebra",
+      "query": "Solve for x: 3^(x+2) - 5*3^x = 24",
+      "baseline": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 100,
+        "latency_ms": 10.318756103515625,
+        "confidence": 0.5
+      },
+      "full": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 120,
+        "latency_ms": 20.374298095703125,
+        "confidence": 0.5
+      },
+      "delta": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "token_delta": 20,
+        "latency_delta_ms": 10.0555419921875,
+        "confidence_delta": 0.0
+      }
+    },
+    {
+      "category": "Number Theory",
+      "query": "Find sum of first 1000 primes modulo 1000",
+      "baseline": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 100,
+        "latency_ms": 10.08915901184082,
+        "confidence": 0.5
+      },
+      "full": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 120,
+        "latency_ms": 20.291566848754883,
+        "confidence": 0.5
+      },
+      "delta": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "token_delta": 20,
+        "latency_delta_ms": 10.202407836914062,
+        "confidence_delta": 0.0
+      }
+    },
+    {
+      "category": "Combinatorics",
+      "query": "Find closed form for nth Catalan number",
+      "baseline": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 100,
+        "latency_ms": 10.323286056518555,
+        "confidence": 0.5
+      },
+      "full": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 120,
+        "latency_ms": 20.287275314331055,
+        "confidence": 0.5
+      },
+      "delta": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "token_delta": 20,
+        "latency_delta_ms": 9.9639892578125,
+        "confidence_delta": 0.0
+      }
+    },
+    {
+      "category": "Planning",
+      "query": "Design GPU support plan for Translation OS",
+      "baseline": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 100,
+        "latency_ms": 10.268211364746094,
+        "confidence": 0.5
+      },
+      "full": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 120,
+        "latency_ms": 20.07579803466797,
+        "confidence": 0.5
+      },
+      "delta": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "token_delta": 20,
+        "latency_delta_ms": 9.807586669921875,
+        "confidence_delta": 0.0
+      }
+    },
+    {
+      "category": "Coding",
+      "query": "Fix Python error in function foo()",
+      "baseline": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 100,
+        "latency_ms": 10.21265983581543,
+        "confidence": 0.5
+      },
+      "full": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 120,
+        "latency_ms": 20.077228546142578,
+        "confidence": 0.5
+      },
+      "delta": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "token_delta": 20,
+        "latency_delta_ms": 9.864568710327148,
+        "confidence_delta": 0.0
+      }
+    },
+    {
+      "category": "General Reasoning",
+      "query": "Explain relationship between Knowledge Grid and Weave Layer",
+      "baseline": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 100,
+        "latency_ms": 10.281801223754883,
+        "confidence": 0.5
+      },
+      "full": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "tokens": 120,
+        "latency_ms": 20.42102813720703,
+        "confidence": 0.5
+      },
+      "delta": {
+        "correctness": 0.0,
+        "reasoning_quality": 0.0,
+        "token_delta": 20,
+        "latency_delta_ms": 10.139226913452148,
+        "confidence_delta": 0.0
+      }
+    }
+  ]
+}

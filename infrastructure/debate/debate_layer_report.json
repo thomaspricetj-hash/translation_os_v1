@@ -1,0 +1,36 @@
+{
+  "component": "Debate Layer V0",
+  "role": "Generate multiple solution approaches before selecting final answer",
+  "pipeline_position": "Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer",
+  "status": "KEEP",
+  "promoted_date": "2026-10-13",
+  "modes": [
+    "Pro / Con",
+    "Fast Solution vs Accurate Solution",
+    "Optimistic vs Critical",
+    "Planner vs Builder",
+    "Alternative Approaches"
+  ],
+  "metrics": {
+    "reasoning_accuracy": "TBD",
+    "error_reduction": "TBD",
+    "solution_quality": "TBD",
+    "latency_delta_ms": "TBD",
+    "reuse_rate": "TBD"
+  },
+  "validation_tests": [
+    {
+      "query": "How should Translation OS add GPU support?",
+      "expected_approaches": 2,
+      "mode": "alternative_approaches",
+      "result": "PASS"
+    },
+    {
+      "query": "17 * 23",
+      "expected_approaches": 3,
+      "mode": "alternative_approaches",
+      "result": "PASS"
+    }
+  ],
+  "notes": "Helper and micro helper integration required. Debate Layer belongs in Reasoning System."
+}

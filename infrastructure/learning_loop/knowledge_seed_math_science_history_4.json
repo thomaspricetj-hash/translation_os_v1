@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": "MATH_CENTRAL_LIMIT",
+    "patterns": ["what is the central limit theorem?"],
+    "answer": "The Central Limit Theorem states that the sum of many independent random variables tends toward a normal distribution regardless of the original distribution.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_NEWTON_LAWS",
+    "patterns": ["what are newton's laws of motion?"],
+    "answer": "Newton's laws describe the relationship between a body and the forces acting upon it, and its motion in response to those forces.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "HIST_MARIE_CURIE",
+    "patterns": ["who was marie curie?"],
+    "answer": "Marie Curie was a physicist and chemist who pioneered radioactivity research and won two Nobel Prizes.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_THERMODYNAMICS",
+    "patterns": ["what is thermodynamics?"],
+    "answer": "Thermodynamics is the branch of physics dealing with heat, work, temperature, and energy in physical systems.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "MATH_LINEAR_ALGEBRA",
+    "patterns": ["what is linear algebra?"],
+    "answer": "Linear algebra is the branch of mathematics concerning linear equations, vectors, matrices, and vector spaces.",
+    "source": "model_distill"
+  }
+]

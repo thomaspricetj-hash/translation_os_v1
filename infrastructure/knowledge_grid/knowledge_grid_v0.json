@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {"id": "dictionary", "type": "knowledge", "name": "Dictionary Layer V0"},
+    {"id": "encyclopedia", "type": "knowledge", "name": "Encyclopedia Layer V0"},
+    {"id": "history_book", "type": "memory", "name": "History Book V0"},
+    {"id": "future_book", "type": "memory", "name": "Future Book V0"},
+    {"id": "project_book", "type": "memory", "name": "Project Book"},
+    {"id": "project_graph", "type": "structure", "name": "Project Graph V0"},
+    {"id": "memory_reuse", "type": "memory", "name": "Memory Reuse Layer V0"},
+    {"id": "response_cache", "type": "cache", "name": "Response Cache V0"}
+  ],
+  "edges": [
+    {"from": "dictionary", "to": "encyclopedia", "relationship": "expands", "weight": 0.9, "source": "knowledge"},
+    {"from": "encyclopedia", "to": "response_cache", "relationship": "feeds", "weight": 0.8, "source": "knowledge"},
+    {"from": "memory_reuse", "to": "project_graph", "relationship": "informs", "weight": 0.85, "source": "memory"},
+    {"from": "project_graph", "to": "future_book", "relationship": "blocks", "weight": 0.95, "source": "structure"},
+    {"from": "history_book", "to": "project_book", "relationship": "contextualizes", "weight": 0.7, "source": "memory"},
+    {"from": "project_book", "to": "response_cache", "relationship": "prioritizes", "weight": 0.6, "source": "memory"},
+    {"from": "future_book", "to": "project_graph", "relationship": "depends_on", "weight": 0.9, "source": "planning"},
+    {"from": "dictionary", "to": "memory_reuse", "relationship": "normalizes", "weight": 0.75, "source": "knowledge"}
+  ],
+  "metadata": {
+    "version": "0.0",
+    "built": "2026-10-13"
+  }
+}

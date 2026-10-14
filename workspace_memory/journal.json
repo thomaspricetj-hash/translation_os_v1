@@ -1,0 +1,1198 @@
+[
+  {
+    "timestamp": "2026-10-13T10:14:00Z",
+    "action": "HSCL benchmark started"
+  },
+  {
+    "timestamp": "2026-10-13T10:18:00Z",
+    "action": "HSCL benchmark completed"
+  },
+  {
+    "timestamp": "2026-10-13T10:25:00Z",
+    "action": "Scoreboard updated"
+  },
+  {
+    "timestamp": "2026-10-13T11:00:00Z",
+    "action": "Knowledge Layer V0 built"
+  },
+  {
+    "timestamp": "2026-10-13T11:15:00Z",
+    "action": "Problem Mapper V0 integrated"
+  },
+  {
+    "timestamp": "2026-10-13T16:03:02.779844Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:05:58.975538Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:06:18.652921Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:06:40.790516Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:06:55.796971Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:07:55.625927Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:13:43.091119Z",
+    "action": "Reasoning Heatmap V0 built and integrated"
+  },
+  {
+    "timestamp": "2026-10-13T16:20:00Z",
+    "action": "First Reasoning Heatmap reuse hit logged for math_apples_001"
+  },
+  {
+    "timestamp": "2026-10-13T16:18:09.446777Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:36:15.957997Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:36:15.970344Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T16:36:15.985250Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-13T16:41:43.920793Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:41:43.931510Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T16:49:42.132133Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T16:49:42.146122Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:00:05.655727Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:00:05.671720Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:00:05.688807Z",
+    "action": "Project Graph selection for route Reasoning: HSCL v1, Reasoning Heatmap V0, Problem Mapper V0"
+  },
+  {
+    "timestamp": "2026-10-13T17:10:24.840452Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:10:24.856552Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:10:28.642492Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:10:28.657060Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:10:28.671398Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-13T17:11:07.934228Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:11:07.949884Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:17:19.326154Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:17:19.346789Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:17:23.317455Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:17:23.333427Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:04.161550Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:04.182603Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:09.452877Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:09.471535Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:14.648619Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:14.666830Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:19.743427Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:19.760551Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:24.975939Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:27:24.992864Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:35:33.909023Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:35:33.931841Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:35:33.949916Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-13T17:36:41.714316Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:36:41.734951Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:36:41.751686Z",
+    "action": "Project Graph selection for route Math: HSCL v1, Response Cache v0, Problem Mapper V0"
+  },
+  {
+    "timestamp": "2026-10-13T17:46:46.156474Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:46:46.178714Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:46:46.196815Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-13T17:49:15.122897Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:49:15.145356Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:49:20.891303Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:49:20.909740Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:49:20.925814Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-13T17:51:30.626486Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:51:30.647754Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:51:36.639035Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:51:36.657236Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:51:36.672572Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-13T17:52:45.219693Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:52:45.242131Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:52:45.257132Z",
+    "action": "Project Graph selection for route Math: HSCL v1, Response Cache v0, Problem Mapper V0"
+  },
+  {
+    "timestamp": "2026-10-13T17:58:30.145513Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:58:30.167825Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:58:55.287517Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T17:58:55.308277Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T17:58:55.323715Z",
+    "action": "Project Graph selection for route Math: HSCL v1, Response Cache v0, Problem Mapper V0"
+  },
+  {
+    "timestamp": "2026-10-13T18:01:02.139617Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:01:02.162449Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:01:02.178132Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-13T18:07:26.802029Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:07:26.825601Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:15:07.519386Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:15:07.549156Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:15:14.848294Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:15:14.869043Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:17:14.662811Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:17:14.691994Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:17:51.348208Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:17:51.375421Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:18:31.241319Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:18:31.270088Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:19:11.882429Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:19:11.911677Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:19:50.159863Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:19:50.187714Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:20:30.054131Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:20:30.082831Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-13T18:21:15.111301Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-13T18:21:15.137154Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:35:46.564053Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:35:46.593863Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:35:54.549536Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:35:54.570656Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:37:06.526758Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:37:06.547791Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:37:50.628732Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:37:50.649285Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:36.334588Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:36.356255Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:44.415490Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:44.436813Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:51.597225Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:51.616978Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:59.964776Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:59.984823Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:39:07.620293Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:39:07.642514Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:40:30.162713Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:40:30.187712Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:40:36.911000Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:40:36.931365Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T00:40:45.657642Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T00:40:45.679156Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:43:51.751085Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:43:51.866190Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:45:07.439722Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:45:07.465392Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:45:14.849857Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:45:14.876003Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:45:14.911787Z",
+    "action": "Project Graph selection for route Math: HSCL v1, Response Cache v0, Problem Mapper V0"
+  },
+  {
+    "timestamp": "2026-10-14T10:47:15.367537Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:47:15.399691Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:47:22.677791Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:47:22.706137Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:48:34.602162Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:48:34.631109Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:48:43.947658Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:48:43.974092Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:48:54.485943Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:48:54.512925Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:52:25.499228Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:52:25.622786Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:52:33.186122Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:52:33.212650Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:55:10.994588Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:55:11.063228Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:55:51.141244Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:55:51.168604Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:55:58.609207Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:55:58.639897Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T10:56:06.226903Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T10:56:06.256033Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:12:25.312753Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:12:25.348855Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:12:53.000092Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:12:53.030586Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:14:16.502990Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:14:16.535723Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:14:16.574684Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T11:28:21.266633Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:28:21.303162Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:29:18.931294Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:29:18.963792Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:07.795753Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:07.827752Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:07.985271Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.026318Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.182468Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.221074Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.375730Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.412689Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.555101Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.591242Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.744119Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.780398Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.934328Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:08.971897Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:09.114957Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:42:09.153323Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.140529Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.176278Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.333771Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.372418Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.530935Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.569280Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.724453Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.762313Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.915547Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:28.952768Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.110532Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.149129Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.303035Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.340726Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.494434Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.535758Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.691685Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.728210Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.883558Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:29.919683Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.078633Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.117840Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.273462Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.310457Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.465923Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.503685Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.658256Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.696223Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.849358Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:30.886404Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.045748Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.082972Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.239156Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.277261Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.431170Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.470499Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.624419Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.662806Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.816891Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:31.854640Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:32.008667Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:32.046120Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:43:32.093939Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T11:45:24.415665Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:45:24.457914Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:45:24.505278Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T11:47:15.326631Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:47:15.367720Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:47:15.414220Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:42.714559Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:42.755734Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:42.917818Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:42.958177Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:43.116595Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:43.156410Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:43.311157Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:43.349376Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:48:43.395707Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T11:50:36.687050Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T11:50:36.729796Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T11:50:36.775754Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:04.265621Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:04.298510Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:04.463013Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:04.506489Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:04.668862Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:04.709301Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:04.875340Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:04.915443Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.081876Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.122434Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.288918Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.329653Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.493121Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.534007Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.698047Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.740464Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.905053Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:05.944645Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.106649Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.150163Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.316225Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.356665Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.521182Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.562804Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.726959Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.766143Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.928755Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:06.967975Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.135219Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.175899Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.354709Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.395493Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.562135Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.603922Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.775766Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.818338Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:07.983664Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:08.023716Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:08.194370Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:08.237244Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:08.416222Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:08.457584Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:08.621610Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:08.665173Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:30:08.726021Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:05.801707Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:05.851404Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.013406Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.055166Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.218527Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.260100Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.423867Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.464585Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.629096Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.671190Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.837491Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.879417Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:06.933281Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T12:34:04.583194Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T12:34:04.631270Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  },
+  {
+    "timestamp": "2026-10-14T12:34:04.684804Z",
+    "action": "Project Graph selection for route General: HSCL v1, Response Cache v0"
+  },
+  {
+    "timestamp": "2026-10-14T13:19:04.484497Z",
+    "action": "Translation OS V1 session started"
+  },
+  {
+    "timestamp": "2026-10-14T13:19:04.536100Z",
+    "action": "Index Layer V0 rebuilt on startup"
+  }
+]

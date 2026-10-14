@@ -1,0 +1,15 @@
+{
+  "task_id": "TASK_0005",
+  "original_task": "Test conflict detection",
+  "conflicts": [
+    {
+      "tag": "planning/coding",
+      "reason": "backend mismatch"
+    }
+  ],
+  "subtask_results": {
+    "planning": "Use CUDA only for GPU support",
+    "coding": "Implement ROCM backend first"
+  },
+  "merged_at": "2026-10-14T12:53:21.842223"
+}

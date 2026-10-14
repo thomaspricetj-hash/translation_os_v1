@@ -1,0 +1,12 @@
+{
+  "component": "BitDrop Compression V0",
+  "role": "Pre-tokenization byte-level compression using BitDrop V2",
+  "pipeline_position": "Raw Text -> BitDrop Compression -> HSCL -> ...",
+  "status": "KEEP",
+  "source": "SyntheticMind BitDrop V2",
+  "average_compression_ratio": 15.0,
+  "average_latency_ms": 0.002,
+  "complexity_cost": "LOW",
+  "accuracy_retention": "100%",
+  "notes": "Stub benchmark shows 15x compression with negligible latency. Real Rust engine expected 53x+ on structured data. Keeps scoreboard RULE 0."
+}

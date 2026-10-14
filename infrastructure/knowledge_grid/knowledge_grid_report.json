@@ -1,0 +1,44 @@
+{
+  "component": "Knowledge Grid V0",
+  "role": "Weighted connections between major Translation OS knowledge systems",
+  "pipeline_position": "Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer",
+  "status": "KEEP",
+  "promoted_date": "2026-10-13",
+  "nodes_connected": [
+    "Dictionary",
+    "Encyclopedia",
+    "History Book",
+    "Future Book",
+    "Project Book",
+    "Project Graph",
+    "Memory Reuse",
+    "Response Cache"
+  ],
+  "metrics": {
+    "connection_count": 8,
+    "avg_weight": 0.8,
+    "query_latency_ms": "<0.5",
+    "related_concept_recall": "TBD",
+    "dependency_accuracy": "TBD"
+  },
+  "capabilities": [
+    "Find related concepts",
+    "Find dependencies",
+    "Find blockers",
+    "Find project impacts",
+    "Return top weighted connections only"
+  ],
+  "validation_tests": [
+    {
+      "query": "find related to dictionary",
+      "expected": "encyclopedia",
+      "result": "PASS"
+    },
+    {
+      "query": "find blockers for future_book",
+      "expected": "project_graph",
+      "result": "PASS"
+    }
+  ],
+  "notes": "Store node, relationship, weight, source. Do not modify Muse-Glimmer. Build as infrastructure."
+}

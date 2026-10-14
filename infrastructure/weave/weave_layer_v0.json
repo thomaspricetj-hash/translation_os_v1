@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "built": "2026-10-13",
+    "purpose": "Cross-link Translation OS systems and identify indirect relationships"
+  },
+  "links": [
+    {"from": "Dictionary", "to": "Encyclopedia", "relationship": "expands", "weight": 0.9},
+    {"from": "History Book", "to": "Future Book", "relationship": "informs", "weight": 0.85},
+    {"from": "Project Book", "to": "Project Graph", "relationship": "maps_to", "weight": 0.9},
+    {"from": "Memory Reuse", "to": "Response Cache", "relationship": "feeds", "weight": 0.8},
+    {"from": "Problem Mapper", "to": "Debate Layer", "relationship": "precedes", "weight": 0.85},
+    {"from": "Reasoning Heatmap", "to": "Problem Solve Layer", "relationship": "informs", "weight": 0.8},
+    {"from": "Math-Boost", "to": "GPU Support", "relationship": "blocked_by", "weight": 0.95},
+    {"from": "GPU Support", "to": "CUDA Backend", "relationship": "requires", "weight": 0.9},
+    {"from": "CUDA Backend", "to": "Infrastructure Roadmap", "relationship": "part_of", "weight": 0.75},
+    {"from": "Infrastructure Roadmap", "to": "Future Book", "relationship": "recorded_in", "weight": 0.85}
+  ]
+}

@@ -1,0 +1,1280 @@
+{
+  "history": [
+    {
+      "query": "How should Translation OS add GPU support?",
+      "problem_type": "gpu_support",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for gpu_support",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for gpu_support",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for gpu_support",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "How should Translation OS add GPU support?",
+      "problem_type": "gpu_support",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for gpu_support",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for gpu_support",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for gpu_support",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: math; Goal: Solve math problem; Steps: Extract numbers, Identify operations, Perform operations, Verify answer\n\nSolve for x: 3^(x+2) - 5*3^x = 24. Show step by step reasoning.",
+      "problem_type": "math",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: math; Goal: Solve math problem; Steps: Extract numbers, Identify operations, Perform operations, Verify answer\n\nCompute 123456789 * 987654321",
+      "problem_type": "math",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: math; Goal: Solve math problem; Steps: Extract numbers, Identify operations, Perform operations, Verify answer\n\nSolve the differential equation dy/dx = x^2 + y^2 with initial condition y(0)=1. Provide solution steps and final expression.",
+      "problem_type": "math",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: math; Goal: Solve math problem; Steps: Extract numbers, Identify operations, Perform operations, Verify answer\n\nSolve for x: 3^(x+2) - 5*3^x = 24",
+      "problem_type": "math",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nFind the sum of the first 1000 prime numbers modulo 1000",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nFind the closed form for the nth Catalan number and compute C_50 modulo 1000000007. Show derivation and final numeric result.",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nCompute the remainder of 123456789 multiplied by 987654321 modulo 1000",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nHow many ways can 10 distinct books be arranged on a shelf if 3 specific books must be together?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nCompute the remainder of 123456789 multiplied by 987654321 modulo 1000",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: math; Goal: Solve math problem; Steps: Extract numbers, Identify operations, Perform operations, Verify answer\n\nFind the 1000th digit after the decimal point in the decimal expansion of 1/7",
+      "problem_type": "math",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for math",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWho was Isaac Newton?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWho was Albert Einstein?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWhat was the Industrial Revolution?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWho was Isaac Newton?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWhat was the Industrial Revolution?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWho was Albert Einstein?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWhat was the American Revolution?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    },
+    {
+      "query": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWhat was the Cold War?",
+      "problem_type": "planning",
+      "mode": "alternative_approaches",
+      "approaches": [
+        {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater B",
+          "approach": "Approach B for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        {
+          "debater": "Debater C",
+          "approach": "Approach C for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        }
+      ],
+      "judge": {
+        "criteria": [
+          "consistency",
+          "completeness",
+          "confidence",
+          "dependency_awareness",
+          "alignment"
+        ],
+        "selected": {
+          "debater": "Debater A",
+          "approach": "Approach A for planning",
+          "pros": [
+            "Benefit 1",
+            "Benefit 2"
+          ],
+          "cons": [
+            "Cost 1",
+            "Cost 2"
+          ]
+        },
+        "reason": "Heuristic selection"
+      }
+    }
+  ]
+}

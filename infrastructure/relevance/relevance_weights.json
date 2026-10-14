@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "created": "2026-10-14",
+    "purpose": "Weighted Relevance Engine V0 weights"
+  },
+  "components": {
+    "Problem Mapper": {
+      "memory_weight": 0.90,
+      "confidence_weight": 0.95,
+      "relevance_weight": 0.0
+    },
+    "Problem Solve Layer": {
+      "memory_weight": 0.85,
+      "confidence_weight": 0.90,
+      "relevance_weight": 0.0
+    },
+    "Debate Layer": {
+      "memory_weight": 0.70,
+      "confidence_weight": 0.75,
+      "relevance_weight": 0.0
+    },
+    "Response Cache": {
+      "memory_weight": 0.95,
+      "confidence_weight": 0.98,
+      "relevance_weight": 0.0
+    },
+    "Memory Reuse": {
+      "memory_weight": 0.88,
+      "confidence_weight": 0.92,
+      "relevance_weight": 0.0
+    },
+    "History Book": {
+      "memory_weight": 0.95,
+      "confidence_weight": 0.98,
+      "relevance_weight": 0.0
+    }
+  }
+}

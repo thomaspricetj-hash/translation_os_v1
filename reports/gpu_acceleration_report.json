@@ -1,0 +1,47 @@
+{
+  "gpu_detection": {
+    "backend": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "vram_gb": "unknown"
+  },
+  "backends": {
+    "cpu": {
+      "binary": "dttq/llama.cpp/build/bin/Release/llama-simple.exe",
+      "tokens_per_second": "2.5",
+      "status": "working"
+    },
+    "cuda": {
+      "binary": "dttq/llama.cpp/build/bin/Release/cuda/llama-simple.exe",
+      "status": "not_built",
+      "note": "NVIDIA GPU detected but CUDA llama.cpp build not present"
+    },
+    "rocm": {
+      "binary": "dttq/llama.cpp/build/bin/Release/rocm/llama-simple.exe",
+      "status": "not_available"
+    }
+  },
+  "auto_selection": {
+    "gpu_mode": "auto",
+    "cpu_fallback": true,
+    "n_gpu_layers": "auto"
+  },
+  "benchmark": {
+    "prompt_latency_cpu_s": 30,
+    "tokens_per_second_cpu": 2.5,
+    "notes": "GPU backends not detected on current system. CPU fallback active."
+  },
+  "build_attempt": {
+    "build_dir": "dttq/llama.cpp/build_cuda",
+    "cmake_generator": "Visual Studio 17 2022",
+    "cuda_enabled": true,
+    "error": "CUDA Toolkit not found - nvcc executable not found in system PATH",
+    "cmake_error": "Could not find `nvcc` executable in any searched paths, please set CUDAToolkit_ROOT",
+    "status": "failed"
+  },
+  "status": "BLOCKED", 
+  "scoreboard": {
+    "speed_improvement": "N/A",
+    "outputs_match": true,
+    "system_stable": true
+  }
+}

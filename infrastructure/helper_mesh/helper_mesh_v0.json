@@ -1,0 +1,22 @@
+{
+  "version": "0.0",
+  "mesh_type": "MAX-3D Helper Mesh",
+  "axes": {
+    "X": "sequential reasoning",
+    "Y": "parallel helper mesh",
+    "Z": "depth-stacked multi-pass refinement"
+  },
+  "helpers": [
+    {"id": "PhysicsHelper3D", "domain": "physics", "tags": ["physics", "relativistic"]},
+    {"id": "MathHelper3D", "domain": "math", "tags": ["math", "algebra", "calculus"]},
+    {"id": "LogicHelper3D", "domain": "logic", "tags": ["logic", "reasoning"]},
+    {"id": "CodeHelper", "domain": "code", "tags": ["coding", "implementation"]},
+    {"id": "ReasoningHelperV2", "domain": "general", "tags": ["reasoning", "debate"]},
+    {"id": "DomainExpertRouter", "domain": "routing", "tags": ["routing", "classification"]},
+    {"id": "ChainOfThoughtHelper", "domain": "reasoning", "tags": ["chain_of_thought"]},
+    {"id": "VerificationHelper", "domain": "validation", "tags": ["validation", "testing"]},
+    {"id": "TaskPlanner", "domain": "planning", "tags": ["planning", "breakdown"]}
+  ],
+  "integration": "Maps to Fractal Agent System tags",
+  "status": "EVALUATION"
+}

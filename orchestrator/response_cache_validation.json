@@ -1,0 +1,66 @@
+{
+  "validation_date": "2026-10-13",
+  "tests": [
+    {
+      "query": "What is 2+2?",
+      "expected_source": "cache",
+      "model_called": false,
+      "actual_source": "cache",
+      "actual_model_called": false,
+      "pass": true
+    },
+    {
+      "query": "What is 3+3?",
+      "expected_source": "cache",
+      "model_called": false,
+      "actual_source": "cache",
+      "actual_model_called": false,
+      "pass": true
+    },
+    {
+      "query": "What does API mean?",
+      "expected_source": "dictionary",
+      "model_called": false,
+      "actual_source": "dictionary",
+      "actual_model_called": false,
+      "pass": true
+    },
+    {
+      "query": "What is JSON?",
+      "expected_source": "dictionary",
+      "model_called": false,
+      "actual_source": "dictionary",
+      "actual_model_called": false,
+      "pass": true
+    },
+    {
+      "query": "What is a GPU?",
+      "expected_source": "dictionary",
+      "model_called": false,
+      "actual_source": "dictionary",
+      "actual_model_called": false,
+      "pass": true
+    },
+    {
+      "query": "Calculate 145 divided by 5",
+      "expected_source": "problem_mapper",
+      "model_called": false,
+      "actual_source": "problem_mapper",
+      "actual_model_called": false,
+      "pass": true
+    },
+    {
+      "query": "Write a Python function to sort a list",
+      "expected_source": "problem_mapper",
+      "model_called": false,
+      "actual_source": "problem_mapper",
+      "actual_model_called": false,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "model_calls_avoided": 7
+  }
+}

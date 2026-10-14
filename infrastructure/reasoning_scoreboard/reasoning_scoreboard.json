@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "built": "2026-10-13",
+    "purpose": "Measure effectiveness of reasoning layers"
+  },
+  "layers": [
+    "Problem Mapper",
+    "Problem Solve Layer",
+    "Debate Layer",
+    "Reasoning Heatmap",
+    "Knowledge Grid",
+    "Weave Layer"
+  ],
+  "metrics": [
+    "accuracy",
+    "latency",
+    "token_usage",
+    "reasoning_quality"
+  ],
+  "results": []
+}

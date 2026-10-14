@@ -1,0 +1,13 @@
+{
+  "component": "Decision Tree V0",
+  "created": "2026-10-13",
+  "metrics": {
+    "decision_accuracy": "TBD",
+    "model_call_reduction": "TBD",
+    "latency_reduction": "TBD",
+    "cache_hit_improvement": "TBD",
+    "workflow_efficiency": "TBD"
+  },
+  "status": "KEEP",
+  "notes": "Chooses best path for solving request before invoking model"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": "MATH_RIEMANN",
+    "patterns": ["what is the riemann hypothesis?"],
+    "answer": "The Riemann Hypothesis conjectures that all non-trivial zeros of the Riemann zeta function have real part one half.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_PERIODIC",
+    "patterns": ["what is the periodic table?"],
+    "answer": "The periodic table is a tabular arrangement of chemical elements organized by atomic number, electron configuration, and recurring chemical properties.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "HIST_PRINTING",
+    "patterns": ["what was the invention of the printing press?"],
+    "answer": "The printing press, invented by Johannes Gutenberg in the 15th century, enabled mass production of books and spread knowledge rapidly.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_ATOM",
+    "patterns": ["what is an atom?"],
+    "answer": "An atom is the basic unit of matter consisting of a nucleus of protons and neutrons surrounded by electrons.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "MATH_PROBABILITY",
+    "patterns": ["what is a probability distribution?"],
+    "answer": "A probability distribution describes the likelihood of each possible outcome of a random variable.",
+    "source": "model_distill"
+  }
+]

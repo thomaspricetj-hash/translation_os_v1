@@ -1,0 +1,30 @@
+{
+  "AI": {
+    "canonical": "AI_CONCEPT",
+    "expanded": "artificial intelligence"
+  },
+  "LLM": {
+    "canonical": "LLM_CONCEPT",
+    "expanded": "large language model"
+  },
+  "GPU": {
+    "canonical": "GPU_CONCEPT",
+    "expanded": "graphics processing unit"
+  },
+  "CPU": {
+    "canonical": "CPU_CONCEPT",
+    "expanded": "central processing unit"
+  },
+  "API": {
+    "canonical": "API_CONCEPT",
+    "expanded": "application programming interface"
+  },
+  "NLP": {
+    "canonical": "NLP_CONCEPT",
+    "expanded": "natural language processing"
+  },
+  "ML": {
+    "canonical": "ML_CONCEPT",
+    "expanded": "machine learning"
+  }
+}

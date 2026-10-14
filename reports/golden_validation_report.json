@@ -1,0 +1,30 @@
+{
+  "total": 4,
+  "passed": 4,
+  "results": [
+    {
+      "query": "What is 2+2?",
+      "expected_type": "cache",
+      "source": "cache",
+      "passed": true
+    },
+    {
+      "query": "pipeline diagram",
+      "expected_type": "picture",
+      "source": "picture_memory",
+      "passed": true
+    },
+    {
+      "query": "What does API mean?",
+      "expected_type": "cache",
+      "source": "cache",
+      "passed": true
+    },
+    {
+      "query": "Find the 1000th digit after the decimal point in the decimal expansion of 1/7",
+      "expected_type": "reasoning",
+      "source": "model",
+      "passed": true
+    }
+  ]
+}

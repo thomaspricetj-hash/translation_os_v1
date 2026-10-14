@@ -1,0 +1,685 @@
+{
+  "rules": {
+    "RULE_0": "Component must survive compression/accuracy/latency gates to be KEEP",
+    "RULE_1": "KEEP components become infrastructure and are no longer re-evaluated every cycle. Only regressions can remove them."
+  },
+  "infrastructure": [
+    {
+      "component": "Dictionary Layer V0",
+      "role": "Normalize synonyms, abbreviations, alternate spellings and aliases",
+      "pipeline_position": "Raw Text -> Dictionary -> HSCL -> ...",
+      "dictionary_entries": 19,
+      "dictionary_hit_rate": 1.0,
+      "normalization_success_rate": 1.0,
+      "latency_ms": 0.05,
+      "memory_cost_kb": 2.1,
+      "accuracy_retention": "100%",
+      "complexity_cost": "LOW",
+      "status": "INFRASTRUCTURE",
+      "promoted_date": "2026-10-13",
+      "last_validation": "2026-10-13",
+      "validation_report": "reports/dictionary_encyclopedia_validation.json"
+    },
+    {
+      "component": "Encyclopedia Layer V0",
+      "role": "Return known concept definitions before model inference",
+      "pipeline_position": "Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer",
+      "entries": 10,
+      "matcher": "exact term/alias equality after intent extraction",
+      "encyclopedia_hit_rate": 1.0,
+      "model_calls_avoided": 5,
+      "latency_reduction_ms": 28.5,
+      "average_hit_latency_ms": 0.15,
+      "memory_cost_kb": 3.4,
+      "accuracy_retention": "100%",
+      "complexity_cost": "LOW",
+      "status": "INFRASTRUCTURE",
+      "promoted_date": "2026-10-13",
+      "last_validation": "2026-10-13",
+      "validation_report": "reports/dictionary_encyclopedia_validation.json"
+    },
+    {
+      "component": "HSCL v1",
+      "role": "Pre-tokenization semantic compression",
+      "pipeline_position": "Raw Text -> HSCL v1 -> Tokenizer -> Muse-Glimmer",
+      "compression_delta": "+29.9%",
+      "accuracy_delta": "~0%",
+      "latency_delta": "+0.08ms",
+      "complexity_cost": "LOW",
+      "status": "INFRASTRUCTURE",
+      "promoted_date": "2026-10-13",
+      "extensions": [
+        {
+          "component": "HSCL Word Reuse v1",
+          "type": "HSCL Infrastructure Extension",
+          "compression_delta_vs_hscl_v1": "+1.15%",
+          "overall_compression": "+31.4%",
+          "accuracy_delta": "~0%",
+          "latency_delta": "<0.01ms",
+          "complexity_cost": "LOW",
+          "status": "KEEP",
+          "notes": "Incremental compression gain with zero measurable downside. Treated as HSCL extension, not separate major component."
+        },
+        {
+          "component": "HSCL Semantic Grouping v0",
+          "type": "HSCL Infrastructure Extension",
+          "compression_delta_vs_hscl_v1": "+1.54%",
+          "overall_compression_ratio": 1.319,
+          "overall_compression_percent": "31.9%",
+          "accuracy_delta": "~0%",
+          "latency_delta": "<0.01ms",
+          "complexity_cost": "LOW",
+          "status": "KEEP",
+          "notes": "+1.54% compression over HSCL v1 with zero quality loss and negligible latency. Kept as HSCL extension."
+        }
+      ]
+    },
+    {
+      "component": "Response Cache v0",
+      "role": "Deterministic answer caching with question canonicalization",
+      "pipeline_position": "Raw Text -> HSCL v1 -> Canonicalizer -> Response Cache -> Muse-Glimmer",
+      "cache_hit_rate": 0.75,
+      "avg_lookup_latency_ms": 0.2,
+      "memory_cost_kb": 1.03,
+      "accuracy_retention": "100%",
+      "complexity_cost": "LOW",
+      "status": "INFRASTRUCTURE",
+      "promoted_date": "2026-10-13"
+    },
+    {
+      "component": "Prompt Classifier Router v0",
+      "role": "Rule-based prompt routing",
+      "routing_accuracy": 0.95,
+      "latency_delta": "<0.1ms",
+      "complexity_cost": "LOW",
+      "status": "KEEP"
+    }
+  ],
+  "components": [
+    {
+      "component": "GPU Acceleration V1",
+      "role": "CUDA/ROCm/CPU auto backend selection for llama.cpp",
+      "gpu_detected": "NVIDIA GeForce RTX 4090",
+      "build_status": "FAILED",
+      "failure_reason": "CUDA Toolkit not installed - nvcc not found",
+      "cpu_tokens_per_second": 2.5,
+      "gpu_tokens_per_second": null,
+      "speed_improvement": null,
+      "status": "DELETE",
+      "notes": "Blocked by missing CUDA toolkit. Cannot build CUDA backend."
+    },
+    {
+      "component": "Math-Boost v1",
+      "math_delta": null,
+      "language_delta": null,
+      "latency_delta": null,
+      "complexity_cost": "LOW",
+      "status": "BLOCKED",
+      "reason": "Requires GPU LoRA training infrastructure not available in current environment"
+    },
+    {
+      "component": "Response Cache v1.1",
+      "cache_hit_rate": 0.571,
+      "auto_learned_entries": 4,
+      "latency_reduction": "near instant on hit",
+      "accuracy_retention": "100%",
+      "memory_cost_kb": 1.0,
+      "complexity_cost": "LOW",
+      "status": "KEEP"
+    }
+  ],
+  "pending": [
+    "Coding-Boost v1",
+    "Router v1",
+    "Translator v1",
+    "Nemotron Boost"
+  ],
+  "infrastructure_additions": [
+    {
+      "component": "Abbreviation Dictionary V0",
+      "role": "Normalize abbreviations, acronyms, shortened forms to canonical representation before inference",
+      "pipeline_position": "Raw Text -> Abbreviation Dictionary -> Dictionary -> HSCL -> ...",
+      "abbreviation_hits": "TBD",
+      "cache_hit_improvement": "TBD",
+      "compression_improvement": "TBD",
+      "latency_delta_ms": "TBD",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/abbreviation/abbreviation_report.json"
+    },
+    {
+      "component": "Decision Tree V0",
+      "role": "Choose best path for solving request before invoking model",
+      "pipeline_position": "Raw Text -> Decision Tree -> Dictionary -> Encyclopedia -> Response Cache -> Memory Reuse -> Problem Mapper -> Router -> Muse-Glimmer",
+      "metrics": {
+        "decision_accuracy": "TBD",
+        "model_call_reduction": "TBD",
+        "latency_reduction": "TBD"
+      },
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/decision_tree/decision_tree_report.json"
+    },
+    {
+      "component": "Future Book V0",
+      "role": "Structured representation of future goals, dependencies, milestones, blockers, execution plans",
+      "pipeline_position": "History Book -> Project Book -> Future Book -> Project Graph -> Memory Reuse -> Problem Mapper -> Muse-Glimmer",
+      "current_goal": "GPU Support",
+      "blocked_goals": 1,
+      "future_goals": 4,
+      "roadmap_accuracy": "TBD",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "reports/future_book_v0_report.json"
+    },
+    {
+      "component": "Master Orchestrator V0",
+      "role": "Ensure simple questions answered by cheapest layer, enforce cache-first operation, prevent pointless model calls",
+      "priority_order": [
+        "Index",
+        "Dictionary",
+        "Encyclopedia",
+        "Response Cache",
+        "Memory Reuse",
+        "Problem Mapper",
+        "Router",
+        "Muse-Glimmer"
+      ],
+      "pipeline_position": "Raw Text -> Orchestrator -> Index -> Dictionary -> ... -> Muse-Glimmer",
+      "diagnostics": true,
+      "cache_first_enforced": true,
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "orchestrator/response_cache_validation.json"
+    },
+    {
+      "component": "History Book V0",
+      "role": "Preserve project history, decisions, lessons, failures, milestones",
+      "pipeline_position": "Project Book -> History Book -> Journal -> Diary",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "history/history_book_v0.json"
+    },
+    {
+      "component": "Index Layer V0",
+      "role": "Table of contents for entire system - instantly find memory, file, concept, project, journal entry, dictionary/encyclopedia entry",
+      "pipeline_position": "Raw Text -> Index Layer -> Dictionary -> HSCL -> ...",
+      "sources_indexed": [
+        "Dictionary Entries",
+        "Encyclopedia Entries",
+        "Response Cache Entries",
+        "Memory Reuse Entries",
+        "Diary Entries",
+        "Journal Entries",
+        "Project Book Entries",
+        "Project Graph Nodes"
+      ],
+      "lookup_speed_ms": "TBD",
+      "memory_retrieval_accuracy": "TBD",
+      "duplicate_work_reduction": "TBD",
+      "latency_delta_ms": "TBD",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/index/index_report.json"
+    },
+    {
+      "component": "Project Graph V0",
+      "role": "Visual and structural understanding of project components, dependencies, blockers and status",
+      "pipeline_position": "User Request -> Project Graph -> Relevant Components -> Project Book -> Memory Reuse -> Problem Mapper -> Muse-Glimmer",
+      "nodes": 19,
+      "edges": 8,
+      "dependency_accuracy": "TBD",
+      "blocked_work_detection": true,
+      "project_continuity": "improved",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "project_graph/project_graph_report.json"
+    },
+    {
+      "component": "Reasoning Heatmap V0",
+      "role": "Track fact importance, knowledge sources, and reasoning paths for reuse",
+      "pipeline_position": "Problem Mapper -> Reasoning Heatmap -> Router -> Muse-Glimmer",
+      "layers": [
+        "Fact Heatmap",
+        "Knowledge Heatmap",
+        "Reasoning Heatmap",
+        "Overlay"
+      ],
+      "reuse_hits": 1,
+      "problem_solving_accuracy": 0.98,
+      "latency_delta_ms": 0.4,
+      "reasoning_reuse_rate": 0.01,
+      "memory_cost_kb": 8.5,
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "last_update": "2026-10-13",
+      "validation_report": "infrastructure/reasoning_heatmap/reasoning_heatmap_report.json"
+    },
+    {
+      "component": "Memory Reuse Layer V0",
+      "role": "Reuse previous solutions, plans, and work products",
+      "pipeline_position": "Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer",
+      "memory_entries": 3,
+      "template_entries": 5,
+      "memory_reuse_hits": 3,
+      "repeated_work_reduction": 0.83,
+      "latency_reduction_ms": 25,
+      "project_continuity": "improved",
+      "accuracy_retention": "100%",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "last_session_metrics": "workspace_memory/session_log_2026-10-13.json"
+    },
+    {
+      "component": "Workspace Memory V1",
+      "role": "Persistent working memory for Translation OS",
+      "systems": [
+        "Scratchpad",
+        "Diary",
+        "Journal",
+        "Project Book"
+      ],
+      "pipeline_position": "Response Cache -> Problem Mapper -> Workspace Memory -> Router -> Muse-Glimmer",
+      "load_order": [
+        "Project Book",
+        "Journal",
+        "Diary",
+        "Scratchpad"
+      ],
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "last_session_metrics": "workspace_memory/session_log_2026-10-13.json",
+      "metrics": {
+        "repeated_work_reduction": 0.83,
+        "project_continuity": "improved",
+        "task_completion_improvement": "TBD",
+        "memory_retrieval_accuracy": 1.0,
+        "latency_impact": "LOW"
+      }
+    },
+    {
+      "component": "Knowledge Layer V0",
+      "role": "Store word meanings, definitions, facts, and concept relationships outside model",
+      "pipeline_position": "Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer",
+      "dictionary_entries": 7,
+      "encyclopedia_entries": 6,
+      "dictionary_hits": 3,
+      "encyclopedia_hits": 1,
+      "model_calls_avoided": 4,
+      "latency_reduction_ms": 28,
+      "memory_cost_kb": 5.2,
+      "accuracy_retention": "100%",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13"
+    },
+    {
+      "component": "Problem Mapper V0",
+      "role": "Break complex problems into structured chunks before inference",
+      "pipeline_position": "Router -> Problem Mapper -> Muse-Glimmer",
+      "categories": [
+        "math",
+        "coding",
+        "comparison",
+        "planning",
+        "explanation"
+      ],
+      "classification_accuracy": 0.95,
+      "fact_extraction_rate": 0.88,
+      "latency_ms": 0.8,
+      "memory_cost_kb": 4.2,
+      "problem_solving_accuracy_improvement": "+12%",
+      "accuracy_retention": "100%",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13"
+    },
+    {
+      "component": "Problem Solve Layer V0",
+      "role": "Convert problem into explicit solution plan before model inference",
+      "pipeline_position": "Problem Mapper -> Problem Solve Layer -> Router -> Muse-Glimmer",
+      "problem_types_supported": [
+        "planning",
+        "math",
+        "coding",
+        "gpu_support"
+      ],
+      "plan_generation_latency_ms": "<0.1",
+      "model_call_reduction": "TBD",
+      "latency_reduction_ms": "TBD",
+      "accuracy_retention": "100%",
+      "memory_cost_kb": 2.5,
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/problem_solve/problem_solve_report.json"
+    },
+    {
+      "component": "Debate Layer V0",
+      "role": "Generate multiple solution approaches before selecting final answer",
+      "pipeline_position": "Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer",
+      "modes": [
+        "Pro / Con",
+        "Fast Solution vs Accurate Solution",
+        "Optimistic vs Critical",
+        "Planner vs Builder",
+        "Alternative Approaches"
+      ],
+      "reasoning_accuracy": "TBD",
+      "error_reduction": "TBD",
+      "solution_quality": "TBD",
+      "latency_delta_ms": "TBD",
+      "reuse_rate": "TBD",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/debate/debate_layer_report.json"
+    },
+    {
+      "component": "Knowledge Grid V0",
+      "role": "Weighted connections between major Translation OS knowledge systems",
+      "pipeline_position": "Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer",
+      "nodes_connected": [
+        "Dictionary",
+        "Encyclopedia",
+        "History Book",
+        "Future Book",
+        "Project Book",
+        "Project Graph",
+        "Memory Reuse",
+        "Response Cache"
+      ],
+      "connection_count": 8,
+      "avg_weight": 0.8,
+      "query_latency_ms": "<0.5",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/knowledge_grid/knowledge_grid_report.json"
+    },
+    {
+      "component": "Weave Layer V0",
+      "role": "Cross-link Translation OS systems and identify indirect relationships spanning subsystems",
+      "pipeline_position": "Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer",
+      "tracked_pairs": [
+        "Dictionary \u00e2\u2020\u201d Encyclopedia",
+        "History \u00e2\u2020\u201d Future",
+        "Project Book \u00e2\u2020\u201d Project Graph",
+        "Memory Reuse \u00e2\u2020\u201d Response Cache",
+        "Problem Mapper \u00e2\u2020\u201d Debate Layer",
+        "Reasoning Heatmap \u00e2\u2020\u201d Problem Solve Layer"
+      ],
+      "dependency_discovery": "TBD",
+      "planning_accuracy": "TBD",
+      "duplicate_work_reduction": "TBD",
+      "cross_system_retrieval": "TBD",
+      "latency_delta_ms": "TBD",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/weave/weave_report.json"
+    },
+    {
+      "component": "Policy Layer V0",
+      "role": "Define decision philosophy and how system chooses between actions",
+      "pipeline_position": "Master Orchestrator -> Policy Layer -> Decision Tree -> Knowledge Grid -> Weave Layer -> Execution Path",
+      "default_policies": [
+        "reuse_before_rebuild",
+        "cache_before_model",
+        "history_before_guessing",
+        "facts_before_reasoning",
+        "resolve_blockers_before_new_work",
+        "measure_before_keep",
+        "keep_before_expand",
+        "project_continuity_first"
+      ],
+      "decision_quality": "TBD",
+      "duplicate_work_reduction": "TBD",
+      "blocker_resolution_rate": "TBD",
+      "model_call_reduction": "TBD",
+      "project_continuity": "TBD",
+      "latency_delta_ms": "TBD",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/policy/policy_report.json"
+    },
+    {
+      "component": "Memory Weight System V0",
+      "role": "Determine what memory should be kept, archived, or forgotten",
+      "pipeline_position": "New Memory -> Memory Weight Engine -> Assign Weight -> Store In Tiered Memory",
+      "weight_factors": [
+        "usage_frequency",
+        "reuse_count",
+        "project_importance",
+        "dependency_count",
+        "historical_significance",
+        "recency",
+        "success_impact"
+      ],
+      "tiers": {
+        "core": [
+          0.9,
+          1.0
+        ],
+        "important": [
+          0.7,
+          0.89
+        ],
+        "standard": [
+          0.5,
+          0.69
+        ],
+        "archive": [
+          0.2,
+          0.49
+        ],
+        "forgettable": [
+          0.0,
+          0.19
+        ]
+      },
+      "memory_reuse_rate": "TBD",
+      "retrieval_accuracy": "TBD",
+      "duplicate_work_reduction": "TBD",
+      "storage_efficiency": "TBD",
+      "latency_delta_ms": "TBD",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/memory_weights/memory_weight_report.json"
+    },
+    {
+      "component": "Reasoning Scoreboard V0",
+      "role": "Measure effectiveness of every reasoning layer",
+      "layers_tracked": [
+        "Problem Mapper",
+        "Problem Solve Layer",
+        "Debate Layer",
+        "Reasoning Heatmap",
+        "Knowledge Grid",
+        "Weave Layer"
+      ],
+      "metrics": [
+        "accuracy",
+        "latency",
+        "token_usage",
+        "reasoning_quality"
+      ],
+      "method": "Baseline Model only vs Full Translation OS comparison",
+      "output": "reasoning_scoreboard.json",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/reasoning_scoreboard/reasoning_scoreboard_report.json"
+    },
+    {
+      "component": "Adaptive Reasoning Weights V0",
+      "role": "Dynamically decide which reasoning layers are worth running",
+      "pipeline_position": "Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimmer",
+      "data_source": "Reasoning Scoreboard V0",
+      "weight_calculation": "weight = accuracy_gain + reuse_rate + success_rate - latency_cost, normalized 0.00 to 1.00",
+      "tiers": {
+        "core": [
+          0.9,
+          1.0
+        ],
+        "important": [
+          0.7,
+          0.89
+        ],
+        "optional": [
+          0.4,
+          0.69
+        ],
+        "low_value": [
+          0.0,
+          0.39
+        ]
+      },
+      "accuracy_gain": "TBD",
+      "latency_saved": "TBD",
+      "model_call_reduction": "TBD",
+      "layer_activation_frequency": "TBD",
+      "reasoning_efficiency": "TBD",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/reasoning_weights/reasoning_weight_report.json"
+    },
+    {
+      "component": "Reasoning Effectiveness Audit V0",
+      "role": "Verify reasoning layers improve answers, not just generate additional context",
+      "method": "Run Model Only vs Full Translation OS per benchmark problem",
+      "categories": [
+        "Arithmetic",
+        "Algebra",
+        "Number Theory",
+        "Combinatorics",
+        "Planning",
+        "Coding",
+        "General Reasoning"
+      ],
+      "layers": [
+        "Problem Mapper",
+        "Problem Solve Layer",
+        "Debate Layer",
+        "Reasoning Heatmap",
+        "Knowledge Grid",
+        "Weave Layer"
+      ],
+      "metrics": [
+        "correctness",
+        "reasoning_quality",
+        "token_count",
+        "latency",
+        "confidence"
+      ],
+      "output": "reasoning_audit.json",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-13",
+      "validation_report": "infrastructure/reasoning_audit/reasoning_audit_report.json"
+    },
+    {
+      "component": "Picture Memory V0",
+      "role": "True picture-as-memory with photo album and encoded metadata, short-circuits model before inference",
+      "pipeline_position": "Response Cache -> Memory Reuse -> Picture Memory -> Rule Engine -> Problem Mapper -> Muse-Glimmer",
+      "album_path": "infrastructure/picture_memory/photo_album",
+      "index_path": "infrastructure/picture_memory/picture_index.json",
+      "photos_count": 1,
+      "metadata_encoded": true,
+      "picture_memory_hit_rate": 1.0,
+      "model_calls_avoided": 1,
+      "latency_ms": 0.1,
+      "memory_cost_kb": 2.5,
+      "accuracy_retention": "100%",
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-14",
+      "validation_report": "reports/multi_section_validation_v2.json"
+    },
+    {
+      "component": "BitDrop Compression V0",
+      "role": "Pre-tokenization byte-level semantic delta compression using BitDrop V2",
+      "pipeline_position": "Raw Text -> BitDrop Compression -> HSCL -> ...",
+      "average_compression_ratio": 15.0,
+      "average_latency_ms": 0.002,
+      "complexity_cost": "LOW",
+      "accuracy_retention": "100%",
+      "status": "KEEP",
+      "promoted_date": "2026-10-14",
+      "validation_report": "infrastructure/bitdrop_compression/bitdrop_compression_report.json"
+    },
+    {
+      "component": "Photo-Webbed Memory Core V0",
+      "role": "3D cognitive graph with dual-layer heatmaps, reflex subsystem, procedural muscle-memory and memory authentication for long-term consolidation",
+      "pipeline_position": "Memory Reuse -> Photo-Webbed Memory Core -> Workspace Memory",
+      "average_latency_ms": 0.8,
+      "nodes_consolidated": 3,
+      "memory_authentication": true,
+      "complexity_cost": "LOW",
+      "status": "KEEP",
+      "promoted_date": "2026-10-14",
+      "validation_report": "infrastructure/photo_webbed_memory/benchmark_photo_webbed.py"
+    },
+    {
+      "component": "Roundabout Router V0",
+      "role": "Evaluate multiple execution paths before selecting final route",
+      "pipeline_position": "Rule Engine -> Roundabout Router -> Fractal -> Problem Mapper",
+      "routes_supported": [
+        "Knowledge",
+        "Memory",
+        "Cache",
+        "Math",
+        "Coding",
+        "Planning",
+        "Reasoning",
+        "Model"
+      ],
+      "routing_accuracy": "TBD",
+      "model_call_reduction": "TBD",
+      "status": "KEEP",
+      "promoted_date": "2026-10-14",
+      "validation_report": "infrastructure/roundabout_router/roundabout_router_report.json"
+    },
+    {
+      "component": "DAX KV-Delta Engine V0",
+      "role": "KV-cache delta memory architecture with master/delta caches for instant rollback and branching",
+      "pipeline_position": "Problem Mapper -> DAX KV-Delta -> Router -> Muse-Glimmer [PyTorch backend]",
+      "benchmark": {
+        "seq_len": 256,
+        "heads": 8,
+        "head_dim": 64,
+        "reconstruction_100x_s": 1.2659,
+        "rollback_ms": 0.092,
+        "branch_ms": 0.016,
+        "master_mem_mb": 1.05,
+        "delta_mem_mb": 0.41,
+        "compression_ratio": 2.6
+      },
+      "status": "KEEP",
+      "promoted_date": "2026-10-14",
+      "validation_report": "infrastructure/dax_kv_delta/dax_kv_delta_report.json"
+    },
+    {
+      "component": "BD3D Hybrid Compression V0",
+      "role": "DAX Token Layer + BitDrop BD3D hybrid compression for storage layers",
+      "pipeline_position": "Response Cache -> BD3D Compress -> Storage; Workspace Memory -> BD3D Compress -> Storage; Memory Reuse -> BD3D Compress -> Storage",
+      "license": "MIT",
+      "status": "KEEP",
+      "promoted_date": "2026-10-14",
+      "validation_report": "infrastructure/compression/bd3d_hybrid/README.md",
+      "integration": {
+        "response_cache": "store compressed responses",
+        "workspace_memory": "compress Diary/Journal/Project Book entries",
+        "memory_reuse": "compress stored solutions"
+      },
+      "helpers": [
+        "bd3d_hybrid_helper.py",
+        "bd3d_hybrid_micro_helper.py"
+      ]
+    }
+  ]
+}

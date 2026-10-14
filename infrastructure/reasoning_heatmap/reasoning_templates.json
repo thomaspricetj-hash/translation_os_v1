@@ -1,0 +1,44 @@
+[
+  {
+    "type": "Multi-Step Math",
+    "steps": [
+      {"step": "extract_numbers", "importance": 0.9},
+      {"step": "identify_operations", "importance": 0.95},
+      {"step": "perform_operations", "importance": 1.0},
+      {"step": "verify_answer", "importance": 0.8}
+    ]
+  },
+  {
+    "type": "Coding Implementation",
+    "steps": [
+      {"step": "identify_language", "importance": 0.9},
+      {"step": "define_inputs", "importance": 0.95},
+      {"step": "implement_logic", "importance": 1.0},
+      {"step": "test_edge_cases", "importance": 0.85}
+    ]
+  },
+  {
+    "type": "Comparison",
+    "steps": [
+      {"step": "list_attributes", "importance": 0.9},
+      {"step": "contrast", "importance": 1.0},
+      {"step": "summarize", "importance": 0.85}
+    ]
+  },
+  {
+    "type": "Planning",
+    "steps": [
+      {"step": "break_down", "importance": 0.95},
+      {"step": "order_steps", "importance": 1.0},
+      {"step": "estimate_time", "importance": 0.7}
+    ]
+  },
+  {
+    "type": "Explanation",
+    "steps": [
+      {"step": "define_concept", "importance": 1.0},
+      {"step": "give_examples", "importance": 0.85},
+      {"step": "summarize", "importance": 0.8}
+    ]
+  }
+]

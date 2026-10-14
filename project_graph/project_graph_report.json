@@ -1,0 +1,24 @@
+{
+  "component": "Project Graph V0",
+  "created": "2026-10-13",
+  "metrics": {
+    "nodes": 20,
+    "edges": 8,
+    "infrastructure_count": 11,
+    "blocked_count": 1,
+    "pending_count": 4,
+    "dependency_accuracy": "TBD",
+    "blocked_work_detection": true,
+    "project_continuity": "improved",
+    "duplicate_work_reduction": "TBD"
+  },
+  "queries_supported": [
+    "What depends on HSCL?",
+    "What is blocking Math-Boost?",
+    "What should be built next?",
+    "What components are related to memory?",
+    "What components are infrastructure?"
+  ],
+  "status": "KEEP",
+  "notes": "Initial graph built from scoreboard. Needs validation against real dependency data."
+}

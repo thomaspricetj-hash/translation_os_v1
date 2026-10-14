@@ -1,0 +1,834 @@
+{
+  "project_root": "TRANSLATION_OS_V1",
+  "generated": "2026-10-13",
+  "files": [
+    {
+      "filename": "launcher/translation_os_v1.py",
+      "purpose": "Single executable entry point for Translation OS v1",
+      "used_by": [
+        "user",
+        "reports"
+      ]
+    },
+    {
+      "filename": "launcher/translation_os_v1_config.json",
+      "purpose": "Pipeline configuration and toggles",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/hscl/hscl_dictionary_v1.json",
+      "purpose": "HSCL phrase to abbreviation map",
+      "used_by": [
+        "translation_os_v1.py",
+        "hscl_preprocessor.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/hscl/hscl_word_reuse_dictionary_v1.json",
+      "purpose": "HSCL Word Reuse extension dictionary",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/hscl/hscl_semantic_grouping_v0.json",
+      "purpose": "Semantic grouping definitions for HSCL",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/hscl/hscl_preprocessor.py",
+      "purpose": "HSCL compression preprocessor",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/dictionary/dictionary_v0.json",
+      "purpose": "Dictionary Layer V0 synonym/abbreviation normalization map",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/knowledge/knowledge_dictionary_v0.json",
+      "purpose": "Knowledge Layer V0 dictionary of words definitions and aliases",
+      "used_by": [
+        "knowledge_lookup.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/knowledge/knowledge_encyclopedia_v0.json",
+      "purpose": "Knowledge Layer V0 encyclopedia of concepts",
+      "used_by": [
+        "knowledge_lookup.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/knowledge/knowledge_lookup.py",
+      "purpose": "Knowledge Layer V0 lookup implementation",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/encyclopedia/encyclopedia_v0.json",
+      "purpose": "Encyclopedia Layer V0 concept definitions and aliases",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/problem_mapper/problem_patterns_v0.json",
+      "purpose": "Problem Mapper V0 pattern definitions for categories",
+      "used_by": [
+        "problem_mapper_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/problem_mapper/problem_mapper_v0.py",
+      "purpose": "Problem Mapper V0 implementation",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/cache/response_cache_v0.json",
+      "purpose": "Response cache database",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/cache/response_cache_v0.py",
+      "purpose": "Response cache implementation",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/router/prompt_classifier_router_v0.py",
+      "purpose": "Rule-based prompt classifier",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "models/Muse-Glimmer-Dequantized-Q4_K_M-real.gguf",
+      "purpose": "Backend LLM model",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "models/active_model.json",
+      "purpose": "Active model metadata and infrastructure list",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "reports/hscl_v1_report.json",
+      "purpose": "HSCL v1 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "reports/hscl_word_reuse_v1_report.json",
+      "purpose": "HSCL Word Reuse validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "reports/hscl_semantic_grouping_v0_report.json",
+      "purpose": "HSCL Semantic Grouping validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "reports/dictionary_v0_report.json",
+      "purpose": "Dictionary Layer V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "reports/encyclopedia_v0_report.json",
+      "purpose": "Encyclopedia Layer V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "reports/dictionary_encyclopedia_validation.json",
+      "purpose": "Combined Dictionary + Encyclopedia validation with tightened matcher",
+      "used_by": [
+        "scoreboard",
+        "user"
+      ]
+    },
+    {
+      "filename": "reports/knowledge_layer_v0_report.json",
+      "purpose": "Knowledge Layer V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "reports/knowledge_problem_mapper_validation.json",
+      "purpose": "Combined Knowledge Layer + Problem Mapper validation",
+      "used_by": [
+        "scoreboard",
+        "user"
+      ]
+    },
+    {
+      "filename": "reports/problem_mapper_v0_report.json",
+      "purpose": "Problem Mapper V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "reports/response_cache_v0_report.json",
+      "purpose": "Response Cache validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "reports/translation_os_v1_validation.json",
+      "purpose": "End-to-end pipeline validation",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "reports/math_specialist_v1_report.json",
+      "purpose": "Math-Boost v1 evaluation",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "scoreboard/capability_scoreboard.json",
+      "purpose": "KEEP/DELETE decisions and infrastructure list",
+      "used_by": [
+        "translation_os_v1.py",
+        "user"
+      ]
+    },
+    {
+      "filename": "workspace_memory/scratchpad.json",
+      "purpose": "Temporary notes for current task",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "workspace_memory/diary.json",
+      "purpose": "Lessons learned log, append only",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "workspace_memory/journal.json",
+      "purpose": "Chronological activity log",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "workspace_memory/project_book.json",
+      "purpose": "Long-term project state single source of truth",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "workspace_memory/workspace_memory_loader.py",
+      "purpose": "Workspace Memory V1 loader with load order and journal/diary helpers",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/memory_reuse/memory_reuse_v0.json",
+      "purpose": "Memory Reuse Layer V0 solved problems and project decisions",
+      "used_by": [
+        "memory_reuse_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/memory_reuse/reasoning_templates_v0.json",
+      "purpose": "Reasoning templates for problem types",
+      "used_by": [
+        "memory_reuse_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/memory_reuse/memory_reuse_engine.py",
+      "purpose": "Memory Reuse Layer V0 lookup implementation",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_heatmap/reasoning_heatmap_v0.py",
+      "purpose": "Reasoning Heatmap V0 implementation",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_heatmap/reasoning_templates.json",
+      "purpose": "Reasoning templates for problem types",
+      "used_by": [
+        "reasoning_heatmap_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_heatmap/heatmap_storage.json",
+      "purpose": "Stored reasoning heatmaps",
+      "used_by": [
+        "reasoning_heatmap_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_heatmap/reasoning_heatmap_report.json",
+      "purpose": "Reasoning Heatmap V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/dax_kv_delta/dax_kv_delta_v0.py",
+      "purpose": "DAX KV-Delta Engine V0 implementation with Master/Delta KV caches",
+      "used_by": [
+        "dax_kv_delta_benchmark.py",
+        "dax_kv_delta_integration_test.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/dax_kv_delta/dax_kv_delta_benchmark.py",
+      "purpose": "Benchmark harness for DAX KV-Delta Engine memory and latency metrics",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "infrastructure/dax_kv_delta/dax_kv_delta_integration_test.py",
+      "purpose": "Correctness tests for DAX KV-Delta Engine reconstruction and rollback",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "infrastructure/dax_kv_delta/dax_kv_delta_report.json",
+      "purpose": "DAX KV-Delta Engine V0 evaluation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/dax_kv_delta/dax_kv_delta_integration.md",
+      "purpose": "DAX KV-Delta Engine integration documentation",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/bd3d_hybrid_v0.py",
+      "purpose": "BD3D Hybrid Compression V0 Python wrapper for DAX+BD3D compression",
+      "used_by": [
+        "bd3d_integration.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/bd3d_hybrid_helper.py",
+      "purpose": "BD3D Hybrid Compression helper utilities",
+      "used_by": [
+        "bd3d_hybrid_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/bd3d_hybrid_micro_helper.py",
+      "purpose": "BD3D Hybrid Compression micro decision helpers",
+      "used_by": [
+        "bd3d_hybrid_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/bd3d_integration.py",
+      "purpose": "Integration hooks for Response Cache, Workspace Memory, Memory Reuse",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/dax_token_layer.hpp",
+      "purpose": "DAX tokenization and delta diffing header",
+      "used_by": [
+        "bd3d_hybrid_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/bd3d_skimming.hpp",
+      "purpose": "BD3D skimming RLE transform header",
+      "used_by": [
+        "bd3d_hybrid_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/bd3d_engine.hpp",
+      "purpose": "BD3D engine interface header",
+      "used_by": [
+        "bd3d_hybrid_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/bd3d_hybrid.hpp",
+      "purpose": "BD3D hybrid pipeline header",
+      "used_by": [
+        "bd3d_hybrid_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/dax_bd3d_api.hpp",
+      "purpose": "DAX BD3D high-level API header",
+      "used_by": [
+        "bd3d_hybrid_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/compression/bd3d_hybrid/README.md",
+      "purpose": "BD3D Hybrid Compression documentation",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "infrastructure/training/weaveformer/automate_training_pipeline.py",
+      "purpose": "WeaveFormer training and GGUF conversion automation",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "infrastructure/training/weaveformer/weaveformer_converter.py",
+      "purpose": "WeaveFormer GGUF converter",
+      "used_by": [
+        "user"
+      ]
+    }
+  ],
+  "notes": "All files referenced by translation_os_v1.py and capability_scoreboard.json are organized under TRANSLATION_OS_V1. No files deleted, only organized.",
+  "future": [
+    {
+      "filename": "workspace_memory/future_book.json",
+      "purpose": "Future goals, milestones, blockers, roadmap",
+      "used_by": [
+        "future_planner.py"
+      ]
+    },
+    {
+      "filename": "workspace_memory/future_planner.py",
+      "purpose": "Manage future goals and roadmap",
+      "used_by": [
+        "future_queries.py"
+      ]
+    },
+    {
+      "filename": "workspace_memory/future_queries.py",
+      "purpose": "Query future book",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "reports/future_book_v0_report.json",
+      "purpose": "Future Book V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    }
+  ],
+  "abbreviation": [
+    {
+      "filename": "infrastructure/abbreviation/abbreviation_dictionary_v0.json",
+      "purpose": "Abbreviation to canonical concept mapping",
+      "used_by": [
+        "abbreviation_lookup.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/abbreviation/abbreviation_lookup.py",
+      "purpose": "Normalize abbreviations before inference",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/abbreviation/abbreviation_report.json",
+      "purpose": "Abbreviation Dictionary V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    }
+  ],
+  "decision_tree": [
+    {
+      "filename": "infrastructure/decision_tree/decision_tree_v0.json",
+      "purpose": "Decision tree structure",
+      "used_by": [
+        "decision_tree_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/decision_tree/decision_tree_engine.py",
+      "purpose": "Decision tree engine",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/decision_tree/decision_tree_report.json",
+      "purpose": "Decision Tree V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "filename": "history/history_book_v0.json",
+      "purpose": "Project history, decisions, lessons, milestones",
+      "used_by": [
+        "scoreboard"
+      ]
+    }
+  ],
+  "orchestrator": [
+    {
+      "filename": "orchestrator/orchestrator_helper.py",
+      "purpose": "Orchestrator helper utilities",
+      "used_by": [
+        "master_orchestrator_v0.py"
+      ]
+    },
+    {
+      "filename": "orchestrator/micro_helper.py",
+      "purpose": "Micro decision helpers for orchestrator",
+      "used_by": [
+        "master_orchestrator_v0.py"
+      ]
+    },
+    {
+      "filename": "orchestrator/master_orchestrator_v0.py",
+      "purpose": "Master Orchestrator V0 - layer priority and decision making",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "orchestrator/response_cache_validation.json",
+      "purpose": "Cache verification tests",
+      "used_by": [
+        "master_orchestrator_v0.py"
+      ]
+    }
+  ],
+  "index": [
+    {
+      "filename": "infrastructure/index/index_v0.json",
+      "purpose": "Index Layer V0 table of contents",
+      "used_by": [
+        "index_lookup.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/index/index_builder.py",
+      "purpose": "Build index from all sources",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "infrastructure/index/index_lookup.py",
+      "purpose": "Instant lookup for memory/file/concept",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/index/index_report.json",
+      "purpose": "Index Layer V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    }
+  ],
+  "project_graph": [
+    {
+      "filename": "project_graph/project_graph_v0.json",
+      "purpose": "Project Graph V0 nodes and edges",
+      "used_by": [
+        "graph_builder.py",
+        "graph_query.py"
+      ]
+    },
+    {
+      "filename": "project_graph/graph_builder.py",
+      "purpose": "Build and update project graph",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "project_graph/graph_query.py",
+      "purpose": "Query interface for project graph",
+      "used_by": [
+        "user"
+      ]
+    },
+    {
+      "filename": "project_graph/project_graph_report.json",
+      "purpose": "Project Graph V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/problem_solve/problem_solve_v0.py",
+      "purpose": "Problem Solve Layer V0 engine",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/problem_solve/problem_solve_templates.json",
+      "purpose": "Solution templates for planning/math/coding",
+      "used_by": [
+        "problem_solve_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/problem_solve/problem_solve_report.json",
+      "purpose": "Problem Solve Layer V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/debate/debate_layer_v0.py",
+      "purpose": "Debate Layer V0 - generate multiple solution approaches",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/debate/debate_templates.json",
+      "purpose": "Debate modes and templates",
+      "used_by": [
+        "debate_layer_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/debate/debate_history.json",
+      "purpose": "Debate history storage",
+      "used_by": [
+        "debate_layer_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/debate/debate_layer_report.json",
+      "purpose": "Debate Layer V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/knowledge_grid/knowledge_grid_v0.py",
+      "purpose": "Knowledge Grid V0 engine",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/knowledge_grid/knowledge_grid_v0.json",
+      "purpose": "Knowledge Grid nodes and weighted edges",
+      "used_by": [
+        "knowledge_grid_v0.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/knowledge_grid/knowledge_grid_report.json",
+      "purpose": "Knowledge Grid V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/weave/weave_layer_v0.json",
+      "purpose": "Weave Layer V0 links",
+      "used_by": [
+        "weave_builder.py",
+        "weave_query.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/weave/weave_builder.py",
+      "purpose": "Weave Layer V0 builder",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/weave/weave_query.py",
+      "purpose": "Weave Layer V0 query interface",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/weave/weave_report.json",
+      "purpose": "Weave Layer V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/weave/weave_helper.py",
+      "purpose": "Weave Layer V0 helper utilities",
+      "used_by": [
+        "weave_query.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/weave/weave_micro_helper.py",
+      "purpose": "Weave Layer V0 micro decision helpers",
+      "used_by": [
+        "weave_query.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/policy/policy_v0.json",
+      "purpose": "Policy Layer V0 policies and priorities",
+      "used_by": [
+        "policy_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/policy/policy_engine.py",
+      "purpose": "Policy Layer V0 engine",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/policy/policy_report.json",
+      "purpose": "Policy Layer V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/policy/policy_helper.py",
+      "purpose": "Policy Layer V0 helper utilities",
+      "used_by": [
+        "policy_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/policy/policy_micro_helper.py",
+      "purpose": "Policy Layer V0 micro decision helpers",
+      "used_by": [
+        "policy_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/memory_weights/memory_weights_v0.json",
+      "purpose": "Memory Weight System V0 config and tiers",
+      "used_by": [
+        "memory_weight_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/memory_weights/memory_weight_engine.py",
+      "purpose": "Memory Weight Engine V0",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/memory_weights/memory_weight_report.json",
+      "purpose": "Memory Weight System V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_scoreboard/reasoning_scoreboard.json",
+      "purpose": "Reasoning Scoreboard V0 data",
+      "used_by": [
+        "reasoning_scoreboard_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_scoreboard/reasoning_scoreboard_engine.py",
+      "purpose": "Reasoning Scoreboard V0 engine",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_scoreboard/reasoning_scoreboard_report.json",
+      "purpose": "Reasoning Scoreboard V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_weights/reasoning_weights.json",
+      "purpose": "Adaptive Reasoning Weights V0 config",
+      "used_by": [
+        "reasoning_weight_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_weights/reasoning_weight_engine.py",
+      "purpose": "Adaptive Reasoning Weights V0 engine",
+      "used_by": [
+        "translation_os_v1.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_weights/reasoning_weight_report.json",
+      "purpose": "Adaptive Reasoning Weights V0 validation report",
+      "used_by": [
+        "scoreboard"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_weights/reasoning_weight_helper.py",
+      "purpose": "Reasoning Weight helper utilities",
+      "used_by": [
+        "reasoning_weight_engine.py"
+      ]
+    },
+    {
+      "filename": "infrastructure/reasoning_weights/reasoning_weight_micro_helper.py",
+      "purpose": "Reasoning Weight micro decision helpers",
+      "used_by": [
+        "reasoning_weight_engine.py"
+      ]
+    }
+  ]
+}

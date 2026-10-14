@@ -1,0 +1,78 @@
+{
+  "tasks": [
+    {
+      "task_id": "TASK_0001",
+      "task": "Add GPU support to Translation OS",
+      "tags": [
+        "planning",
+        "coding",
+        "validation"
+      ],
+      "status": "merged",
+      "created_at": "2026-10-14T12:44:32.204727",
+      "merged_at": "2026-10-14T12:44:44.931389"
+    },
+    {
+      "task_id": "TASK_0002",
+      "task": "Explain photosynthesis and calculate energy conversion efficiency for a leaf receiving 1000 W/m2 solar",
+      "tags": [
+        "research",
+        "planning",
+        "coding",
+        "validation"
+      ],
+      "status": "created",
+      "created_at": "2026-10-14T12:45:28.735035"
+    },
+    {
+      "task_id": "TASK_0003",
+      "task": "Explain photosynthesis and calculate energy conversion efficiency for a leaf receiving 1000 W/m2 solar and suggest improvements",
+      "tags": [
+        "planning",
+        "coding",
+        "validation"
+      ],
+      "status": "created",
+      "created_at": "2026-10-14T12:47:11.567127"
+    },
+    {
+      "task_id": "TASK_0004",
+      "task": "Test sandbox workflow for GPU support",
+      "tags": [
+        "planning",
+        "coding"
+      ],
+      "status": "merged",
+      "created_at": "2026-10-14T12:50:42.691729",
+      "merged_at": "2026-10-14T12:51:41.712466"
+    },
+    {
+      "task_id": "TASK_0005",
+      "task": "Test conflict detection",
+      "tags": [
+        "planning",
+        "coding"
+      ],
+      "status": "merged",
+      "created_at": "2026-10-14T12:53:09.170142",
+      "merged_at": "2026-10-14T12:53:21.842223"
+    },
+    {
+      "task_id": "TASK_0006",
+      "task": "Create a comprehensive GPU accelerated translation pipeline with BitDrop compression and semantic grouping and provide a detailed test plan with benchmarks for latency accuracy and memory usage",
+      "tags": [
+        "planning",
+        "validation"
+      ],
+      "status": "merged",
+      "created_at": "2026-10-14T13:10:19.985866",
+      "merged_at": "2026-10-14T13:10:35.041642"
+    }
+  ],
+  "metadata": {
+    "version": "0.0",
+    "last_updated": "2026-10-14T13:10:19.985875",
+    "total_tasks": 6,
+    "completed_tasks": 0
+  }
+}

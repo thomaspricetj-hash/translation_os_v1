@@ -1,0 +1,38 @@
+{
+  "component": "Memory Reuse Layer V0",
+  "role": "Reuse previous solutions, plans, and work products",
+  "pipeline_position": "Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer",
+  "files": [
+    "memory_reuse_v0.json",
+    "reasoning_templates_v0.json",
+    "memory_reuse_engine.py"
+  ],
+  "memory_entries": 3,
+  "template_entries": 5,
+  "test_queries": [
+    {
+      "query": "Add GPU support to Translation OS",
+      "hit": true,
+      "source": "memory_reuse",
+      "title": "GPU Support Plan",
+      "solution": ["detect hardware", "load CUDA backend", "load ROCm backend", "CPU fallback"]
+    },
+    {
+      "query": "What about Math-Boost?",
+      "hit": true,
+      "source": "memory_reuse",
+      "title": "Math-Boost Blocked",
+      "solution": "Previously blocked because GPU training unavailable."
+    }
+  ],
+  "metrics": {
+    "memory_reuse_hits": 2,
+    "repeated_work_reduction": "TBD",
+    "latency_reduction_ms": 25,
+    "project_continuity": "improved",
+    "accuracy_retention": "100%"
+  },
+  "status": "KEEP",
+  "keep_rule": "Repeated work decreases or project continuity improves while accuracy remains stable",
+  "notes": "Memory Reuse Layer prevents rediscovery. Stores solved problems, successful plans, project decisions, completed workflows, and reasoning templates."
+}

@@ -1,0 +1,5 @@
+{
+  "backend": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4090",
+  "vram_gb": "unknown"
+}

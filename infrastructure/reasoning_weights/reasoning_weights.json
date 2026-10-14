@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "built": "2026-10-13",
+    "purpose": "Adaptive reasoning layer weights for Translation OS"
+  },
+  "layers": [
+    {
+      "name": "Problem Mapper",
+      "accuracy_delta": 0.12,
+      "latency_delta_ms": 2,
+      "reuse_rate": 0.9,
+      "success_rate": 0.95
+    },
+    {
+      "name": "Problem Solve Layer",
+      "accuracy_delta": 0.08,
+      "latency_delta_ms": 5,
+      "reuse_rate": 0.85,
+      "success_rate": 0.9
+    },
+    {
+      "name": "Debate Layer",
+      "accuracy_delta": 0.005,
+      "latency_delta_ms": 200,
+      "reuse_rate": 0.3,
+      "success_rate": 0.5
+    },
+    {
+      "name": "Reasoning Heatmap",
+      "accuracy_delta": 0.03,
+      "latency_delta_ms": 10,
+      "reuse_rate": 0.7,
+      "success_rate": 0.8
+    },
+    {
+      "name": "Knowledge Grid",
+      "accuracy_delta": 0.06,
+      "latency_delta_ms": 3,
+      "reuse_rate": 0.8,
+      "success_rate": 0.85
+    },
+    {
+      "name": "Weave Layer",
+      "accuracy_delta": 0.04,
+      "latency_delta_ms": 8,
+      "reuse_rate": 0.75,
+      "success_rate": 0.8
+    }
+  ],
+  "tiers": {
+    "core": {"range": [0.90, 1.00], "label": "CORE REASONING", "action": "Always run"},
+    "important": {"range": [0.70, 0.89], "label": "IMPORTANT", "action": "Run for medium or hard problems"},
+    "optional": {"range": [0.40, 0.69], "label": "OPTIONAL", "action": "Run only when needed"},
+    "low_value": {"range": [0.00, 0.39], "label": "LOW VALUE", "action": "Disable by default"}
+  }
+}

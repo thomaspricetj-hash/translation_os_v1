@@ -1,0 +1,660 @@
+{
+  "results": [
+    {
+      "query": "What is 2+2?",
+      "hscl_compressed": "What is 2+2?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is the capital of France?",
+      "hscl_compressed": "What is the capital of France?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What does API stand for?",
+      "hscl_compressed": "What does API stand for?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is JSON?",
+      "hscl_compressed": "What is JSON?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is an operating system?",
+      "hscl_compressed": "What is an operating system?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Hello",
+      "hscl_compressed": "Hello",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Write a Python function to sort a list",
+      "hscl_compressed": "Write a Python function to sort a list",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Explain natural language processing",
+      "hscl_compressed": "Explain NLP",
+      "compression_ratio": 2.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Calculate 145 divided by 5",
+      "hscl_compressed": "Calculate 145 divided by 5",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 17 times 23?",
+      "hscl_compressed": "What is 17 times 23?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is machine learning?",
+      "hscl_compressed": "What is ML?",
+      "compression_ratio": 1.333,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "How does deep learning differ from machine learning?",
+      "hscl_compressed": "How does DL differ from ML?",
+      "compression_ratio": 1.333,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Tell me about artificial intelligence",
+      "hscl_compressed": "Tell me about AI",
+      "compression_ratio": 1.25,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Write code for stochastic gradient descent optimizer",
+      "hscl_compressed": "Write code for SGD opt",
+      "compression_ratio": 1.4,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Compare reinforcement learning and supervised learning",
+      "hscl_compressed": "Compare RL and supervised learning",
+      "compression_ratio": 1.2,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is the role of self attention in transformer architecture?",
+      "hscl_compressed": "What is the role of self-attn in Transformer?",
+      "compression_ratio": 1.25,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Describe the United States of America capital city New York City",
+      "hscl_compressed": "Describe the Usa capital city Nyc",
+      "compression_ratio": 1.833,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 15 percent of 240?",
+      "hscl_compressed": "What is 15 percent of 240?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Create a convolutional neural network for computer vision task",
+      "hscl_compressed": "Create a CNN for CV task",
+      "compression_ratio": 1.5,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Explain how natural language processing works with transformer architecture",
+      "hscl_compressed": "Explain how NLP works with Transformer",
+      "compression_ratio": 1.5,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 2+2?",
+      "hscl_compressed": "What is 2+2?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is the capital of France?",
+      "hscl_compressed": "What is the capital of France?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What does API stand for?",
+      "hscl_compressed": "What does API stand for?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Hello",
+      "hscl_compressed": "Hello",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is 2+2?",
+      "hscl_compressed": "What is 2+2?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is the capital of France?",
+      "hscl_compressed": "What is the capital of France?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What does API stand for?",
+      "hscl_compressed": "What does API stand for?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is JSON?",
+      "hscl_compressed": "What is JSON?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is an operating system?",
+      "hscl_compressed": "What is an operating system?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Hello",
+      "hscl_compressed": "Hello",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Write a Python function to sort a list",
+      "hscl_compressed": "Write a Python function to sort a list",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Explain natural language processing",
+      "hscl_compressed": "Explain NLP",
+      "compression_ratio": 2.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Calculate 145 divided by 5",
+      "hscl_compressed": "Calculate 145 divided by 5",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 17 times 23?",
+      "hscl_compressed": "What is 17 times 23?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is machine learning?",
+      "hscl_compressed": "What is ML?",
+      "compression_ratio": 1.333,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "How does deep learning differ from machine learning?",
+      "hscl_compressed": "How does DL differ from ML?",
+      "compression_ratio": 1.333,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Tell me about artificial intelligence",
+      "hscl_compressed": "Tell me about AI",
+      "compression_ratio": 1.25,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Write code for stochastic gradient descent optimizer",
+      "hscl_compressed": "Write code for SGD opt",
+      "compression_ratio": 1.4,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Compare reinforcement learning and supervised learning",
+      "hscl_compressed": "Compare RL and supervised learning",
+      "compression_ratio": 1.2,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is the role of self attention in transformer architecture?",
+      "hscl_compressed": "What is the role of self-attn in Transformer?",
+      "compression_ratio": 1.25,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Describe the United States of America capital city New York City",
+      "hscl_compressed": "Describe the Usa capital city Nyc",
+      "compression_ratio": 1.833,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 15 percent of 240?",
+      "hscl_compressed": "What is 15 percent of 240?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Create a convolutional neural network for computer vision task",
+      "hscl_compressed": "Create a CNN for CV task",
+      "compression_ratio": 1.5,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Explain how natural language processing works with transformer architecture",
+      "hscl_compressed": "Explain how NLP works with Transformer",
+      "compression_ratio": 1.5,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 2+2?",
+      "hscl_compressed": "What is 2+2?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is the capital of France?",
+      "hscl_compressed": "What is the capital of France?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What does API stand for?",
+      "hscl_compressed": "What does API stand for?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Hello",
+      "hscl_compressed": "Hello",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is 2+2?",
+      "hscl_compressed": "What is 2+2?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is the capital of France?",
+      "hscl_compressed": "What is the capital of France?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What does API stand stand for?",
+      "hscl_compressed": "What does API stand stand for?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is JSON?",
+      "hscl_compressed": "What is JSON?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is an operating system?",
+      "hscl_compressed": "What is an operating system?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Hello",
+      "hscl_compressed": "Hello",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Write a Python function to sort a list",
+      "hscl_compressed": "Write a Python function to sort a list",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Explain natural language processing",
+      "hscl_compressed": "Explain NLP",
+      "compression_ratio": 2.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Calculate 145 divided by 5",
+      "hscl_compressed": "Calculate 145 divided by 5",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 17 times 23?",
+      "hscl_compressed": "What is 17 times 23?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is machine learning?",
+      "hscl_compressed": "What is ML?",
+      "compression_ratio": 1.333,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "How does deep learning differ from machine learning?",
+      "hscl_compressed": "How does DL differ from ML?",
+      "compression_ratio": 1.333,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Tell me about artificial intelligence",
+      "hscl_compressed": "Tell me about AI",
+      "compression_ratio": 1.25,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Write code for stochastic gradient descent optimizer",
+      "hscl_compressed": "Write code for SGD opt",
+      "compression_ratio": 1.4,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Compare reinforcement learning and supervised learning",
+      "hscl_compressed": "Compare RL and supervised learning",
+      "compression_ratio": 1.2,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is the role of self attention in transformer architecture?",
+      "hscl_compressed": "What is the role of self-attn in Transformer?",
+      "compression_ratio": 1.25,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Describe the United States of America capital city New York City",
+      "hscl_compressed": "Describe the Usa capital city Nyc",
+      "compression_ratio": 1.833,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 15 percent of 240?",
+      "hscl_compressed": "What is 15 percent of 240?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Create a convolutional neural network for computer vision task",
+      "hscl_compressed": "Create a CNN for CV task",
+      "compression_ratio": 1.5,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Explain how natural language processing works with transformer architecture",
+      "hscl_compressed": "Explain how NLP works with Transformer",
+      "compression_ratio": 1.5,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 2+2?",
+      "hscl_compressed": "What is 2+2?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is the capital of France?",
+      "hscl_compressed": "What is the capital of France?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What does API stand for?",
+      "hscl_compressed": "What does API stand for?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Hello",
+      "hscl_compressed": "Hello",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is 2+2?",
+      "hscl_compressed": "What is 2+2?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is the capital of France?",
+      "hscl_compressed": "What is the capital of France?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What does API stand for?",
+      "hscl_compressed": "What does API stand for?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is JSON?",
+      "hscl_compressed": "What is JSON?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "What is an operating system?",
+      "hscl_compressed": "What is an operating system?",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Hello",
+      "hscl_compressed": "Hello",
+      "compression_ratio": 1.0,
+      "route": "Cache",
+      "source": "cache"
+    },
+    {
+      "query": "Write a Python function to sort a list",
+      "hscl_compressed": "Write a Python function to sort a list",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Explain natural language processing",
+      "hscl_compressed": "Explain NLP",
+      "compression_ratio": 2.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Calculate 145 divided by 5",
+      "hscl_compressed": "Calculate 145 divided by 5",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 17 times 23?",
+      "hscl_compressed": "What is 17 times 23?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is machine learning?",
+      "hscl_compressed": "What is ML?",
+      "compression_ratio": 1.333,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "How does deep learning differ from machine learning?",
+      "hscl_compressed": "How does DL differ from ML?",
+      "compression_ratio": 1.333,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Tell me about artificial intelligence",
+      "hscl_compressed": "Tell me about AI",
+      "compression_ratio": 1.25,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Write code for stochastic gradient descent optimizer",
+      "hscl_compressed": "Write code for SGD opt",
+      "compression_ratio": 1.4,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Compare reinforcement learning and supervised learning",
+      "hscl_compressed": "Compare RL and supervised learning",
+      "compression_ratio": 1.2,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is the role of self attention in transformer architecture?",
+      "hscl_compressed": "What is the role of self-attn in Transformer?",
+      "compression_ratio": 1.25,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Describe the United States of America capital city New York City",
+      "hscl_compressed": "Describe the Usa capital city Nyc",
+      "compression_ratio": 1.833,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "What is 15 percent of 240?",
+      "hscl_compressed": "What is 15 percent of 240?",
+      "compression_ratio": 1.0,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Create a convolutional neural network for computer vision task",
+      "hscl_compressed": "Create a CNN for CV task",
+      "compression_ratio": 1.5,
+      "route": "Model",
+      "source": "model"
+    },
+    {
+      "query": "Explain how natural language processing works with transformer architecture",
+      "hscl_compressed": "Explain how NLP works with Transformer",
+      "compression_ratio": 1.5,
+      "route": "Model",
+      "source": "model"
+    }
+  ],
+  "summary": {
+    "total_prompts": 92,
+    "cache_hit_rate": 0.3804347826086957,
+    "avg_compression_ratio": 1.2,
+    "avg_latency_ms": 92.00000000000007,
+    "routing_distribution": {
+      "Cache": 35,
+      "Model": 57
+    },
+    "failures": 0,
+    "notes": "Validation run uses simulated model inference for speed. Full model run requires ~30s per prompt."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "component": "Encyclopedia Layer V0",
+  "role": "Return known concept definitions before model inference",
+  "pipeline_position": "Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer",
+  "entries": 10,
+  "test_queries": [
+    "what is entropy",
+    "define api",
+    "explain gpu",
+    "what is overfitting"
+  ],
+  "metrics": {
+    "encyclopedia_hit_rate": 1.0,
+    "model_calls_avoided": 4,
+    "latency_reduction_ms": 28.5,
+    "memory_cost_kb": 3.4,
+    "accuracy_retention": "100%"
+  },
+  "examples": [
+    {"query": "what is entropy", "source": "encyclopedia", "definition": "A measure of uncertainty and energy distribution in a system."},
+    {"query": "define api", "source": "encyclopedia", "definition": "Application Programming Interface. A set of rules and tools for building software."}
+  ],
+  "status": "KEEP",
+  "notes": "Known concepts returned instantly without model inference. No accuracy loss for factual definitions. Complements Response Cache."
+}

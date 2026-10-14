@@ -1,0 +1,35 @@
+{
+  "current_goal": "GPU Support",
+  "blocked_goals": [
+    {
+      "goal": "Math-Boost v1",
+      "blocked_by": ["GPU Support"]
+    }
+  ],
+  "future_goals": [
+    "Coding-Boost v1",
+    "Router v1",
+    "Translator v1",
+    "Nemotron Boost"
+  ],
+  "goal_tree": {
+    "GPU Support": {
+      "status": "IN_PROGRESS",
+      "subtasks": [
+        "Detect Nvidia",
+        "Detect AMD",
+        "CPU Fallback",
+        "Benchmark",
+        "Validation"
+      ]
+    }
+  },
+  "roadmap": [
+    {"step": 1, "goal": "GPU Support"},
+    {"step": 2, "goal": "Unblock Math-Boost"},
+    {"step": 3, "goal": "Evaluate Math-Boost"},
+    {"step": 4, "goal": "Coding-Boost v1"},
+    {"step": 5, "goal": "Router v1"}
+  ],
+  "last_updated": "2026-10-13"
+}

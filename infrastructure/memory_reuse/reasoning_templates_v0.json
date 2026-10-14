@@ -1,0 +1,49 @@
+[
+  {
+    "type": "Multi-Step Math",
+    "template": [
+      "Extract numbers",
+      "Identify operations",
+      "Perform operations",
+      "Verify answer"
+    ],
+    "examples": ["John has 3 boxes with 12 apples each and gives away 5."]
+  },
+  {
+    "type": "Coding Implementation",
+    "template": [
+      "Identify language",
+      "Define inputs",
+      "Implement logic",
+      "Test edge cases"
+    ],
+    "examples": ["Write a Python function to find the maximum in a list"]
+  },
+  {
+    "type": "Comparison",
+    "template": [
+      "List attributes",
+      "Contrast items",
+      "Summarize differences"
+    ],
+    "examples": ["Compare SSD vs HDD"]
+  },
+  {
+    "type": "Planning",
+    "template": [
+      "Break down goal",
+      "Order steps",
+      "Estimate time/resources"
+    ],
+    "examples": ["Plan GPU support for Translation OS"]
+  },
+  {
+    "type": "Explanation",
+    "template": [
+      "Define concept",
+      "Give examples",
+      "Summarize"
+    ],
+    "examples": ["Explain entropy"]
+  }
+]

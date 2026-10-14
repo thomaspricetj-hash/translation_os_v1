@@ -1,0 +1,23 @@
+{
+  "automobile": "car",
+  "auto": "car",
+  "gpu": "graphics processing unit",
+  "cpu": "central processing unit",
+  "llm": "large language model",
+  "ai": "artificial intelligence",
+  "ml": "machine learning",
+  "nlp": "natural language processing",
+  "api": "application programming interface",
+  "os": "operating system",
+  "ram": "random access memory",
+  "ssd": "solid state drive",
+  "hdd": "hard disk drive",
+  "url": "uniform resource locator",
+  "http": "hypertext transfer protocol",
+  "https": "hypertext transfer protocol secure",
+  "json": "javascript object notation",
+  "csv": "comma separated values",
+  "sql": "structured query language",
+  "no": "no",
+  "yes": "yes"
+}

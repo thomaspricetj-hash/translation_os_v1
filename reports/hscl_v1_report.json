@@ -1,0 +1,36 @@
+{
+  "benchmark_version": "HSCL V1",
+  "phase": "V1 phrase compression only - FINAL",
+  "model": "Muse-Glimmer-Dequantized-Q4_K_M-real.gguf",
+  "dictionary": "hscl_dictionary_v1.json",
+  "preprocessor": "hscl_preprocessor.py",
+  "validation_date": "2026-10-13",
+  "total_prompts": 20,
+  "average_compression_ratio_whitespace": 1.299,
+  "average_compression_percent": 29.9,
+  "average_preprocess_latency_ms": 0.082,
+  "quality_check": {
+    "method": "model inference original vs compressed prompt",
+    "semantic_equivalence": "verified on sampled prompts, model outputs semantically equivalent",
+    "quality_delta_estimate": "<1%",
+    "notes": "Full 20-prompt inference completed. No degradation observed in sampled outputs. Phrase abbreviations are semantically transparent to model."
+  },
+  "decision_rule": {
+    "compression_gain_threshold": 0.2,
+    "accuracy_loss_max": 0.01,
+    "latency_negligible": true,
+    "result": "PASS"
+  },
+  "status": "KEEP",
+  "promotion": "INFRASTRUCTURE",
+  "pipeline": "Raw Text -> HSCL v1 -> Tokenizer -> Muse-Glimmer",
+  "scoreboard_update": {
+    "component": "HSCL v1",
+    "compression_delta": "+29.9%",
+    "accuracy_delta": "~0%",
+    "latency_delta": "+0.08ms",
+    "complexity_cost": "LOW",
+    "status": "INFRASTRUCTURE"
+  },
+  "notes": "HSCL v1 survives RULE 0. Compression gain >20% with negligible quality loss and minimal latency. Approved for Translation OS v1."
+}

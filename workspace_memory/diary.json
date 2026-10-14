@@ -1,0 +1,2371 @@
+[
+  {
+    "date": "2026-10-13",
+    "entries": [
+      "HSCL v1 promoted to infrastructure.",
+      "Response Cache v0 promoted.",
+      "Math-Boost blocked because GPU training infrastructure unavailable.",
+      "Knowledge Layer V0 built as infrastructure.",
+      "Problem Mapper V0 integrated.",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Reasoning Heatmap V0 built with fact/knowledge/reasoning heatmaps for reuse.",
+      "First Reasoning Heatmap reuse hit observed for math_apples_001 problem, confirming overlay reuse path works.",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for Reasoning route: HSCL v1, Reasoning Heatmap V0, Problem Mapper V0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for Math route: HSCL v1, Response Cache v0, Problem Mapper V0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for Math route: HSCL v1, Response Cache v0, Problem Mapper V0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for Math route: HSCL v1, Response Cache v0, Problem Mapper V0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for Math route: HSCL v1, Response Cache v0, Problem Mapper V0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup",
+      "Project Graph auto-selected components for General route: HSCL v1, Response Cache v0",
+      "Workspace Memory V1 integrated into launcher startup"
+    ]
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is consider in Translation OS?",
+    "answer_preview": "Next Steps: Consider Response Cache v1.1 auto-learning",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is workspace_memory_project_book in Translation OS?",
+    "answer_preview": "Workspace memory file project_book: {\"project\": \"Translation OS v1\", \"version\": \"1.0\", \"last_updated\": \"2026-10-13T00:00:00Z\", \"infrastructure\": [\"HSCL v1\", \"HSCL Word Reuse v1\", \"HSCL Semantic Grouping v0\", \"Dictionary Layer V0\", \"Encyclopedia Layer V0\", \"Knowledge Layer V0\", \"Response Cache v0\", \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T18:17:14.701315",
+    "problem": "What is workspace_memory_project_book?",
+    "answer_preview": "Workspace memory file project_book: {\"project\": \"Translation OS v1\", \"version\": \"1.0\", \"last_updated\": \"2026-10-13T00:00:00Z\", \"infrastructure\": [\"HSCL v1\", \"HSCL Word Reuse v1\", \"HSCL Semantic Grouping v0\", \"Dictionary Layer V0\", \"Encyclopedia Layer V0\", \"Knowledge Layer V0\", \"Response Cache v0\", \"",
+    "selected_layers": [
+      "Encyclopedia"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_encyclopedia_validation in Translation OS?",
+    "answer_preview": "Report dictionary_encyclopedia_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"matcher\": \"Exact term/alias match after intent extraction\", \"tests\": [{\"query\": \"what is entro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_v0_report in Translation OS?",
+    "answer_preview": "Report dictionary_v0_report.json: {\"component\": \"Dictionary Layer V0\", \"role\": \"Normalize synonyms, abbreviations, alternate spellings and aliases before HSCL\", \"pipeline_position\": \"Raw Text -> Dictionary -> HSCL -> ...\", \"dictionary_entries\": 19, \"test_queries\": [\"The automobile is fast\", \"I use G",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_knowledge_problem_mapper_validation in Translation OS?",
+    "answer_preview": "Report knowledge_problem_mapper_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"tests\": [{\"query\": \"what is entropy\", \"layer_hit\": \"Knowledge Layer\", \"s",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_memory_reuse_v0_report in Translation OS?",
+    "answer_preview": "Report memory_reuse_v0_report.json: {\"component\": \"Memory Reuse Layer V0\", \"role\": \"Reuse previous solutions, plans, and work products\", \"pipeline_position\": \"Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"memory_reuse_v0.json\", \"reasoning_templates_v0.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_problem_mapper_v0_report in Translation OS?",
+    "answer_preview": "Report problem_mapper_v0_report.json: {\"component\": \"Problem Mapper V0\", \"role\": \"Break complex problems into structured chunks before inference\", \"pipeline_position\": \"Router -> Problem Mapper -> Muse-Glimmer\", \"categories\": [\"math\", \"coding\", \"comparison\", \"planning\", \"explanation\"], \"test_cases\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_response_cache_v0_report in Translation OS?",
+    "answer_preview": "Report response_cache_v0_report.json: {\"component\": \"Response Cache v0\", \"pipeline\": \"Raw Text -> HSCL v1 -> Question Canonicalizer -> Response Cache -> Muse-Glimmer\", \"phase\": \"V0 prototype\", \"test_queries\": 8, \"cache_entries\": 5, \"hits\": 6, \"cache_hit_rate\": 0.75, \"avg_lookup_latency_ms\": 0.204, \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_translation_os_v1_validation in Translation OS?",
+    "answer_preview": "Report translation_os_v1_validation.json: {\"results\": [{\"query\": \"What is 2+2?\", \"hscl_compressed\": \"What is 2+2?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is the capital of France?\", \"hscl_compressed\": \"What is the capital of France?\", \"compression_ratio\": 1.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_cache_response_cache_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file response_cache_v0.json: {\"MATH_ADD_2_2\": {\"patterns\": [\"2+2\", \"what is 2+2\", \"calculate 2+2\", \"what's 2 plus 2\", \"2 plus 2\"], \"answer\": \"4\", \"question_id\": \"MATH_ADD_2_2\"}, \"MATH_ADD_3_3\": {\"patterns\": [\"3+3\", \"what is 3+3\"], \"answer\": \"6\", \"question_id\": \"MATH_ADD_3_3\"}, \"CAPITA",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_history.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_history.json: {\"history\": [{\"query\": \"How should Translation OS add GPU support?\", \"problem_type\": \"gpu_support\", \"mode\": \"alternative_approaches\", \"approaches\": [{\"debater\": \"Debater A\", \"approach\": \"Approach A for gpu_support\", \"pros\": [\"Benefit 1\", \"Benefit 2\"], \"cons\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_layer_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_layer_report.json: {\"component\": \"Debate Layer V0\", \"role\": \"Generate multiple solution approaches before selecting final answer\", \"pipeline_position\": \"Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_templates.json: {\"modes\": {\"pro_con\": {\"name\": \"Pro / Con\", \"description\": \"Generate pros and cons for a decision\"}, \"fast_vs_accurate\": {\"name\": \"Fast Solution vs Accurate Solution\", \"description\": \"Compare speed vs correctness tradeoffs\"}, \"optimistic_vs_critical\": {\"nam",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_decision_tree_decision_tree_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file decision_tree_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"tree\": {\"root\": \"User Request\", \"steps\": [{\"step\": 1, \"layer\": \"Dictionary\", \"question\": \"Can Dictionary answer?\"}, {\"step\": 2, \"layer\": \"Encyclopedia\", \"question\": \"Can Encyclopedia answer?\"}, {\"step\": 3, \"layer",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_dictionary_dictionary_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file dictionary_v0.json: {\"automobile\": \"car\", \"auto\": \"car\", \"gpu\": \"graphics processing unit\", \"cpu\": \"central processing unit\", \"llm\": \"large language model\", \"ai\": \"artificial intelligence\", \"ml\": \"machine learning\", \"nlp\": \"natural language processing\", \"api\": \"application progra",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL\", \"compute",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_word_reuse_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_word_reuse_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_report.json: {\"component\": \"Knowledge Grid V0\", \"role\": \"Weighted connections between major Translation OS knowledge systems\", \"pipeline_position\": \"Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_v0.json: {\"nodes\": [{\"id\": \"dictionary\", \"type\": \"knowledge\", \"name\": \"Dictionary Layer V0\"}, {\"id\": \"encyclopedia\", \"type\": \"knowledge\", \"name\": \"Encyclopedia Layer V0\"}, {\"id\": \"history_book\", \"type\": \"memory\", \"name\": \"History Book V0\"}, {\"id\": \"future_book\", \"t",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_problem_solve_problem_solve_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file problem_solve_templates.json: {\"planning\": {\"goal_template\": \"Plan and execute\", \"steps\": [\"Verify blockers\", \"Review roadmap\", \"Select next task\", \"Execute\", \"Measure\", \"Update scoreboard\"]}, \"math\": {\"goal_template\": \"Solve math problem\", \"steps\": [\"Extract numbers\", \"Identify ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_audit_reasoning_audit_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_audit_report.json: {\"component\": \"Reasoning Effectiveness Audit V0\", \"role\": \"Verify reasoning layers improve answers, not just generate additional context\", \"method\": \"Run Model Only vs Full Translation OS per benchmark problem\", \"categories\": [\"Arithmetic\", \"Algebra\",",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_heatmap_heatmap_storage.json in Translation OS?",
+    "answer_preview": "Infrastructure file heatmap_storage.json: [{\"problem_id\": \"math_apples_001\", \"query\": \"John has 3 boxes with 12 apples each and gives away 5.\", \"fact_heatmap\": {\"3 boxes\": 0.9, \"12 apples each\": 1.0, \"gave away 5\": 0.95}, \"knowledge_heatmap\": {\"dictionary\": 0.1, \"encyclopedia\": 0.0, \"cache\": 0.0, \"p",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_scoreboard_report.json: {\"component\": \"Reasoning Scoreboard V0\", \"role\": \"Measure effectiveness of every reasoning layer\", \"layers_tracked\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"acc",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_weights_reasoning_weight_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_weight_report.json: {\"component\": \"Adaptive Reasoning Weights V0\", \"role\": \"Dynamically decide which reasoning layers are worth running\", \"pipeline_position\": \"Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimme",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_layer_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_layer_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Cross-link Translation OS systems and identify indirect relationships\"}, \"links\": [{\"from\": \"Dictionary\", \"to\": \"Encyclopedia\", \"relationship\": \"expands\", \"weight\": 0.9}, {\"from\": \"History Boo",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_report.json: {\"component\": \"Weave Layer V0\", \"role\": \"Cross-link Translation OS systems and identify indirect relationships spanning subsystems\", \"pipeline_position\": \"Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is project_graph_project_graph_report in Translation OS?",
+    "answer_preview": "Project graph file project_graph_report.json: {\"component\": \"Project Graph V0\", \"created\": \"2026-10-13\", \"metrics\": {\"nodes\": 20, \"edges\": 8, \"infrastructure_count\": 11, \"blocked_count\": 1, \"pending_count\": 4, \"dependency_accuracy\": \"TBD\", \"blocked_work_detection\": true, \"project_continuity\": \"impro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is history_history_book_v0 in Translation OS?",
+    "answer_preview": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T18:21:15.147427",
+    "problem": "What is history_history_book_v0?",
+    "answer_preview": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache ",
+    "selected_layers": [
+      "Encyclopedia"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_architecture.md in Translation OS?",
+    "answer_preview": "Markdown file architecture.md: # Translation OS v1 Architecture\n\n## Pipeline\nRaw Text \u2192 HSCL v1 \u2192 HSCL Extensions \u2192 Canonicalizer \u2192 Response Cache \u2192 Router \u2192 Muse-Glimmer\n\n## Infrastructure\n- HSCL v1: Pre-tokenization semantic compression\n- HSCL Word Reuse v1: Extension\n- HSCL Semantic Grouping v0: ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_roadmap.md in Translation OS?",
+    "answer_preview": "Markdown file roadmap.md: # Translation OS v1 Roadmap\n\n## Completed\n- HSCL v1 KEEP\n- HSCL Word Reuse v1 KEEP\n- HSCL Semantic Grouping v0 KEEP\n- Response Cache v0 KEEP\n- Prompt Classifier Router v0 KEEP\n- Translation OS v1 launcher built\n\n## Blocked\n- Math-Boost v1: Requires GPU LoRA training\n\n## Pen",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_surviving_components.md in Translation OS?",
+    "answer_preview": "Markdown file surviving_components.md: # Surviving Components\n\n## Infrastructure\n- HSCL v1\n- HSCL Word Reuse v1\n- HSCL Semantic Grouping v0\n- Response Cache v0\n- Prompt Classifier Router v0\n\n## Blocked\n- Math-Boost v1\n\n## Pending\n- Coding-Boost v1\n- Router v1\n- Translator v1\n- Nemotron Boost\n\nAll co",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T00:37:06.554075",
+    "problem": "What is md_docs_roadmap.md?",
+    "answer_preview": "Markdown file roadmap.md: # Translation OS v1 Roadmap\n\n## Completed\n- HSCL v1 KEEP\n- HSCL Word Reuse v1 KEEP\n- HSCL Semantic Grouping v0 KEEP\n- Response Cache v0 KEEP\n- Prompt Classifier Router v0 KEEP\n- Translation OS v1 launcher built\n\n## Blocked\n- Math-Boost v1: Requires GPU LoRA training\n\n## Pen",
+    "selected_layers": [
+      "Encyclopedia"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T00:37:50.655713",
+    "problem": "What is md_docs_architecture.md?",
+    "answer_preview": "Markdown file architecture.md: # Translation OS v1 Architecture\n\n## Pipeline\nRaw Text \u2192 HSCL v1 \u2192 HSCL Extensions \u2192 Canonicalizer \u2192 Response Cache \u2192 Router \u2192 Muse-Glimmer\n\n## Infrastructure\n- HSCL v1: Pre-tokenization semantic compression\n- HSCL Word Reuse v1: Extension\n- HSCL Semantic Grouping v0: ",
+    "selected_layers": [
+      "Encyclopedia"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T00:38:51.623105",
+    "problem": "What is history_history_book_v0?",
+    "answer_preview": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache ",
+    "selected_layers": [
+      "Encyclopedia"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T10:47:07.790948",
+    "problem": "Compute the remainder of 123456789 multiplied by 987654321 modulo 1000",
+    "answer_preview": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nCompute the remainder of 123456789 multiplied by 987654321 modulo 1000.\n\nWe need compute remainder mod 1000. Compute 123456789 * 987654321 mod 1",
+    "selected_layers": [
+      "Router",
+      "HSCL v1",
+      "Response Cache v0",
+      "Problem Mapper V0"
+    ],
+    "success_score": 0.9,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T11:15:17.566445",
+    "problem": "Find the 1000th digit after the decimal point in the decimal expansion of 1/7",
+    "answer_preview": "[Problem Solve Plan] Type: math; Goal: Solve math problem; Steps: Extract numbers, Identify operations, Perform operations, Verify answer\n\nFind the 1000th digit after the decimal point in the decimal expansion of 1/7.\n\nWe need 1/7 = 0.142857142857... repeating period 6.\n\nDigits: 1:1,2:4,3:2,4:8,5:5,",
+    "selected_layers": [
+      "HSCL v1",
+      "Response Cache v0"
+    ],
+    "success_score": 0.9,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is consider in Translation OS?",
+    "answer_preview": "Next Steps: Consider Response Cache v1.1 auto-learning",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is consider in Translation OS?",
+    "answer_preview": "Next Steps: Consider Response Cache v1.1 auto-learning",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is history_history_book_v0 in Translation OS?",
+    "answer_preview": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_cache_response_cache_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file response_cache_v0.json: {\"WORD_PROBLEM_APPLES\": {\"patterns\": [\"john buys 3 boxes with 12 apples each and gives away 5\", \"john buys 3 boxes 12 apples each gives away 5\"], \"answer\": \"3 boxes \\u00c3\\u2014 12 apples = 36 apples, minus 5 given away = 31 apples remain.\", \"question_id\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_history.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_history.json: {\"history\": [{\"query\": \"How should Translation OS add GPU support?\", \"problem_type\": \"gpu_support\", \"mode\": \"alternative_approaches\", \"approaches\": [{\"debater\": \"Debater A\", \"approach\": \"Approach A for gpu_support\", \"pros\": [\"Benefit 1\", \"Benefit 2\"], \"cons\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_layer_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_layer_report.json: {\"component\": \"Debate Layer V0\", \"role\": \"Generate multiple solution approaches before selecting final answer\", \"pipeline_position\": \"Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_templates.json: {\"modes\": {\"pro_con\": {\"name\": \"Pro / Con\", \"description\": \"Generate pros and cons for a decision\"}, \"fast_vs_accurate\": {\"name\": \"Fast Solution vs Accurate Solution\", \"description\": \"Compare speed vs correctness tradeoffs\"}, \"optimistic_vs_critical\": {\"nam",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_decision_tree_decision_tree_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file decision_tree_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"tree\": {\"root\": \"User Request\", \"steps\": [{\"step\": 1, \"layer\": \"Dictionary\", \"question\": \"Can Dictionary answer?\"}, {\"step\": 2, \"layer\": \"Encyclopedia\", \"question\": \"Can Encyclopedia answer?\"}, {\"step\": 3, \"layer",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_dictionary_dictionary_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file dictionary_v0.json: {\"automobile\": \"car\", \"auto\": \"car\", \"gpu\": \"graphics processing unit\", \"cpu\": \"central processing unit\", \"llm\": \"large language model\", \"ai\": \"artificial intelligence\", \"ml\": \"machine learning\", \"nlp\": \"natural language processing\", \"api\": \"application progra",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL\", \"compute",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_word_reuse_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_word_reuse_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_report.json: {\"component\": \"Knowledge Grid V0\", \"role\": \"Weighted connections between major Translation OS knowledge systems\", \"pipeline_position\": \"Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_v0.json: {\"nodes\": [{\"id\": \"dictionary\", \"type\": \"knowledge\", \"name\": \"Dictionary Layer V0\"}, {\"id\": \"encyclopedia\", \"type\": \"knowledge\", \"name\": \"Encyclopedia Layer V0\"}, {\"id\": \"history_book\", \"type\": \"memory\", \"name\": \"History Book V0\"}, {\"id\": \"future_book\", \"t",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_pattern_recognizer_patterns.json in Translation OS?",
+    "answer_preview": "Infrastructure file patterns.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Pattern Recognizer V0 pattern store\"}, \"problem_types\": {\"Definition\": {\"count\": 12, \"successful_paths\": [null, null, null, null, null, null, null, null, null, null, null, null]}, \"Math\": {\"count\"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_problem_solve_problem_solve_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file problem_solve_templates.json: {\"planning\": {\"goal_template\": \"Plan and execute\", \"steps\": [\"Verify blockers\", \"Review roadmap\", \"Select next task\", \"Execute\", \"Measure\", \"Update scoreboard\"]}, \"math\": {\"goal_template\": \"Solve math problem\", \"steps\": [\"Extract numbers\", \"Identify ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_audit_reasoning_audit_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_audit_report.json: {\"component\": \"Reasoning Effectiveness Audit V0\", \"role\": \"Verify reasoning layers improve answers, not just generate additional context\", \"method\": \"Run Model Only vs Full Translation OS per benchmark problem\", \"categories\": [\"Arithmetic\", \"Algebra\",",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_heatmap_heatmap_storage.json in Translation OS?",
+    "answer_preview": "Infrastructure file heatmap_storage.json: [{\"problem_id\": \"math_apples_001\", \"query\": \"John has 3 boxes with 12 apples each and gives away 5.\", \"fact_heatmap\": {\"3 boxes\": 0.9, \"12 apples each\": 1.0, \"gave away 5\": 0.95}, \"knowledge_heatmap\": {\"dictionary\": 0.1, \"encyclopedia\": 0.0, \"cache\": 0.0, \"p",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_scoreboard_report.json: {\"component\": \"Reasoning Scoreboard V0\", \"role\": \"Measure effectiveness of every reasoning layer\", \"layers_tracked\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"acc",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_weights_reasoning_weight_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_weight_report.json: {\"component\": \"Adaptive Reasoning Weights V0\", \"role\": \"Dynamically decide which reasoning layers are worth running\", \"pipeline_position\": \"Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimme",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_layer_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_layer_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Cross-link Translation OS systems and identify indirect relationships\"}, \"links\": [{\"from\": \"Dictionary\", \"to\": \"Encyclopedia\", \"relationship\": \"expands\", \"weight\": 0.9}, {\"from\": \"History Boo",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_report.json: {\"component\": \"Weave Layer V0\", \"role\": \"Cross-link Translation OS systems and identify indirect relationships spanning subsystems\", \"pipeline_position\": \"Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_architecture.md in Translation OS?",
+    "answer_preview": "Markdown file architecture.md: # Translation OS v1 Architecture\n\n## Pipeline\nRaw Text \u2192 HSCL v1 \u2192 HSCL Extensions \u2192 Canonicalizer \u2192 Response Cache \u2192 Router \u2192 Muse-Glimmer\n\n## Infrastructure\n- HSCL v1: Pre-tokenization semantic compression\n- HSCL Word Reuse v1: Extension\n- HSCL Semantic Grouping v0: ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_roadmap.md in Translation OS?",
+    "answer_preview": "Markdown file roadmap.md: # Translation OS v1 Roadmap\n\n## Completed\n- HSCL v1 KEEP\n- HSCL Word Reuse v1 KEEP\n- HSCL Semantic Grouping v0 KEEP\n- Response Cache v0 KEEP\n- Prompt Classifier Router v0 KEEP\n- Translation OS v1 launcher built\n\n## Blocked\n- Math-Boost v1: Requires GPU LoRA training\n\n## Pen",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_surviving_components.md in Translation OS?",
+    "answer_preview": "Markdown file surviving_components.md: # Surviving Components\n\n## Infrastructure\n- HSCL v1\n- HSCL Word Reuse v1\n- HSCL Semantic Grouping v0\n- Response Cache v0\n- Prompt Classifier Router v0\n\n## Blocked\n- Math-Boost v1\n\n## Pending\n- Coding-Boost v1\n- Router v1\n- Translator v1\n- Nemotron Boost\n\nAll co",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is project_graph_project_graph_report in Translation OS?",
+    "answer_preview": "Project graph file project_graph_report.json: {\"component\": \"Project Graph V0\", \"created\": \"2026-10-13\", \"metrics\": {\"nodes\": 20, \"edges\": 8, \"infrastructure_count\": 11, \"blocked_count\": 1, \"pending_count\": 4, \"dependency_accuracy\": \"TBD\", \"blocked_work_detection\": true, \"project_continuity\": \"impro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_encyclopedia_validation in Translation OS?",
+    "answer_preview": "Report dictionary_encyclopedia_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"matcher\": \"Exact term/alias match after intent extraction\", \"tests\": [{\"query\": \"what is entro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_v0_report in Translation OS?",
+    "answer_preview": "Report dictionary_v0_report.json: {\"component\": \"Dictionary Layer V0\", \"role\": \"Normalize synonyms, abbreviations, alternate spellings and aliases before HSCL\", \"pipeline_position\": \"Raw Text -> Dictionary -> HSCL -> ...\", \"dictionary_entries\": 19, \"test_queries\": [\"The automobile is fast\", \"I use G",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_golden_validation_report in Translation OS?",
+    "answer_preview": "Report golden_validation_report.json: {\"total\": 4, \"passed\": 4, \"results\": [{\"query\": \"What is 2+2?\", \"expected_type\": \"cache\", \"source\": \"cache\", \"passed\": true}, {\"query\": \"pipeline diagram\", \"expected_type\": \"picture\", \"source\": \"picture_memory\", \"passed\": true}, {\"query\": \"What does API mean?\", ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_knowledge_problem_mapper_validation in Translation OS?",
+    "answer_preview": "Report knowledge_problem_mapper_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"tests\": [{\"query\": \"what is entropy\", \"layer_hit\": \"Knowledge Layer\", \"s",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_memory_reuse_v0_report in Translation OS?",
+    "answer_preview": "Report memory_reuse_v0_report.json: {\"component\": \"Memory Reuse Layer V0\", \"role\": \"Reuse previous solutions, plans, and work products\", \"pipeline_position\": \"Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"memory_reuse_v0.json\", \"reasoning_templates_v0.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_problem_mapper_v0_report in Translation OS?",
+    "answer_preview": "Report problem_mapper_v0_report.json: {\"component\": \"Problem Mapper V0\", \"role\": \"Break complex problems into structured chunks before inference\", \"pipeline_position\": \"Router -> Problem Mapper -> Muse-Glimmer\", \"categories\": [\"math\", \"coding\", \"comparison\", \"planning\", \"explanation\"], \"test_cases\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_response_cache_v0_report in Translation OS?",
+    "answer_preview": "Report response_cache_v0_report.json: {\"component\": \"Response Cache v0\", \"pipeline\": \"Raw Text -> HSCL v1 -> Question Canonicalizer -> Response Cache -> Muse-Glimmer\", \"phase\": \"V0 prototype\", \"test_queries\": 8, \"cache_entries\": 5, \"hits\": 6, \"cache_hit_rate\": 0.75, \"avg_lookup_latency_ms\": 0.204, \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_translation_os_v1_validation in Translation OS?",
+    "answer_preview": "Report translation_os_v1_validation.json: {\"results\": [{\"query\": \"What is 2+2?\", \"hscl_compressed\": \"What is 2+2?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is the capital of France?\", \"hscl_compressed\": \"What is the capital of France?\", \"compression_ratio\": 1.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is workspace_memory_project_book in Translation OS?",
+    "answer_preview": "Workspace memory file project_book: {\"project\": \"Translation OS v1\", \"version\": \"1.0\", \"last_updated\": \"2026-10-13T00:00:00Z\", \"infrastructure\": [\"HSCL v1\", \"HSCL Word Reuse v1\", \"HSCL Semantic Grouping v0\", \"Dictionary Layer V0\", \"Encyclopedia Layer V0\", \"Knowledge Layer V0\", \"Response Cache v0\", \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is consider in Translation OS?",
+    "answer_preview": "Next Steps: Consider Response Cache v1.1 auto-learning",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_cache_response_cache_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file response_cache_v0.json: {\"WORD_PROBLEM_APPLES\": {\"patterns\": [\"john buys 3 boxes with 12 apples each and gives away 5\", \"john buys 3 boxes 12 apples each gives away 5\"], \"answer\": \"3 boxes \\u00c3\\u2014 12 apples = 36 apples, minus 5 given away = 31 apples remain.\", \"question_id\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_history.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_history.json: {\"history\": [{\"query\": \"How should Translation OS add GPU support?\", \"problem_type\": \"gpu_support\", \"mode\": \"alternative_approaches\", \"approaches\": [{\"debater\": \"Debater A\", \"approach\": \"Approach A for gpu_support\", \"pros\": [\"Benefit 1\", \"Benefit 2\"], \"cons\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_layer_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_layer_report.json: {\"component\": \"Debate Layer V0\", \"role\": \"Generate multiple solution approaches before selecting final answer\", \"pipeline_position\": \"Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_templates.json: {\"modes\": {\"pro_con\": {\"name\": \"Pro / Con\", \"description\": \"Generate pros and cons for a decision\"}, \"fast_vs_accurate\": {\"name\": \"Fast Solution vs Accurate Solution\", \"description\": \"Compare speed vs correctness tradeoffs\"}, \"optimistic_vs_critical\": {\"nam",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_decision_tree_decision_tree_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file decision_tree_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"tree\": {\"root\": \"User Request\", \"steps\": [{\"step\": 1, \"layer\": \"Dictionary\", \"question\": \"Can Dictionary answer?\"}, {\"step\": 2, \"layer\": \"Encyclopedia\", \"question\": \"Can Encyclopedia answer?\"}, {\"step\": 3, \"layer",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_dictionary_dictionary_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file dictionary_v0.json: {\"automobile\": \"car\", \"auto\": \"car\", \"gpu\": \"graphics processing unit\", \"cpu\": \"central processing unit\", \"llm\": \"large language model\", \"ai\": \"artificial intelligence\", \"ml\": \"machine learning\", \"nlp\": \"natural language processing\", \"api\": \"application progra",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL\", \"compute",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_word_reuse_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_word_reuse_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_report.json: {\"component\": \"Knowledge Grid V0\", \"role\": \"Weighted connections between major Translation OS knowledge systems\", \"pipeline_position\": \"Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_v0.json: {\"nodes\": [{\"id\": \"dictionary\", \"type\": \"knowledge\", \"name\": \"Dictionary Layer V0\"}, {\"id\": \"encyclopedia\", \"type\": \"knowledge\", \"name\": \"Encyclopedia Layer V0\"}, {\"id\": \"history_book\", \"type\": \"memory\", \"name\": \"History Book V0\"}, {\"id\": \"future_book\", \"t",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_pattern_recognizer_patterns.json in Translation OS?",
+    "answer_preview": "Infrastructure file patterns.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Pattern Recognizer V0 pattern store\"}, \"problem_types\": {\"Definition\": {\"count\": 13, \"successful_paths\": [null, null, null, null, null, null, null, null, null, null, null, null, null]}, \"Math\": {\"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_problem_solve_problem_solve_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file problem_solve_templates.json: {\"planning\": {\"goal_template\": \"Plan and execute\", \"steps\": [\"Verify blockers\", \"Review roadmap\", \"Select next task\", \"Execute\", \"Measure\", \"Update scoreboard\"]}, \"math\": {\"goal_template\": \"Solve math problem\", \"steps\": [\"Extract numbers\", \"Identify ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_audit_reasoning_audit_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_audit_report.json: {\"component\": \"Reasoning Effectiveness Audit V0\", \"role\": \"Verify reasoning layers improve answers, not just generate additional context\", \"method\": \"Run Model Only vs Full Translation OS per benchmark problem\", \"categories\": [\"Arithmetic\", \"Algebra\",",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_heatmap_heatmap_storage.json in Translation OS?",
+    "answer_preview": "Infrastructure file heatmap_storage.json: [{\"problem_id\": \"math_apples_001\", \"query\": \"John has 3 boxes with 12 apples each and gives away 5.\", \"fact_heatmap\": {\"3 boxes\": 0.9, \"12 apples each\": 1.0, \"gave away 5\": 0.95}, \"knowledge_heatmap\": {\"dictionary\": 0.1, \"encyclopedia\": 0.0, \"cache\": 0.0, \"p",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_scoreboard_report.json: {\"component\": \"Reasoning Scoreboard V0\", \"role\": \"Measure effectiveness of every reasoning layer\", \"layers_tracked\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"acc",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_weights_reasoning_weight_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_weight_report.json: {\"component\": \"Adaptive Reasoning Weights V0\", \"role\": \"Dynamically decide which reasoning layers are worth running\", \"pipeline_position\": \"Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimme",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_layer_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_layer_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Cross-link Translation OS systems and identify indirect relationships\"}, \"links\": [{\"from\": \"Dictionary\", \"to\": \"Encyclopedia\", \"relationship\": \"expands\", \"weight\": 0.9}, {\"from\": \"History Boo",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_report.json: {\"component\": \"Weave Layer V0\", \"role\": \"Cross-link Translation OS systems and identify indirect relationships spanning subsystems\", \"pipeline_position\": \"Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is history_history_book_v0 in Translation OS?",
+    "answer_preview": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is project_graph_project_graph_report in Translation OS?",
+    "answer_preview": "Project graph file project_graph_report.json: {\"component\": \"Project Graph V0\", \"created\": \"2026-10-13\", \"metrics\": {\"nodes\": 20, \"edges\": 8, \"infrastructure_count\": 11, \"blocked_count\": 1, \"pending_count\": 4, \"dependency_accuracy\": \"TBD\", \"blocked_work_detection\": true, \"project_continuity\": \"impro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_encyclopedia_validation in Translation OS?",
+    "answer_preview": "Report dictionary_encyclopedia_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"matcher\": \"Exact term/alias match after intent extraction\", \"tests\": [{\"query\": \"what is entro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_v0_report in Translation OS?",
+    "answer_preview": "Report dictionary_v0_report.json: {\"component\": \"Dictionary Layer V0\", \"role\": \"Normalize synonyms, abbreviations, alternate spellings and aliases before HSCL\", \"pipeline_position\": \"Raw Text -> Dictionary -> HSCL -> ...\", \"dictionary_entries\": 19, \"test_queries\": [\"The automobile is fast\", \"I use G",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_golden_validation_report in Translation OS?",
+    "answer_preview": "Report golden_validation_report.json: {\"total\": 4, \"passed\": 4, \"results\": [{\"query\": \"What is 2+2?\", \"expected_type\": \"cache\", \"source\": \"cache\", \"passed\": true}, {\"query\": \"pipeline diagram\", \"expected_type\": \"picture\", \"source\": \"picture_memory\", \"passed\": true}, {\"query\": \"What does API mean?\", ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_knowledge_problem_mapper_validation in Translation OS?",
+    "answer_preview": "Report knowledge_problem_mapper_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"tests\": [{\"query\": \"what is entropy\", \"layer_hit\": \"Knowledge Layer\", \"s",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_memory_reuse_v0_report in Translation OS?",
+    "answer_preview": "Report memory_reuse_v0_report.json: {\"component\": \"Memory Reuse Layer V0\", \"role\": \"Reuse previous solutions, plans, and work products\", \"pipeline_position\": \"Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"memory_reuse_v0.json\", \"reasoning_templates_v0.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_problem_mapper_v0_report in Translation OS?",
+    "answer_preview": "Report problem_mapper_v0_report.json: {\"component\": \"Problem Mapper V0\", \"role\": \"Break complex problems into structured chunks before inference\", \"pipeline_position\": \"Router -> Problem Mapper -> Muse-Glimmer\", \"categories\": [\"math\", \"coding\", \"comparison\", \"planning\", \"explanation\"], \"test_cases\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_response_cache_v0_report in Translation OS?",
+    "answer_preview": "Report response_cache_v0_report.json: {\"component\": \"Response Cache v0\", \"pipeline\": \"Raw Text -> HSCL v1 -> Question Canonicalizer -> Response Cache -> Muse-Glimmer\", \"phase\": \"V0 prototype\", \"test_queries\": 8, \"cache_entries\": 5, \"hits\": 6, \"cache_hit_rate\": 0.75, \"avg_lookup_latency_ms\": 0.204, \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_translation_os_v1_validation in Translation OS?",
+    "answer_preview": "Report translation_os_v1_validation.json: {\"results\": [{\"query\": \"What is 2+2?\", \"hscl_compressed\": \"What is 2+2?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is the capital of France?\", \"hscl_compressed\": \"What is the capital of France?\", \"compression_ratio\": 1.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is workspace_memory_project_book in Translation OS?",
+    "answer_preview": "Workspace memory file project_book: {\"project\": \"Translation OS v1\", \"version\": \"1.0\", \"last_updated\": \"2026-10-13T00:00:00Z\", \"infrastructure\": [\"HSCL v1\", \"HSCL Word Reuse v1\", \"HSCL Semantic Grouping v0\", \"Dictionary Layer V0\", \"Encyclopedia Layer V0\", \"Knowledge Layer V0\", \"Response Cache v0\", \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is consider in Translation OS?",
+    "answer_preview": "Next Steps: Consider Response Cache v1.1 auto-learning",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is history_history_book_v0 in Translation OS?",
+    "answer_preview": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_cache_response_cache_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file response_cache_v0.json: {\"WORD_PROBLEM_APPLES\": {\"patterns\": [\"john buys 3 boxes with 12 apples each and gives away 5\", \"john buys 3 boxes 12 apples each gives away 5\"], \"answer\": \"3 boxes \\u00c3\\u2014 12 apples = 36 apples, minus 5 given away = 31 apples remain.\", \"question_id\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_history.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_history.json: {\"history\": [{\"query\": \"How should Translation OS add GPU support?\", \"problem_type\": \"gpu_support\", \"mode\": \"alternative_approaches\", \"approaches\": [{\"debater\": \"Debater A\", \"approach\": \"Approach A for gpu_support\", \"pros\": [\"Benefit 1\", \"Benefit 2\"], \"cons\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_layer_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_layer_report.json: {\"component\": \"Debate Layer V0\", \"role\": \"Generate multiple solution approaches before selecting final answer\", \"pipeline_position\": \"Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_templates.json: {\"modes\": {\"pro_con\": {\"name\": \"Pro / Con\", \"description\": \"Generate pros and cons for a decision\"}, \"fast_vs_accurate\": {\"name\": \"Fast Solution vs Accurate Solution\", \"description\": \"Compare speed vs correctness tradeoffs\"}, \"optimistic_vs_critical\": {\"nam",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_decision_tree_decision_tree_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file decision_tree_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"tree\": {\"root\": \"User Request\", \"steps\": [{\"step\": 1, \"layer\": \"Dictionary\", \"question\": \"Can Dictionary answer?\"}, {\"step\": 2, \"layer\": \"Encyclopedia\", \"question\": \"Can Encyclopedia answer?\"}, {\"step\": 3, \"layer",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_dictionary_dictionary_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file dictionary_v0.json: {\"automobile\": \"car\", \"auto\": \"car\", \"gpu\": \"graphics processing unit\", \"cpu\": \"central processing unit\", \"llm\": \"large language model\", \"ai\": \"artificial intelligence\", \"ml\": \"machine learning\", \"nlp\": \"natural language processing\", \"api\": \"application progra",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL\", \"compute",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_word_reuse_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_word_reuse_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_report.json: {\"component\": \"Knowledge Grid V0\", \"role\": \"Weighted connections between major Translation OS knowledge systems\", \"pipeline_position\": \"Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_v0.json: {\"nodes\": [{\"id\": \"dictionary\", \"type\": \"knowledge\", \"name\": \"Dictionary Layer V0\"}, {\"id\": \"encyclopedia\", \"type\": \"knowledge\", \"name\": \"Encyclopedia Layer V0\"}, {\"id\": \"history_book\", \"type\": \"memory\", \"name\": \"History Book V0\"}, {\"id\": \"future_book\", \"t",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_pattern_recognizer_patterns.json in Translation OS?",
+    "answer_preview": "Infrastructure file patterns.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Pattern Recognizer V0 pattern store\"}, \"problem_types\": {\"Definition\": {\"count\": 13, \"successful_paths\": [null, null, null, null, null, null, null, null, null, null, null, null, null]}, \"Math\": {\"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_problem_solve_problem_solve_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file problem_solve_templates.json: {\"planning\": {\"goal_template\": \"Plan and execute\", \"steps\": [\"Verify blockers\", \"Review roadmap\", \"Select next task\", \"Execute\", \"Measure\", \"Update scoreboard\"]}, \"math\": {\"goal_template\": \"Solve math problem\", \"steps\": [\"Extract numbers\", \"Identify ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_audit_reasoning_audit_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_audit_report.json: {\"component\": \"Reasoning Effectiveness Audit V0\", \"role\": \"Verify reasoning layers improve answers, not just generate additional context\", \"method\": \"Run Model Only vs Full Translation OS per benchmark problem\", \"categories\": [\"Arithmetic\", \"Algebra\",",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_heatmap_heatmap_storage.json in Translation OS?",
+    "answer_preview": "Infrastructure file heatmap_storage.json: [{\"problem_id\": \"math_apples_001\", \"query\": \"John has 3 boxes with 12 apples each and gives away 5.\", \"fact_heatmap\": {\"3 boxes\": 0.9, \"12 apples each\": 1.0, \"gave away 5\": 0.95}, \"knowledge_heatmap\": {\"dictionary\": 0.1, \"encyclopedia\": 0.0, \"cache\": 0.0, \"p",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_scoreboard_report.json: {\"component\": \"Reasoning Scoreboard V0\", \"role\": \"Measure effectiveness of every reasoning layer\", \"layers_tracked\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"acc",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_weights_reasoning_weight_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_weight_report.json: {\"component\": \"Adaptive Reasoning Weights V0\", \"role\": \"Dynamically decide which reasoning layers are worth running\", \"pipeline_position\": \"Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimme",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_layer_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_layer_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Cross-link Translation OS systems and identify indirect relationships\"}, \"links\": [{\"from\": \"Dictionary\", \"to\": \"Encyclopedia\", \"relationship\": \"expands\", \"weight\": 0.9}, {\"from\": \"History Boo",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_report.json: {\"component\": \"Weave Layer V0\", \"role\": \"Cross-link Translation OS systems and identify indirect relationships spanning subsystems\", \"pipeline_position\": \"Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_architecture.md in Translation OS?",
+    "answer_preview": "Markdown file architecture.md: # Translation OS v1 Architecture\n\n## Pipeline\nRaw Text \u2192 HSCL v1 \u2192 HSCL Extensions \u2192 Canonicalizer \u2192 Response Cache \u2192 Router \u2192 Muse-Glimmer\n\n## Infrastructure\n- HSCL v1: Pre-tokenization semantic compression\n- HSCL Word Reuse v1: Extension\n- HSCL Semantic Grouping v0: ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_roadmap.md in Translation OS?",
+    "answer_preview": "Markdown file roadmap.md: # Translation OS v1 Roadmap\n\n## Completed\n- HSCL v1 KEEP\n- HSCL Word Reuse v1 KEEP\n- HSCL Semantic Grouping v0 KEEP\n- Response Cache v0 KEEP\n- Prompt Classifier Router v0 KEEP\n- Translation OS v1 launcher built\n\n## Blocked\n- Math-Boost v1: Requires GPU LoRA training\n\n## Pen",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is md_docs_surviving_components.md in Translation OS?",
+    "answer_preview": "Markdown file surviving_components.md: # Surviving Components\n\n## Infrastructure\n- HSCL v1\n- HSCL Word Reuse v1\n- HSCL Semantic Grouping v0\n- Response Cache v0\n- Prompt Classifier Router v0\n\n## Blocked\n- Math-Boost v1\n\n## Pending\n- Coding-Boost v1\n- Router v1\n- Translator v1\n- Nemotron Boost\n\nAll co",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is project_graph_project_graph_report in Translation OS?",
+    "answer_preview": "Project graph file project_graph_report.json: {\"component\": \"Project Graph V0\", \"created\": \"2026-10-13\", \"metrics\": {\"nodes\": 20, \"edges\": 8, \"infrastructure_count\": 11, \"blocked_count\": 1, \"pending_count\": 4, \"dependency_accuracy\": \"TBD\", \"blocked_work_detection\": true, \"project_continuity\": \"impro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_encyclopedia_validation in Translation OS?",
+    "answer_preview": "Report dictionary_encyclopedia_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"matcher\": \"Exact term/alias match after intent extraction\", \"tests\": [{\"query\": \"what is entro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_v0_report in Translation OS?",
+    "answer_preview": "Report dictionary_v0_report.json: {\"component\": \"Dictionary Layer V0\", \"role\": \"Normalize synonyms, abbreviations, alternate spellings and aliases before HSCL\", \"pipeline_position\": \"Raw Text -> Dictionary -> HSCL -> ...\", \"dictionary_entries\": 19, \"test_queries\": [\"The automobile is fast\", \"I use G",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_golden_validation_report in Translation OS?",
+    "answer_preview": "Report golden_validation_report.json: {\"total\": 4, \"passed\": 4, \"results\": [{\"query\": \"What is 2+2?\", \"expected_type\": \"cache\", \"source\": \"cache\", \"passed\": true}, {\"query\": \"pipeline diagram\", \"expected_type\": \"picture\", \"source\": \"picture_memory\", \"passed\": true}, {\"query\": \"What does API mean?\", ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_knowledge_problem_mapper_validation in Translation OS?",
+    "answer_preview": "Report knowledge_problem_mapper_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"tests\": [{\"query\": \"what is entropy\", \"layer_hit\": \"Knowledge Layer\", \"s",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_memory_reuse_v0_report in Translation OS?",
+    "answer_preview": "Report memory_reuse_v0_report.json: {\"component\": \"Memory Reuse Layer V0\", \"role\": \"Reuse previous solutions, plans, and work products\", \"pipeline_position\": \"Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"memory_reuse_v0.json\", \"reasoning_templates_v0.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_problem_mapper_v0_report in Translation OS?",
+    "answer_preview": "Report problem_mapper_v0_report.json: {\"component\": \"Problem Mapper V0\", \"role\": \"Break complex problems into structured chunks before inference\", \"pipeline_position\": \"Router -> Problem Mapper -> Muse-Glimmer\", \"categories\": [\"math\", \"coding\", \"comparison\", \"planning\", \"explanation\"], \"test_cases\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_response_cache_v0_report in Translation OS?",
+    "answer_preview": "Report response_cache_v0_report.json: {\"component\": \"Response Cache v0\", \"pipeline\": \"Raw Text -> HSCL v1 -> Question Canonicalizer -> Response Cache -> Muse-Glimmer\", \"phase\": \"V0 prototype\", \"test_queries\": 8, \"cache_entries\": 5, \"hits\": 6, \"cache_hit_rate\": 0.75, \"avg_lookup_latency_ms\": 0.204, \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_translation_os_v1_validation in Translation OS?",
+    "answer_preview": "Report translation_os_v1_validation.json: {\"results\": [{\"query\": \"What is 2+2?\", \"hscl_compressed\": \"What is 2+2?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is the capital of France?\", \"hscl_compressed\": \"What is the capital of France?\", \"compression_ratio\": 1.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is workspace_memory_project_book in Translation OS?",
+    "answer_preview": "Workspace memory file project_book: {\"project\": \"Translation OS v1\", \"version\": \"1.0\", \"last_updated\": \"2026-10-13T00:00:00Z\", \"infrastructure\": [\"HSCL v1\", \"HSCL Word Reuse v1\", \"HSCL Semantic Grouping v0\", \"Dictionary Layer V0\", \"Encyclopedia Layer V0\", \"Knowledge Layer V0\", \"Response Cache v0\", \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is consider in Translation OS?",
+    "answer_preview": "Next Steps: Consider Response Cache v1.1 auto-learning",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_cache_response_cache_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file response_cache_v0.json: {\"WORD_PROBLEM_APPLES\": {\"patterns\": [\"john buys 3 boxes with 12 apples each and gives away 5\", \"john buys 3 boxes 12 apples each gives away 5\"], \"answer\": \"3 boxes \\u00c3\\u2014 12 apples = 36 apples, minus 5 given away = 31 apples remain.\", \"question_id\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_history.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_history.json: {\"history\": [{\"query\": \"How should Translation OS add GPU support?\", \"problem_type\": \"gpu_support\", \"mode\": \"alternative_approaches\", \"approaches\": [{\"debater\": \"Debater A\", \"approach\": \"Approach A for gpu_support\", \"pros\": [\"Benefit 1\", \"Benefit 2\"], \"cons\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_layer_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_layer_report.json: {\"component\": \"Debate Layer V0\", \"role\": \"Generate multiple solution approaches before selecting final answer\", \"pipeline_position\": \"Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_templates.json: {\"modes\": {\"pro_con\": {\"name\": \"Pro / Con\", \"description\": \"Generate pros and cons for a decision\"}, \"fast_vs_accurate\": {\"name\": \"Fast Solution vs Accurate Solution\", \"description\": \"Compare speed vs correctness tradeoffs\"}, \"optimistic_vs_critical\": {\"nam",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_decision_tree_decision_tree_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file decision_tree_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"tree\": {\"root\": \"User Request\", \"steps\": [{\"step\": 1, \"layer\": \"Dictionary\", \"question\": \"Can Dictionary answer?\"}, {\"step\": 2, \"layer\": \"Encyclopedia\", \"question\": \"Can Encyclopedia answer?\"}, {\"step\": 3, \"layer",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_dictionary_dictionary_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file dictionary_v0.json: {\"automobile\": \"car\", \"auto\": \"car\", \"gpu\": \"graphics processing unit\", \"cpu\": \"central processing unit\", \"llm\": \"large language model\", \"ai\": \"artificial intelligence\", \"ml\": \"machine learning\", \"nlp\": \"natural language processing\", \"api\": \"application progra",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL\", \"compute",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_word_reuse_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_word_reuse_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_report.json: {\"component\": \"Knowledge Grid V0\", \"role\": \"Weighted connections between major Translation OS knowledge systems\", \"pipeline_position\": \"Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_v0.json: {\"nodes\": [{\"id\": \"dictionary\", \"type\": \"knowledge\", \"name\": \"Dictionary Layer V0\"}, {\"id\": \"encyclopedia\", \"type\": \"knowledge\", \"name\": \"Encyclopedia Layer V0\"}, {\"id\": \"history_book\", \"type\": \"memory\", \"name\": \"History Book V0\"}, {\"id\": \"future_book\", \"t",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_pattern_recognizer_patterns.json in Translation OS?",
+    "answer_preview": "Infrastructure file patterns.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Pattern Recognizer V0 pattern store\"}, \"problem_types\": {\"Definition\": {\"count\": 14, \"successful_paths\": [null, null, null, null, null, null, null, null, null, null, null, null, null, null]}, \"Mat",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_problem_solve_problem_solve_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file problem_solve_templates.json: {\"planning\": {\"goal_template\": \"Plan and execute\", \"steps\": [\"Verify blockers\", \"Review roadmap\", \"Select next task\", \"Execute\", \"Measure\", \"Update scoreboard\"]}, \"math\": {\"goal_template\": \"Solve math problem\", \"steps\": [\"Extract numbers\", \"Identify ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_audit_reasoning_audit_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_audit_report.json: {\"component\": \"Reasoning Effectiveness Audit V0\", \"role\": \"Verify reasoning layers improve answers, not just generate additional context\", \"method\": \"Run Model Only vs Full Translation OS per benchmark problem\", \"categories\": [\"Arithmetic\", \"Algebra\",",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_heatmap_heatmap_storage.json in Translation OS?",
+    "answer_preview": "Infrastructure file heatmap_storage.json: [{\"problem_id\": \"math_apples_001\", \"query\": \"John has 3 boxes with 12 apples each and gives away 5.\", \"fact_heatmap\": {\"3 boxes\": 0.9, \"12 apples each\": 1.0, \"gave away 5\": 0.95}, \"knowledge_heatmap\": {\"dictionary\": 0.1, \"encyclopedia\": 0.0, \"cache\": 0.0, \"p",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_scoreboard_report.json: {\"component\": \"Reasoning Scoreboard V0\", \"role\": \"Measure effectiveness of every reasoning layer\", \"layers_tracked\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"acc",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_weights_reasoning_weight_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_weight_report.json: {\"component\": \"Adaptive Reasoning Weights V0\", \"role\": \"Dynamically decide which reasoning layers are worth running\", \"pipeline_position\": \"Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimme",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_layer_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_layer_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Cross-link Translation OS systems and identify indirect relationships\"}, \"links\": [{\"from\": \"Dictionary\", \"to\": \"Encyclopedia\", \"relationship\": \"expands\", \"weight\": 0.9}, {\"from\": \"History Boo",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_report.json: {\"component\": \"Weave Layer V0\", \"role\": \"Cross-link Translation OS systems and identify indirect relationships spanning subsystems\", \"pipeline_position\": \"Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is history_history_book_v0 in Translation OS?",
+    "answer_preview": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is project_graph_project_graph_report in Translation OS?",
+    "answer_preview": "Project graph file project_graph_report.json: {\"component\": \"Project Graph V0\", \"created\": \"2026-10-13\", \"metrics\": {\"nodes\": 20, \"edges\": 8, \"infrastructure_count\": 11, \"blocked_count\": 1, \"pending_count\": 4, \"dependency_accuracy\": \"TBD\", \"blocked_work_detection\": true, \"project_continuity\": \"impro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_encyclopedia_validation in Translation OS?",
+    "answer_preview": "Report dictionary_encyclopedia_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"matcher\": \"Exact term/alias match after intent extraction\", \"tests\": [{\"query\": \"what is entro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_v0_report in Translation OS?",
+    "answer_preview": "Report dictionary_v0_report.json: {\"component\": \"Dictionary Layer V0\", \"role\": \"Normalize synonyms, abbreviations, alternate spellings and aliases before HSCL\", \"pipeline_position\": \"Raw Text -> Dictionary -> HSCL -> ...\", \"dictionary_entries\": 19, \"test_queries\": [\"The automobile is fast\", \"I use G",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_golden_validation_report in Translation OS?",
+    "answer_preview": "Report golden_validation_report.json: {\"total\": 4, \"passed\": 4, \"results\": [{\"query\": \"What is 2+2?\", \"expected_type\": \"cache\", \"source\": \"cache\", \"passed\": true}, {\"query\": \"pipeline diagram\", \"expected_type\": \"picture\", \"source\": \"picture_memory\", \"passed\": true}, {\"query\": \"What does API mean?\", ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_knowledge_problem_mapper_validation in Translation OS?",
+    "answer_preview": "Report knowledge_problem_mapper_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"tests\": [{\"query\": \"what is entropy\", \"layer_hit\": \"Knowledge Layer\", \"s",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_memory_reuse_v0_report in Translation OS?",
+    "answer_preview": "Report memory_reuse_v0_report.json: {\"component\": \"Memory Reuse Layer V0\", \"role\": \"Reuse previous solutions, plans, and work products\", \"pipeline_position\": \"Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"memory_reuse_v0.json\", \"reasoning_templates_v0.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_problem_mapper_v0_report in Translation OS?",
+    "answer_preview": "Report problem_mapper_v0_report.json: {\"component\": \"Problem Mapper V0\", \"role\": \"Break complex problems into structured chunks before inference\", \"pipeline_position\": \"Router -> Problem Mapper -> Muse-Glimmer\", \"categories\": [\"math\", \"coding\", \"comparison\", \"planning\", \"explanation\"], \"test_cases\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_response_cache_v0_report in Translation OS?",
+    "answer_preview": "Report response_cache_v0_report.json: {\"component\": \"Response Cache v0\", \"pipeline\": \"Raw Text -> HSCL v1 -> Question Canonicalizer -> Response Cache -> Muse-Glimmer\", \"phase\": \"V0 prototype\", \"test_queries\": 8, \"cache_entries\": 5, \"hits\": 6, \"cache_hit_rate\": 0.75, \"avg_lookup_latency_ms\": 0.204, \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_translation_os_v1_validation in Translation OS?",
+    "answer_preview": "Report translation_os_v1_validation.json: {\"results\": [{\"query\": \"What is 2+2?\", \"hscl_compressed\": \"What is 2+2?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is the capital of France?\", \"hscl_compressed\": \"What is the capital of France?\", \"compression_ratio\": 1.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is workspace_memory_project_book in Translation OS?",
+    "answer_preview": "Workspace memory file project_book: {\"project\": \"Translation OS v1\", \"version\": \"1.0\", \"last_updated\": \"2026-10-13T00:00:00Z\", \"infrastructure\": [\"HSCL v1\", \"HSCL Word Reuse v1\", \"HSCL Semantic Grouping v0\", \"Dictionary Layer V0\", \"Encyclopedia Layer V0\", \"Knowledge Layer V0\", \"Response Cache v0\", \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T11:45:24.278285",
+    "problem": "Who was Isaac Newton?",
+    "answer_preview": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWho was Isaac Newton? Isaac Newton was an English mathematician, physicist, astronomer, and author who is widely recognized as one of the most i",
+    "selected_layers": [
+      "HSCL v1",
+      "Response Cache v0"
+    ],
+    "success_score": 0.9,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T11:47:15.187925",
+    "problem": "Who was Albert Einstein?",
+    "answer_preview": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWho was Albert Einstein? Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars ",
+    "selected_layers": [
+      "HSCL v1",
+      "Response Cache v0"
+    ],
+    "success_score": 0.9,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T11:50:36.545349",
+    "problem": "Who was Isaac Newton?",
+    "answer_preview": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWho was Isaac Newton? Isaac Newton was an English mathematician, physicist, astronomer, and author who is widely recognized as one of the most i",
+    "selected_layers": [
+      "HSCL v1",
+      "Response Cache v0"
+    ],
+    "success_score": 0.9,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is consider in Translation OS?",
+    "answer_preview": "Next Steps: Consider Response Cache v1.1 auto-learning",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_cache_response_cache_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file response_cache_v0.json: {\"WORD_PROBLEM_APPLES\": {\"patterns\": [\"john buys 3 boxes with 12 apples each and gives away 5\", \"john buys 3 boxes 12 apples each gives away 5\"], \"answer\": \"3 boxes \\u00c3\\u2014 12 apples = 36 apples, minus 5 given away = 31 apples remain.\", \"question_id\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_history.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_history.json: {\"history\": [{\"query\": \"How should Translation OS add GPU support?\", \"problem_type\": \"gpu_support\", \"mode\": \"alternative_approaches\", \"approaches\": [{\"debater\": \"Debater A\", \"approach\": \"Approach A for gpu_support\", \"pros\": [\"Benefit 1\", \"Benefit 2\"], \"cons\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_layer_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_layer_report.json: {\"component\": \"Debate Layer V0\", \"role\": \"Generate multiple solution approaches before selecting final answer\", \"pipeline_position\": \"Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_debate_debate_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file debate_templates.json: {\"modes\": {\"pro_con\": {\"name\": \"Pro / Con\", \"description\": \"Generate pros and cons for a decision\"}, \"fast_vs_accurate\": {\"name\": \"Fast Solution vs Accurate Solution\", \"description\": \"Compare speed vs correctness tradeoffs\"}, \"optimistic_vs_critical\": {\"nam",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_decision_tree_decision_tree_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file decision_tree_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"tree\": {\"root\": \"User Request\", \"steps\": [{\"step\": 1, \"layer\": \"Dictionary\", \"question\": \"Can Dictionary answer?\"}, {\"step\": 2, \"layer\": \"Encyclopedia\", \"question\": \"Can Encyclopedia answer?\"}, {\"step\": 3, \"layer",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_dictionary_dictionary_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file dictionary_v0.json: {\"automobile\": \"car\", \"auto\": \"car\", \"gpu\": \"graphics processing unit\", \"cpu\": \"central processing unit\", \"llm\": \"large language model\", \"ai\": \"artificial intelligence\", \"ml\": \"machine learning\", \"nlp\": \"natural language processing\", \"api\": \"application progra",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL\", \"compute",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_hscl_hscl_word_reuse_dictionary_v1.json in Translation OS?",
+    "answer_preview": "Infrastructure file hscl_word_reuse_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_report.json: {\"component\": \"Knowledge Grid V0\", \"role\": \"Weighted connections between major Translation OS knowledge systems\", \"pipeline_position\": \"Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_knowledge_grid_knowledge_grid_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file knowledge_grid_v0.json: {\"nodes\": [{\"id\": \"dictionary\", \"type\": \"knowledge\", \"name\": \"Dictionary Layer V0\"}, {\"id\": \"encyclopedia\", \"type\": \"knowledge\", \"name\": \"Encyclopedia Layer V0\"}, {\"id\": \"history_book\", \"type\": \"memory\", \"name\": \"History Book V0\"}, {\"id\": \"future_book\", \"t",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_pattern_recognizer_patterns.json in Translation OS?",
+    "answer_preview": "Infrastructure file patterns.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Pattern Recognizer V0 pattern store\"}, \"problem_types\": {\"Definition\": {\"count\": 51, \"successful_paths\": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_problem_solve_problem_solve_templates.json in Translation OS?",
+    "answer_preview": "Infrastructure file problem_solve_templates.json: {\"planning\": {\"goal_template\": \"Plan and execute\", \"steps\": [\"Verify blockers\", \"Review roadmap\", \"Select next task\", \"Execute\", \"Measure\", \"Update scoreboard\"]}, \"math\": {\"goal_template\": \"Solve math problem\", \"steps\": [\"Extract numbers\", \"Identify ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_audit_reasoning_audit_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_audit_report.json: {\"component\": \"Reasoning Effectiveness Audit V0\", \"role\": \"Verify reasoning layers improve answers, not just generate additional context\", \"method\": \"Run Model Only vs Full Translation OS per benchmark problem\", \"categories\": [\"Arithmetic\", \"Algebra\",",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_heatmap_heatmap_storage.json in Translation OS?",
+    "answer_preview": "Infrastructure file heatmap_storage.json: [{\"problem_id\": \"math_apples_001\", \"query\": \"John has 3 boxes with 12 apples each and gives away 5.\", \"fact_heatmap\": {\"3 boxes\": 0.9, \"12 apples each\": 1.0, \"gave away 5\": 0.95}, \"knowledge_heatmap\": {\"dictionary\": 0.1, \"encyclopedia\": 0.0, \"cache\": 0.0, \"p",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_scoreboard_report.json: {\"component\": \"Reasoning Scoreboard V0\", \"role\": \"Measure effectiveness of every reasoning layer\", \"layers_tracked\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"acc",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_reasoning_weights_reasoning_weight_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file reasoning_weight_report.json: {\"component\": \"Adaptive Reasoning Weights V0\", \"role\": \"Dynamically decide which reasoning layers are worth running\", \"pipeline_position\": \"Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimme",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_layer_v0.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_layer_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Cross-link Translation OS systems and identify indirect relationships\"}, \"links\": [{\"from\": \"Dictionary\", \"to\": \"Encyclopedia\", \"relationship\": \"expands\", \"weight\": 0.9}, {\"from\": \"History Boo",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is infra_infrastructure_weave_weave_report.json in Translation OS?",
+    "answer_preview": "Infrastructure file weave_report.json: {\"component\": \"Weave Layer V0\", \"role\": \"Cross-link Translation OS systems and identify indirect relationships spanning subsystems\", \"pipeline_position\": \"Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"pro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is history_history_book_v0 in Translation OS?",
+    "answer_preview": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is project_graph_project_graph_report in Translation OS?",
+    "answer_preview": "Project graph file project_graph_report.json: {\"component\": \"Project Graph V0\", \"created\": \"2026-10-13\", \"metrics\": {\"nodes\": 20, \"edges\": 8, \"infrastructure_count\": 11, \"blocked_count\": 1, \"pending_count\": 4, \"dependency_accuracy\": \"TBD\", \"blocked_work_detection\": true, \"project_continuity\": \"impro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_encyclopedia_validation in Translation OS?",
+    "answer_preview": "Report dictionary_encyclopedia_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"matcher\": \"Exact term/alias match after intent extraction\", \"tests\": [{\"query\": \"what is entro",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_dictionary_v0_report in Translation OS?",
+    "answer_preview": "Report dictionary_v0_report.json: {\"component\": \"Dictionary Layer V0\", \"role\": \"Normalize synonyms, abbreviations, alternate spellings and aliases before HSCL\", \"pipeline_position\": \"Raw Text -> Dictionary -> HSCL -> ...\", \"dictionary_entries\": 19, \"test_queries\": [\"The automobile is fast\", \"I use G",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_golden_validation_report in Translation OS?",
+    "answer_preview": "Report golden_validation_report.json: {\"total\": 4, \"passed\": 4, \"results\": [{\"query\": \"What is 2+2?\", \"expected_type\": \"cache\", \"source\": \"cache\", \"passed\": true}, {\"query\": \"pipeline diagram\", \"expected_type\": \"picture\", \"source\": \"picture_memory\", \"passed\": true}, {\"query\": \"What does API mean?\", ",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_knowledge_problem_mapper_validation in Translation OS?",
+    "answer_preview": "Report knowledge_problem_mapper_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"tests\": [{\"query\": \"what is entropy\", \"layer_hit\": \"Knowledge Layer\", \"s",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_memory_reuse_v0_report in Translation OS?",
+    "answer_preview": "Report memory_reuse_v0_report.json: {\"component\": \"Memory Reuse Layer V0\", \"role\": \"Reuse previous solutions, plans, and work products\", \"pipeline_position\": \"Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"memory_reuse_v0.json\", \"reasoning_templates_v0.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_problem_mapper_v0_report in Translation OS?",
+    "answer_preview": "Report problem_mapper_v0_report.json: {\"component\": \"Problem Mapper V0\", \"role\": \"Break complex problems into structured chunks before inference\", \"pipeline_position\": \"Router -> Problem Mapper -> Muse-Glimmer\", \"categories\": [\"math\", \"coding\", \"comparison\", \"planning\", \"explanation\"], \"test_cases\":",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_response_cache_v0_report in Translation OS?",
+    "answer_preview": "Report response_cache_v0_report.json: {\"component\": \"Response Cache v0\", \"pipeline\": \"Raw Text -> HSCL v1 -> Question Canonicalizer -> Response Cache -> Muse-Glimmer\", \"phase\": \"V0 prototype\", \"test_queries\": 8, \"cache_entries\": 5, \"hits\": 6, \"cache_hit_rate\": 0.75, \"avg_lookup_latency_ms\": 0.204, \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is report_translation_os_v1_validation in Translation OS?",
+    "answer_preview": "Report translation_os_v1_validation.json: {\"results\": [{\"query\": \"What is 2+2?\", \"hscl_compressed\": \"What is 2+2?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is the capital of France?\", \"hscl_compressed\": \"What is the capital of France?\", \"compression_ratio\": 1.",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-13T00:00:00Z",
+    "problem": "What is workspace_memory_project_book in Translation OS?",
+    "answer_preview": "Workspace memory file project_book: {\"project\": \"Translation OS v1\", \"version\": \"1.0\", \"last_updated\": \"2026-10-13T00:00:00Z\", \"infrastructure\": [\"HSCL v1\", \"HSCL Word Reuse v1\", \"HSCL Semantic Grouping v0\", \"Dictionary Layer V0\", \"Encyclopedia Layer V0\", \"Knowledge Layer V0\", \"Response Cache v0\", \"",
+    "selected_layers": [
+      "Encyclopedia",
+      "Memory Reuse"
+    ],
+    "success_score": 1.0,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:05.652361",
+    "problem": "Who was Albert Einstein?",
+    "answer_preview": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWho was Albert Einstein? Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars ",
+    "selected_layers": [
+      "HSCL v1",
+      "Response Cache v0"
+    ],
+    "success_score": 0.9,
+    "note_type": "non_deterministic_insight"
+  },
+  {
+    "timestamp": "2026-10-14T12:34:04.433755",
+    "problem": "What was the American Revolution?",
+    "answer_preview": "[Problem Solve Plan] Type: planning; Goal: Plan and execute; Steps: Verify blockers, Review roadmap, Select next task, Execute, Measure, Update scoreboard\n\nWhat was the American Revolution? The American Revolution was a colonial revolt that took place between 1765 and 1783. The American Patriots in ",
+    "selected_layers": [
+      "HSCL v1",
+      "Response Cache v0"
+    ],
+    "success_score": 0.9,
+    "note_type": "non_deterministic_insight"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "component": "Future Book V0",
+  "created": "2026-10-13",
+  "metrics": {
+    "roadmap_accuracy": "TBD",
+    "dependency_tracking_accuracy": "TBD",
+    "blocked_goal_detection": true,
+    "project_continuity": "improved",
+    "latency_delta_ms": "TBD"
+  },
+  "current_goal": "GPU Support",
+  "blocked_goals": 1,
+  "future_goals": 4,
+  "status": "KEEP",
+  "notes": "Future Book stores current goals, future goals, milestones, blockers, dependencies, priorities, execution order"
+}

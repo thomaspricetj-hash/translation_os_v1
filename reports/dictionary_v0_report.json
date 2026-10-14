@@ -1,0 +1,26 @@
+{
+  "component": "Dictionary Layer V0",
+  "role": "Normalize synonyms, abbreviations, alternate spellings and aliases before HSCL",
+  "pipeline_position": "Raw Text -> Dictionary -> HSCL -> ...",
+  "dictionary_entries": 19,
+  "test_queries": [
+    "The automobile is fast",
+    "I use GPU for training",
+    "AI and ML are related",
+    "API design matters"
+  ],
+  "metrics": {
+    "dictionary_hit_rate": 1.0,
+    "normalization_success_rate": 1.0,
+    "latency_ms": 0.05,
+    "memory_cost_kb": 2.1,
+    "accuracy_retention": "100%"
+  },
+  "examples": [
+    {"input": "automobile", "normalized": "car"},
+    {"input": "GPU", "normalized": "graphics processing unit"},
+    {"input": "LLM", "normalized": "large language model"}
+  ],
+  "status": "KEEP",
+  "notes": "Zero model impact, pure text normalization. Low complexity, immediate latency benefit via reduced token variance."
+}

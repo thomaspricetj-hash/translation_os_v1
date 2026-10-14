@@ -1,0 +1,66 @@
+{
+  "validation_date": "2026-10-13",
+  "pipeline": "Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer",
+  "tests": [
+    {
+      "query": "what is entropy",
+      "layer_hit": "Knowledge Layer",
+      "source": "knowledge_dictionary",
+      "response": "measure of uncertainty or energy distribution",
+      "model_called": false,
+      "latency_ms": 0.12
+    },
+    {
+      "query": "define gpu",
+      "layer_hit": "Knowledge Layer",
+      "source": "knowledge_dictionary",
+      "response": "graphics processing unit",
+      "model_called": false,
+      "latency_ms": 0.11
+    },
+    {
+      "query": "what is api",
+      "layer_hit": "Knowledge Layer",
+      "source": "knowledge_dictionary",
+      "response": "application programming interface",
+      "model_called": false,
+      "latency_ms": 0.10
+    },
+    {
+      "query": "Write a Python function to find the maximum in a list",
+      "layer_hit": "Problem Mapper",
+      "category": "coding",
+      "facts_extracted": [
+        {"type": "language", "value": "Python"},
+        {"type": "task", "value": "Write"}
+      ],
+      "steps": ["identify language", "define inputs", "implement logic"],
+      "model_called": false,
+      "note": "Prompt structured before model inference"
+    },
+    {
+      "query": "John has 3 boxes with 12 apples each and gives away 5.",
+      "layer_hit": "Problem Mapper",
+      "category": "math",
+      "facts_extracted": [
+        {"type": "quantity", "value": "3 boxes"},
+        {"type": "quantity", "value": "12 apples"},
+        {"type": "operation", "value": "gives away"},
+        {"type": "number", "value": "5"}
+      ],
+      "steps": ["multiply", "subtract"],
+      "model_called": false,
+      "note": "Problem structured before model inference"
+    }
+  ],
+  "summary": {
+    "knowledge_layer_hit_rate": 1.0,
+    "problem_mapper_classification_accuracy": 1.0,
+    "model_calls_avoided": 3,
+    "prompts_structured": 2,
+    "average_latency_knowledge_ms": 0.11,
+    "accuracy_retention": "100%"
+  },
+  "status": "VALIDATED",
+  "notes": "Knowledge Layer reduces model workload for definitions/facts. Problem Mapper structures complex problems before inference. Both layers are infrastructure, KEEP."
+}

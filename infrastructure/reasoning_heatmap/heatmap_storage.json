@@ -1,0 +1,25 @@
+[
+  {
+    "problem_id": "math_apples_001",
+    "query": "John has 3 boxes with 12 apples each and gives away 5.",
+    "fact_heatmap": {
+      "3 boxes": 0.9,
+      "12 apples each": 1.0,
+      "gave away 5": 0.95
+    },
+    "knowledge_heatmap": {
+      "dictionary": 0.1,
+      "encyclopedia": 0.0,
+      "cache": 0.0,
+      "problem_mapper": 1.0,
+      "model": 0.8
+    },
+    "reasoning_heatmap": [
+      {"step": "multiply", "importance": 1.0},
+      {"step": "subtract", "importance": 1.0}
+    ],
+    "answer": 31,
+    "success": true,
+    "created": "2026-10-13"
+  }
+]

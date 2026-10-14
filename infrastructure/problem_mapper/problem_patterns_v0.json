@@ -1,0 +1,80 @@
+[
+  {
+    "category": "math",
+    "patterns": [
+      "has.*boxes.*each",
+      "apples.*each",
+      "gives away",
+      "total.*",
+      "multiply",
+      "subtract",
+      "percent of",
+      "times",
+      "divided by"
+    ],
+    "extractors": [
+      {"type": "quantity", "regex": "(\\d+)\\s*boxes"},
+      {"type": "quantity", "regex": "(\\d+)\\s*apples?"},
+      {"type": "operation", "regex": "gives away|subtract"}
+    ],
+    "steps_template": ["multiply", "subtract"]
+  },
+  {
+    "category": "coding",
+    "patterns": [
+      "write code",
+      "implement",
+      "function",
+      "bug",
+      "error",
+      "script"
+    ],
+    "extractors": [
+      {"type": "language", "regex": "(python|javascript|java|c\\+\\+)"},
+      {"type": "task", "regex": "write|implement|debug"}
+    ],
+    "steps_template": ["identify language", "define inputs", "implement logic"]
+  },
+  {
+    "category": "comparison",
+    "patterns": [
+      "compare",
+      "difference between",
+      "vs",
+      "versus",
+      "pros and cons"
+    ],
+    "extractors": [
+      {"type": "item_a", "regex": "compare (.+?) and (.+?)"}
+    ],
+    "steps_template": ["list attributes", "contrast", "summarize"]
+  },
+  {
+    "category": "planning",
+    "patterns": [
+      "plan",
+      "steps to",
+      "how to",
+      "schedule",
+      "timeline"
+    ],
+    "extractors": [
+      {"type": "goal", "regex": "plan (.+?)"}
+    ],
+    "steps_template": ["break down", "order steps", "estimate time"]
+  },
+  {
+    "category": "explanation",
+    "patterns": [
+      "explain",
+      "why",
+      "how does",
+      "what is",
+      "definition of"
+    ],
+    "extractors": [
+      {"type": "concept", "regex": "explain (.+?)"}
+    ],
+    "steps_template": ["define concept", "give examples", "summarize"]
+  }
+]

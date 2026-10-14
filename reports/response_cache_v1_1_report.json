@@ -1,0 +1,11 @@
+{
+  "auto_learned_entries": 0,
+  "total_groups_evaluated": 236,
+  "cache_size": 190,
+  "safeguards": {
+    "min_hits": 2,
+    "min_success": 0.85,
+    "max_words": 50,
+    "deterministic_check": true
+  }
+}

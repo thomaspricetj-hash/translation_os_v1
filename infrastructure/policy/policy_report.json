@@ -1,0 +1,47 @@
+{
+  "component": "Policy Layer V0",
+  "role": "Define decision philosophy and how system chooses between actions",
+  "pipeline_position": "Master Orchestrator -> Policy Layer -> Decision Tree -> Knowledge Grid -> Weave Layer -> Execution Path",
+  "status": "KEEP",
+  "promoted_date": "2026-10-13",
+  "default_policies": [
+    "reuse_before_rebuild",
+    "cache_before_model",
+    "history_before_guessing",
+    "facts_before_reasoning",
+    "resolve_blockers_before_new_work",
+    "measure_before_keep",
+    "keep_before_expand",
+    "project_continuity_first"
+  ],
+  "metrics": {
+    "decision_quality": "TBD",
+    "duplicate_work_reduction": "TBD",
+    "blocker_resolution_rate": "TBD",
+    "model_call_reduction": "TBD",
+    "project_continuity": "TBD",
+    "latency_delta_ms": "TBD"
+  },
+  "queries_supported": [
+    "What should happen next?",
+    "What is highest priority?",
+    "Why was this component selected?",
+    "Why was the model bypassed?",
+    "Which policy made this decision?"
+  ],
+  "validation_tests": [
+    {
+      "query": "What is preventing Math-Boost?",
+      "policy": "reuse_before_rebuild",
+      "expected_source": "Memory Reuse Layer",
+      "result": "PASS"
+    },
+    {
+      "query": "What should I build next?",
+      "policy": "resolve_blockers_before_new_work",
+      "expected_result": "GPU Support",
+      "result": "PASS"
+    }
+  ],
+  "notes": "Policy Layer defines system behavior. Master Orchestrator coordinates components. Decision Tree chooses paths. Build as infrastructure. Do not modify Muse-Glimmer."
+}

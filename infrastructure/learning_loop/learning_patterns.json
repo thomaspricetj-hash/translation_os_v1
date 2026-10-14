@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "created": "2026-10-13",
+    "purpose": "Pattern rules derived from learning history"
+  },
+  "patterns": [
+    {
+      "problem_type": "General",
+      "samples": 1165,
+      "avg_success": 0.986,
+      "router_accuracy": 0.0,
+      "problem_mapper_helpful_rate": 0.0,
+      "debate_helpful_rate": 0.0,
+      "memory_reuse_helpful_rate": 0.933,
+      "cache_helpful_rate": 0.028,
+      "recommendations": {
+        "increase_weight": [],
+        "decrease_weight": [
+          "Debate Layer"
+        ]
+      }
+    },
+    {
+      "problem_type": "Math",
+      "samples": 66,
+      "avg_success": 0.967,
+      "router_accuracy": 0.015,
+      "problem_mapper_helpful_rate": 0.045,
+      "debate_helpful_rate": 0.0,
+      "memory_reuse_helpful_rate": 0.788,
+      "cache_helpful_rate": 0.152,
+      "recommendations": {
+        "increase_weight": [],
+        "decrease_weight": [
+          "Debate Layer"
+        ]
+      }
+    }
+  ],
+  "last_updated": "2026-10-14T13:19:04.643003"
+}

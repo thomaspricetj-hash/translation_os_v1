@@ -1,0 +1,55 @@
+{
+  "semantic_groups": [
+    {
+      "group_id": "NN",
+      "phrases": ["artificial neural network", "deep neural network", "neural network"],
+      "abbreviation": "NN"
+    },
+    {
+      "group_id": "DL",
+      "phrases": ["deep learning", "deep neural network"],
+      "abbreviation": "DL"
+    },
+    {
+      "group_id": "NLP",
+      "phrases": ["natural language processing", "natural language understanding"],
+      "abbreviation": "NLP"
+    },
+    {
+      "group_id": "ML",
+      "phrases": ["machine learning", "supervised learning", "unsupervised learning", "semi supervised learning"],
+      "abbreviation": "ML"
+    },
+    {
+      "group_id": "AI",
+      "phrases": ["artificial intelligence"],
+      "abbreviation": "AI"
+    },
+    {
+      "group_id": "CNN",
+      "phrases": ["convolutional neural network"],
+      "abbreviation": "CNN"
+    },
+    {
+      "group_id": "RNN",
+      "phrases": ["recurrent neural network"],
+      "abbreviation": "RNN"
+    },
+    {
+      "group_id": "SGD",
+      "phrases": ["stochastic gradient descent", "gradient descent"],
+      "abbreviation": "SGD"
+    },
+    {
+      "group_id": "CV",
+      "phrases": ["computer vision"],
+      "abbreviation": "CV"
+    },
+    {
+      "group_id": "RL",
+      "phrases": ["reinforcement learning"],
+      "abbreviation": "RL"
+    }
+  ],
+  "notes": "Semantic grouping maps effectively equivalent technical concepts to shared abbreviations. No broad semantic categories."
+}

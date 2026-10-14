@@ -1,0 +1,45 @@
+{
+  "planning": {
+    "goal_template": "Plan and execute",
+    "steps": [
+      "Verify blockers",
+      "Review roadmap",
+      "Select next task",
+      "Execute",
+      "Measure",
+      "Update scoreboard"
+    ]
+  },
+  "math": {
+    "goal_template": "Solve math problem",
+    "steps": [
+      "Extract numbers",
+      "Identify operations",
+      "Perform operations",
+      "Verify answer"
+    ]
+  },
+  "coding": {
+    "goal_template": "Fix or implement code",
+    "steps": [
+      "Identify error",
+      "Locate source file",
+      "Create fix",
+      "Validate fix"
+    ]
+  },
+  "gpu_support": {
+    "goal": "Add GPU Support",
+    "subgoals": [
+      "Detect Nvidia",
+      "Detect AMD",
+      "CPU fallback",
+      "Benchmark performance"
+    ],
+    "dependencies": [
+      "CUDA backend",
+      "ROCm backend"
+    ],
+    "recommended_order": [1,2,3,4]
+  }
+}

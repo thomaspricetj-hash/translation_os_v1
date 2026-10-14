@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "built": "2026-10-13",
+    "purpose": "Decision philosophy for Translation OS"
+  },
+  "policies": [
+    {"rule": "reuse_before_rebuild", "weight": 0.95, "description": "Reuse existing solutions before rebuilding"},
+    {"rule": "cache_before_model", "weight": 1.0, "description": "Use cache before invoking model"},
+    {"rule": "history_before_guessing", "weight": 0.9, "description": "Prefer historical data over guessing"},
+    {"rule": "facts_before_reasoning", "weight": 0.85, "description": "Use known facts before reasoning"},
+    {"rule": "resolve_blockers_before_new_work", "weight": 0.9, "description": "Resolve blockers before starting new work"},
+    {"rule": "measure_before_keep", "weight": 0.95, "description": "Measure before keeping component"},
+    {"rule": "keep_before_expand", "weight": 0.8, "description": "Keep proven components before expanding"},
+    {"rule": "project_continuity_first", "weight": 0.85, "description": "Prioritize project continuity"}
+  ],
+  "priorities": [
+    {"rule": "cache_before_model", "weight": 1.0},
+    {"rule": "reuse_before_rebuild", "weight": 0.95},
+    {"rule": "resolve_blockers_before_new_work", "weight": 0.9}
+  ]
+}

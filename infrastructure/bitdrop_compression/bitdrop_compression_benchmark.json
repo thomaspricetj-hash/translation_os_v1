@@ -1,0 +1,30 @@
+{
+  "component": "BitDrop Compression V0",
+  "samples_tested": 3,
+  "average_compression_ratio": 15.0,
+  "average_latency_ms": 0.0019333335027719538,
+  "results": [
+    {
+      "sample_id": 1,
+      "original_bytes": 900,
+      "compressed_bytes": 60,
+      "compression_ratio": 15.0,
+      "latency_ms": 0.0027999994927085936
+    },
+    {
+      "sample_id": 2,
+      "original_bytes": 3360,
+      "compressed_bytes": 224,
+      "compression_ratio": 15.0,
+      "latency_ms": 0.0021000014385208488
+    },
+    {
+      "sample_id": 3,
+      "original_bytes": 870,
+      "compressed_bytes": 58,
+      "compression_ratio": 15.0,
+      "latency_ms": 0.0008999995770864189
+    }
+  ],
+  "scoreboard_decision": "PENDING"
+}

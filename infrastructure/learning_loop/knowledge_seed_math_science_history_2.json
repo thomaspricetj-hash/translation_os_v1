@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": "MATH_CALCULUS",
+    "patterns": ["what is calculus?"],
+    "answer": "Calculus is the mathematical study of continuous change, dealing with derivatives and integrals.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_PHOTOSYNTHESIS",
+    "patterns": ["what is photosynthesis?"],
+    "answer": "Photosynthesis is the process plants use to convert sunlight into chemical energy, producing glucose and oxygen.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "HIST_RENAISSANCE",
+    "patterns": ["what was the renaissance?"],
+    "answer": "The Renaissance was a European cultural movement from the 14th to 17th century marked by renewed interest in art, science, and classical learning.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_DNA",
+    "patterns": ["what is dna?"],
+    "answer": "DNA is the molecule that carries genetic instructions for growth, development, and function in living organisms.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "MATH_DERIVATIVE",
+    "patterns": ["what is a derivative?"],
+    "answer": "A derivative measures the instantaneous rate of change of a function with respect to its variable.",
+    "source": "model_distill"
+  }
+]

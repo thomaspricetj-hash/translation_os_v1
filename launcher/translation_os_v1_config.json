@@ -1,0 +1,31 @@
+{
+  "model": {
+    "gguf_path": "C:/Users/thoma/.lmstudio/apps/bionic/projects/d49037d8-47f4-5808-9028-c707de117f8f/workspace/TRANSLATION_OS_V1/models/Muse-Glimmer-Dequantized-Q4_K_M-real.gguf",
+    "llama_simple_path": "C:/Users/thoma/.lmstudio/apps/bionic/projects/d49037d8-47f4-5808-9028-c707de117f8f/workspace/dttq/llama.cpp/build/bin/Release/llama-simple.exe",
+    "max_tokens": 256,
+    "gpu_mode": "auto",
+    "cpu_fallback": true,
+    "n_gpu_layers": "auto"
+  },
+  "pipeline": {
+    "dictionary_enabled": true,
+    "dictionary_path": "dictionary/dictionary_v0.json",
+    "encyclopedia_enabled": true,
+    "encyclopedia_path": "encyclopedia/encyclopedia_v0.json",
+    "hscl_enabled": true,
+    "hscl_dictionary": "hscl_dictionary_v1.json",
+    "hscl_word_reuse": true,
+    "hscl_word_reuse_dictionary": "hscl_word_reuse_dictionary_v1.json",
+    "hscl_semantic_grouping": true,
+    "semantic_grouping_file": "hscl_semantic_grouping_v0.json",
+    "canonicalizer_enabled": true,
+    "response_cache_enabled": true,
+    "response_cache_path": "response_cache_v1_1.json",
+    "router_enabled": true,
+    "router_mode": "rule_based"
+  },
+  "scoreboard": {
+    "infrastructure": ["HSCL v1", "HSCL Word Reuse v1", "HSCL Semantic Grouping v0", "Response Cache v0", "Prompt Classifier Router v0"],
+    "blocked": ["Math-Boost v1"]
+  }
+}

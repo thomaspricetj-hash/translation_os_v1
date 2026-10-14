@@ -1,0 +1,434 @@
+{
+  "history": [
+    {
+      "query": "Find Catalan C50 modulo 1,000,000,007",
+      "scored_routes": [
+        {
+          "route": "Response Cache",
+          "score": 0.95
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Problem Solve Layer",
+          "score": 0.85
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.7
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.6
+        }
+      ],
+      "selected_route": "Response Cache",
+      "selected_score": 0.95
+    },
+    {
+      "query": "What is 2+2?",
+      "scored_routes": [
+        {
+          "route": "Response Cache",
+          "score": 1.0
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Problem Solve Layer",
+          "score": 0.85
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.7
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.6
+        }
+      ],
+      "selected_route": "Response Cache",
+      "selected_score": 1.0
+    },
+    {
+      "query": "pipeline diagram",
+      "scored_routes": [
+        {
+          "route": "Response Cache",
+          "score": 0.95
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Problem Solve Layer",
+          "score": 0.85
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.7
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.6
+        }
+      ],
+      "selected_route": "Response Cache",
+      "selected_score": 0.95
+    },
+    {
+      "query": "What does API mean?",
+      "scored_routes": [
+        {
+          "route": "Response Cache",
+          "score": 0.95
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Problem Solve Layer",
+          "score": 0.85
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.7
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.6
+        }
+      ],
+      "selected_route": "Response Cache",
+      "selected_score": 0.95
+    },
+    {
+      "query": "Find the 1000th digit after the decimal point in the decimal expansion of 1/7",
+      "scored_routes": [
+        {
+          "route": "Response Cache",
+          "score": 0.95
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Problem Solve Layer",
+          "score": 0.85
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.7
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.6
+        }
+      ],
+      "selected_route": "Response Cache",
+      "selected_score": 0.95
+    },
+    {
+      "query": "What is 2+2?",
+      "scored_routes": [
+        {
+          "route": "Response Cache",
+          "score": 1.0
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Problem Solve Layer",
+          "score": 0.85
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.7
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.6
+        }
+      ],
+      "selected_route": "Response Cache",
+      "selected_score": 1.0
+    },
+    {
+      "query": "pipeline diagram",
+      "scored_routes": [
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Problem Solve Layer",
+          "score": 0.85
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.7
+        },
+        {
+          "route": "Response Cache",
+          "score": 0.665
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.6
+        }
+      ],
+      "selected_route": "Dictionary",
+      "selected_score": 0.9
+    },
+    {
+      "query": "What does API mean?",
+      "scored_routes": [
+        {
+          "route": "Response Cache",
+          "score": 0.95
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Problem Solve Layer",
+          "score": 0.85
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.7
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.6
+        }
+      ],
+      "selected_route": "Response Cache",
+      "selected_score": 0.95
+    },
+    {
+      "query": "Find the 1000th digit after the decimal point in the decimal expansion of 1/7",
+      "scored_routes": [
+        {
+          "route": "Problem Solve Layer",
+          "score": 1.0
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.98
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.84
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Response Cache",
+          "score": 0.475
+        }
+      ],
+      "selected_route": "Problem Solve Layer",
+      "selected_score": 1.0
+    },
+    {
+      "query": "Find the 1000th digit after the decimal point in the decimal expansion of 1/7",
+      "scored_routes": [
+        {
+          "route": "Problem Solve Layer",
+          "score": 1.0
+        },
+        {
+          "route": "Debate Layer",
+          "score": 0.98
+        },
+        {
+          "route": "Dictionary",
+          "score": 0.9
+        },
+        {
+          "route": "Memory Reuse",
+          "score": 0.88
+        },
+        {
+          "route": "Encyclopedia",
+          "score": 0.85
+        },
+        {
+          "route": "Muse-Glimmer",
+          "score": 0.84
+        },
+        {
+          "route": "Project Graph",
+          "score": 0.8
+        },
+        {
+          "route": "Knowledge Grid",
+          "score": 0.75
+        },
+        {
+          "route": "Response Cache",
+          "score": 0.475
+        }
+      ],
+      "selected_route": "Problem Solve Layer",
+      "selected_score": 1.0
+    }
+  ]
+}

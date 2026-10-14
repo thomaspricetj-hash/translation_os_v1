@@ -1,0 +1,12 @@
+{
+  "translation_os_version": "1.0",
+  "backend_model": "Muse-Glimmer-Dequantized-Q4_K_M-real.gguf",
+  "infrastructure": [
+    "HSCL v1",
+    "HSCL Word Reuse v1",
+    "HSCL Semantic Grouping v0",
+    "Response Cache v0",
+    "Prompt Classifier Router v0"
+  ],
+  "status": "ACTIVE"
+}

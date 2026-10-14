@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": "MATH_PRIME",
+    "patterns": ["what is a prime number?"],
+    "answer": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "MATH_PYTHAGOREAN",
+    "patterns": ["what is the pythagorean theorem?"],
+    "answer": "In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides: a² + b² = c².",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_RELATIVITY",
+    "patterns": ["what is the theory of relativity?"],
+    "answer": "Theory of relativity describes how space and time are interwoven and how gravity affects motion. Includes special and general relativity.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "HIST_NEWTON",
+    "patterns": ["who was isaac newton?"],
+    "answer": "Isaac Newton was an English physicist and mathematician who formulated the laws of motion and universal gravitation.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "HIST_INDUSTRIAL",
+    "patterns": ["what was the industrial revolution?"],
+    "answer": "The Industrial Revolution was a period of major industrialization and innovation, mainly in Britain from the 18th century, transforming economies and society.",
+    "source": "model_distill"
+  }
+]

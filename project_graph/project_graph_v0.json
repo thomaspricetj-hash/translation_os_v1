@@ -1,0 +1,164 @@
+{
+  "version": "0.0",
+  "created": "2026-10-13",
+  "nodes": [
+    {
+      "id": "hscl_v1",
+      "name": "HSCL v1",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "hscl_word_reuse_v1",
+      "name": "HSCL Word Reuse v1",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "hscl_semantic_grouping_v0",
+      "name": "HSCL Semantic Grouping v0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "dictionary_v0",
+      "name": "Dictionary Layer V0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "encyclopedia_v0",
+      "name": "Encyclopedia Layer V0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "knowledge_layer_v0",
+      "name": "Knowledge Layer V0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "response_cache_v0",
+      "name": "Response Cache v0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "prompt_classifier_router_v0",
+      "name": "Prompt Classifier Router v0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "problem_mapper_v0",
+      "name": "Problem Mapper V0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "memory_reuse_v0",
+      "name": "Memory Reuse Layer V0",
+      "type": "Memory",
+      "status": "KEEP"
+    },
+    {
+      "id": "workspace_memory_v1",
+      "name": "Workspace Memory V1",
+      "type": "Memory",
+      "status": "KEEP"
+    },
+    {
+      "id": "reasoning_heatmap_v0",
+      "name": "Reasoning Heatmap V0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    },
+    {
+      "id": "math_boost_v1",
+      "name": "Math-Boost v1",
+      "type": "Specialists",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "gpu_acceleration_v1",
+      "name": "GPU Acceleration V1",
+      "type": "Infrastructure",
+      "status": "DELETE"
+    },
+    {
+      "id": "response_cache_v1_1",
+      "name": "Response Cache v1.1",
+      "type": "Infrastructure",
+      "status": "PENDING_REVIEW"
+    },
+    {
+      "id": "coding_boost_v1",
+      "name": "Coding-Boost v1",
+      "type": "Specialists",
+      "status": "PENDING"
+    },
+    {
+      "id": "router_v1",
+      "name": "Router v1",
+      "type": "Future Components",
+      "status": "PENDING"
+    },
+    {
+      "id": "translator_v1",
+      "name": "Translator v1",
+      "type": "Future Components",
+      "status": "PENDING"
+    },
+    {
+      "id": "nemotron_boost",
+      "name": "Nemotron Boost",
+      "type": "Future Components",
+      "status": "PENDING"
+    }
+  ],
+  "edges": [
+    {
+      "source": "response_cache_v0",
+      "target": "hscl_v1",
+      "type": "uses"
+    },
+    {
+      "source": "math_boost_v1",
+      "target": "gpu_acceleration_v1",
+      "type": "depends_on"
+    },
+    {
+      "source": "problem_mapper_v0",
+      "target": "memory_reuse_v0",
+      "type": "related_to"
+    },
+    {
+      "source": "hscl_word_reuse_v1",
+      "target": "hscl_v1",
+      "type": "extends"
+    },
+    {
+      "source": "hscl_semantic_grouping_v0",
+      "target": "hscl_v1",
+      "type": "extends"
+    },
+    {
+      "source": "reasoning_heatmap_v0",
+      "target": "problem_mapper_v0",
+      "type": "uses"
+    },
+    {
+      "source": "memory_reuse_v0",
+      "target": "workspace_memory_v1",
+      "type": "uses"
+    },
+    {
+      "source": "dictionary_v0",
+      "name": "Dictionary Layer V0",
+      "type": "Infrastructure",
+      "status": "KEEP"
+    }
+  ],
+  "updated": "2026-10-13"
+}

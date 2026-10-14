@@ -1,0 +1,56 @@
+{
+  "version": "0.0",
+  "created": "2026-10-13",
+  "tree": {
+    "root": "User Request",
+    "steps": [
+      {
+        "step": 1,
+        "layer": "Dictionary",
+        "question": "Can Dictionary answer?"
+      },
+      {
+        "step": 2,
+        "layer": "Encyclopedia",
+        "question": "Can Encyclopedia answer?"
+      },
+      {
+        "step": 3,
+        "layer": "Response Cache",
+        "question": "Can Response Cache answer?"
+      },
+      {
+        "step": 4,
+        "layer": "Memory Reuse",
+        "question": "Can Memory Reuse answer?"
+      },
+      {
+        "step": 5,
+        "layer": "Rule Engine",
+        "question": "Can Rule Engine answer?"
+      },
+      {
+        "step": 6,
+        "layer": "Problem Mapper",
+        "question": "Can Problem Mapper simplify?"
+      },
+      {
+        "step": 7,
+        "layer": "Muse-Glimmer",
+        "question": "Invoke Muse-Glimmer if all previous layers fail"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "query": "What is 2+2?",
+      "path": ["cache"],
+      "model_called": false
+    },
+    {
+      "query": "Design GPU support for Translation OS",
+      "path": ["memory_reuse", "problem_mapper"],
+      "model_called": true
+    }
+  ]
+}

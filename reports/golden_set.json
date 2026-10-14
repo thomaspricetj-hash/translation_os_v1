@@ -1,0 +1,6 @@
+[
+  {"query": "What is 2+2?", "expected": "4", "type": "cache"},
+  {"query": "pipeline diagram", "expected": "picture_memory", "type": "picture"},
+  {"query": "What does API mean?", "expected": "API", "type": "cache"},
+  {"query": "Find the 1000th digit after the decimal point in the decimal expansion of 1/7", "expected": "model", "type": "reasoning"}
+]

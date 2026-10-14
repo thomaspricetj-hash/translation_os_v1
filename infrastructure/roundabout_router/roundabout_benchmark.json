@@ -1,0 +1,26 @@
+[
+  {
+    "query": "What is 2+2?",
+    "expected_type": "cache",
+    "selected_route": "Response Cache",
+    "score": 1.0
+  },
+  {
+    "query": "pipeline diagram",
+    "expected_type": "picture",
+    "selected_route": "Dictionary",
+    "score": 0.9
+  },
+  {
+    "query": "What does API mean?",
+    "expected_type": "cache",
+    "selected_route": "Response Cache",
+    "score": 0.95
+  },
+  {
+    "query": "Find the 1000th digit after the decimal point in the decimal expansion of 1/7",
+    "expected_type": "reasoning",
+    "selected_route": "Problem Solve Layer",
+    "score": 1.0
+  }
+]

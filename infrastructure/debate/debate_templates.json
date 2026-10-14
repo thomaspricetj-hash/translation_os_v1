@@ -1,0 +1,42 @@
+{
+  "modes": {
+    "pro_con": {
+      "name": "Pro / Con",
+      "description": "Generate pros and cons for a decision"
+    },
+    "fast_vs_accurate": {
+      "name": "Fast Solution vs Accurate Solution",
+      "description": "Compare speed vs correctness tradeoffs"
+    },
+    "optimistic_vs_critical": {
+      "name": "Optimistic vs Critical",
+      "description": "Explore best case and worst case views"
+    },
+    "planner_vs_builder": {
+      "name": "Planner vs Builder",
+      "description": "Strategic planning vs implementation details"
+    },
+    "alternative_approaches": {
+      "name": "Alternative Approaches",
+      "description": "Generate multiple solution paths"
+    }
+  },
+  "templates": {
+    "planning": {
+      "approaches": 3,
+      "mode": "alternative_approaches"
+    },
+    "math": {
+      "approaches": 3,
+      "mode": "alternative_approaches"
+    },
+    "coding": {
+      "approaches": 3,
+      "mode": "pro_con"
+    },
+    "gpu_support": {
+      "approaches": 2,
+      "mode": "alternative_approaches"
+    }
+  }
+}

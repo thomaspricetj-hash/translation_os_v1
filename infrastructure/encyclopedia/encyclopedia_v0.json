@@ -1,0 +1,1173 @@
+[
+  {
+    "term": "entropy",
+    "definition": "A measure of uncertainty and energy distribution in a system.",
+    "aliases": [
+      "thermodynamic entropy",
+      "information entropy"
+    ],
+    "category": "physics"
+  },
+  {
+    "term": "api",
+    "definition": "Application Programming Interface. A set of rules and tools for building software.",
+    "aliases": [
+      "application programming interface"
+    ],
+    "category": "software"
+  },
+  {
+    "term": "gpu",
+    "definition": "Graphics Processing Unit. A specialized processor for parallel computation and graphics.",
+    "aliases": [
+      "graphics card",
+      "video card",
+      "graphics processing unit"
+    ],
+    "category": "hardware"
+  },
+  {
+    "term": "cpu",
+    "definition": "Central Processing Unit. The main processor that executes instructions.",
+    "aliases": [
+      "central processor",
+      "central processing unit"
+    ],
+    "category": "hardware"
+  },
+  {
+    "term": "llm",
+    "definition": "Large Language Model. A neural network trained on large text corpora to generate human-like language.",
+    "aliases": [
+      "large language model"
+    ],
+    "category": "ai"
+  },
+  {
+    "term": "ai",
+    "definition": "Artificial Intelligence. Systems that can perform tasks requiring human-like intelligence.",
+    "aliases": [
+      "artificial intelligence"
+    ],
+    "category": "ai"
+  },
+  {
+    "term": "machine learning",
+    "definition": "A subset of AI where systems learn from data without explicit programming.",
+    "aliases": [
+      "ml",
+      "machine learning"
+    ],
+    "category": "ai"
+  },
+  {
+    "term": "overfitting",
+    "definition": "A model learns training data noise instead of general patterns, reducing generalization.",
+    "aliases": [],
+    "category": "machine learning"
+  },
+  {
+    "term": "gradient descent",
+    "definition": "An optimization algorithm that iteratively minimizes a loss function.",
+    "aliases": [],
+    "category": "machine learning"
+  },
+  {
+    "term": "token",
+    "definition": "The smallest unit of text processed by a language model, typically a sub-word.",
+    "aliases": [],
+    "category": "nlp"
+  },
+  {
+    "term": "hscl",
+    "definition": "Infrastructure: HSCL v1: Pre-tokenization semantic compression",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "hscl",
+    "definition": "Infrastructure: HSCL Word Reuse v1: Extension",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "hscl",
+    "definition": "Infrastructure: HSCL Semantic Grouping v0: Extension",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "response",
+    "definition": "Infrastructure: Response Cache v0: Deterministic answer caching",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "prompt",
+    "definition": "Infrastructure: Prompt Classifier Router v0: Rule-based routing",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "hscl",
+    "definition": "Completed: HSCL v1 KEEP",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "hscl",
+    "definition": "Completed: HSCL Word Reuse v1 KEEP",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "hscl",
+    "definition": "Completed: HSCL Semantic Grouping v0 KEEP",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "response",
+    "definition": "Completed: Response Cache v0 KEEP",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "prompt",
+    "definition": "Completed: Prompt Classifier Router v0 KEEP",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "translation",
+    "definition": "Completed: Translation OS v1 launcher built",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "math-boost",
+    "definition": "Blocked: Math-Boost v1: Requires GPU LoRA training",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "coding-boost",
+    "definition": "Pending: Coding-Boost v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "router",
+    "definition": "Pending: Router v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "translator",
+    "definition": "Pending: Translator v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "nemotron",
+    "definition": "Pending: Nemotron Boost",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "validate",
+    "definition": "Next Steps: Validate full 100-prompt model inference",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "consider",
+    "definition": "Next Steps: Consider Response Cache v1.1 auto-learning",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "maintain",
+    "definition": "Next Steps: Maintain scoreboard discipline",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "hscl",
+    "definition": "Infrastructure: HSCL v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "hscl",
+    "definition": "Infrastructure: HSCL Word Reuse v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "hscl",
+    "definition": "Infrastructure: HSCL Semantic Grouping v0",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "response",
+    "definition": "Infrastructure: Response Cache v0",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "prompt",
+    "definition": "Infrastructure: Prompt Classifier Router v0",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "math-boost",
+    "definition": "Blocked: Math-Boost v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "coding-boost",
+    "definition": "Pending: Coding-Boost v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "router",
+    "definition": "Pending: Router v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "translator",
+    "definition": "Pending: Translator v1",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "nemotron",
+    "definition": "Pending: Nemotron Boost",
+    "aliases": [],
+    "category": "design"
+  },
+  {
+    "term": "dictionary_layer_v0",
+    "definition": "Infrastructure component: Dictionary Layer V0. Role: Normalize synonyms, abbreviations, alternate spellings and aliases. Status: INFRASTRUCTURE",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "encyclopedia_layer_v0",
+    "definition": "Infrastructure component: Encyclopedia Layer V0. Role: Return known concept definitions before model inference. Status: INFRASTRUCTURE",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "hscl_v1",
+    "definition": "Infrastructure component: HSCL v1. Role: Pre-tokenization semantic compression. Status: INFRASTRUCTURE",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "response_cache_v0",
+    "definition": "Infrastructure component: Response Cache v0. Role: Deterministic answer caching with question canonicalization. Status: INFRASTRUCTURE",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "prompt_classifier_router_v0",
+    "definition": "Infrastructure component: Prompt Classifier Router v0. Role: Rule-based prompt routing. Status: KEEP",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "gpu_acceleration_v1",
+    "definition": "Component: GPU Acceleration V1. Status: DELETE. Reason: ",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "math-boost_v1",
+    "definition": "Component: Math-Boost v1. Status: BLOCKED. Reason: Requires GPU LoRA training infrastructure not available in current environment",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "response_cache_v1.1",
+    "definition": "Component: Response Cache v1.1. Status: PENDING_REVIEW. Reason: ",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "coding-boost_v1",
+    "definition": "Pending component: Coding-Boost v1",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "router_v1",
+    "definition": "Pending component: Router v1",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "translator_v1",
+    "definition": "Pending component: Translator v1",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "nemotron_boost",
+    "definition": "Pending component: Nemotron Boost",
+    "aliases": [],
+    "category": "scoreboard"
+  },
+  {
+    "term": "launcher_translation_os_v1_py",
+    "definition": "File: launcher/translation_os_v1.py. Purpose: Single executable entry point for Translation OS v1",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "launcher_translation_os_v1_config_json",
+    "definition": "File: launcher/translation_os_v1_config.json. Purpose: Pipeline configuration and toggles",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_hscl_hscl_dictionary_v1_json",
+    "definition": "File: infrastructure/hscl/hscl_dictionary_v1.json. Purpose: HSCL phrase to abbreviation map",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_hscl_hscl_word_reuse_dictionary_v1_json",
+    "definition": "File: infrastructure/hscl/hscl_word_reuse_dictionary_v1.json. Purpose: HSCL Word Reuse extension dictionary",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_hscl_hscl_semantic_grouping_v0_json",
+    "definition": "File: infrastructure/hscl/hscl_semantic_grouping_v0.json. Purpose: Semantic grouping definitions for HSCL",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_hscl_hscl_preprocessor_py",
+    "definition": "File: infrastructure/hscl/hscl_preprocessor.py. Purpose: HSCL compression preprocessor",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_dictionary_dictionary_v0_json",
+    "definition": "File: infrastructure/dictionary/dictionary_v0.json. Purpose: Dictionary Layer V0 synonym/abbreviation normalization map",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_knowledge_knowledge_dictionary_v0_json",
+    "definition": "File: infrastructure/knowledge/knowledge_dictionary_v0.json. Purpose: Knowledge Layer V0 dictionary of words definitions and aliases",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_knowledge_knowledge_encyclopedia_v0_json",
+    "definition": "File: infrastructure/knowledge/knowledge_encyclopedia_v0.json. Purpose: Knowledge Layer V0 encyclopedia of concepts",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_knowledge_knowledge_lookup_py",
+    "definition": "File: infrastructure/knowledge/knowledge_lookup.py. Purpose: Knowledge Layer V0 lookup implementation",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_encyclopedia_encyclopedia_v0_json",
+    "definition": "File: infrastructure/encyclopedia/encyclopedia_v0.json. Purpose: Encyclopedia Layer V0 concept definitions and aliases",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_problem_mapper_problem_patterns_v0_json",
+    "definition": "File: infrastructure/problem_mapper/problem_patterns_v0.json. Purpose: Problem Mapper V0 pattern definitions for categories",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_problem_mapper_problem_mapper_v0_py",
+    "definition": "File: infrastructure/problem_mapper/problem_mapper_v0.py. Purpose: Problem Mapper V0 implementation",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_cache_response_cache_v0_json",
+    "definition": "File: infrastructure/cache/response_cache_v0.json. Purpose: Response cache database",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_cache_response_cache_v0_py",
+    "definition": "File: infrastructure/cache/response_cache_v0.py. Purpose: Response cache implementation",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_router_prompt_classifier_router_v0_py",
+    "definition": "File: infrastructure/router/prompt_classifier_router_v0.py. Purpose: Rule-based prompt classifier",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "models_muse-glimmer-dequantized-q4_k_m-real_gguf",
+    "definition": "File: models/Muse-Glimmer-Dequantized-Q4_K_M-real.gguf. Purpose: Backend LLM model",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "models_active_model_json",
+    "definition": "File: models/active_model.json. Purpose: Active model metadata and infrastructure list",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_hscl_v1_report_json",
+    "definition": "File: reports/hscl_v1_report.json. Purpose: HSCL v1 validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_hscl_word_reuse_v1_report_json",
+    "definition": "File: reports/hscl_word_reuse_v1_report.json. Purpose: HSCL Word Reuse validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_hscl_semantic_grouping_v0_report_json",
+    "definition": "File: reports/hscl_semantic_grouping_v0_report.json. Purpose: HSCL Semantic Grouping validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_dictionary_v0_report_json",
+    "definition": "File: reports/dictionary_v0_report.json. Purpose: Dictionary Layer V0 validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_encyclopedia_v0_report_json",
+    "definition": "File: reports/encyclopedia_v0_report.json. Purpose: Encyclopedia Layer V0 validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_dictionary_encyclopedia_validation_json",
+    "definition": "File: reports/dictionary_encyclopedia_validation.json. Purpose: Combined Dictionary + Encyclopedia validation with tightened matcher",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_knowledge_layer_v0_report_json",
+    "definition": "File: reports/knowledge_layer_v0_report.json. Purpose: Knowledge Layer V0 validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_knowledge_problem_mapper_validation_json",
+    "definition": "File: reports/knowledge_problem_mapper_validation.json. Purpose: Combined Knowledge Layer + Problem Mapper validation",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_problem_mapper_v0_report_json",
+    "definition": "File: reports/problem_mapper_v0_report.json. Purpose: Problem Mapper V0 validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_response_cache_v0_report_json",
+    "definition": "File: reports/response_cache_v0_report.json. Purpose: Response Cache validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_translation_os_v1_validation_json",
+    "definition": "File: reports/translation_os_v1_validation.json. Purpose: End-to-end pipeline validation",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "reports_math_specialist_v1_report_json",
+    "definition": "File: reports/math_specialist_v1_report.json. Purpose: Math-Boost v1 evaluation",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "scoreboard_capability_scoreboard_json",
+    "definition": "File: scoreboard/capability_scoreboard.json. Purpose: KEEP/DELETE decisions and infrastructure list",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "workspace_memory_scratchpad_json",
+    "definition": "File: workspace_memory/scratchpad.json. Purpose: Temporary notes for current task",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "workspace_memory_diary_json",
+    "definition": "File: workspace_memory/diary.json. Purpose: Lessons learned log, append only",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "workspace_memory_journal_json",
+    "definition": "File: workspace_memory/journal.json. Purpose: Chronological activity log",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "workspace_memory_project_book_json",
+    "definition": "File: workspace_memory/project_book.json. Purpose: Long-term project state single source of truth",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "workspace_memory_workspace_memory_loader_py",
+    "definition": "File: workspace_memory/workspace_memory_loader.py. Purpose: Workspace Memory V1 loader with load order and journal/diary helpers",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_memory_reuse_memory_reuse_v0_json",
+    "definition": "File: infrastructure/memory_reuse/memory_reuse_v0.json. Purpose: Memory Reuse Layer V0 solved problems and project decisions",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_memory_reuse_reasoning_templates_v0_json",
+    "definition": "File: infrastructure/memory_reuse/reasoning_templates_v0.json. Purpose: Reasoning templates for problem types",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_memory_reuse_memory_reuse_engine_py",
+    "definition": "File: infrastructure/memory_reuse/memory_reuse_engine.py. Purpose: Memory Reuse Layer V0 lookup implementation",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_reasoning_heatmap_reasoning_heatmap_v0_py",
+    "definition": "File: infrastructure/reasoning_heatmap/reasoning_heatmap_v0.py. Purpose: Reasoning Heatmap V0 implementation",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_reasoning_heatmap_reasoning_templates_json",
+    "definition": "File: infrastructure/reasoning_heatmap/reasoning_templates.json. Purpose: Reasoning templates for problem types",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_reasoning_heatmap_heatmap_storage_json",
+    "definition": "File: infrastructure/reasoning_heatmap/heatmap_storage.json. Purpose: Stored reasoning heatmaps",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "infrastructure_reasoning_heatmap_reasoning_heatmap_report_json",
+    "definition": "File: infrastructure/reasoning_heatmap/reasoning_heatmap_report.json. Purpose: Reasoning Heatmap V0 validation report",
+    "aliases": [],
+    "category": "manifest"
+  },
+  {
+    "term": "workspace_memory_scratchpad",
+    "definition": "Workspace memory file scratchpad: {\"active_objectives\": [], \"extracted_facts\": [], \"pending_actions\": [], \"temporary_calculations\": [], \"task_id\": null, \"created_at\": \"2026-10-13T18:15:14.848003Z\", \"last_updated\": \"2026-10-13T18:15:14.848009Z\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_diary_0",
+    "definition": "Entry from diary[0]: {\"date\": \"2026-10-13\", \"entries\": [\"HSCL v1 promoted to infrastructure.\", \"Response Cache v0 promoted.\", \"Math-Boost blocked because GPU training infrastructure unavailable.\", \"Knowledge Layer V0 built as infrastructure.\", \"Problem Mapper V0 integrated.\", \"Workspace Memory V1 integrated into launcher startup\", \"Workspace Memory V1 integrated into launcher startup\", \"Workspace Memory V1 integrated ",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_0",
+    "definition": "Entry from journal[0]: {\"timestamp\": \"2026-10-13T10:14:00Z\", \"action\": \"HSCL benchmark started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_1",
+    "definition": "Entry from journal[1]: {\"timestamp\": \"2026-10-13T10:18:00Z\", \"action\": \"HSCL benchmark completed\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_2",
+    "definition": "Entry from journal[2]: {\"timestamp\": \"2026-10-13T10:25:00Z\", \"action\": \"Scoreboard updated\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_3",
+    "definition": "Entry from journal[3]: {\"timestamp\": \"2026-10-13T11:00:00Z\", \"action\": \"Knowledge Layer V0 built\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_4",
+    "definition": "Entry from journal[4]: {\"timestamp\": \"2026-10-13T11:15:00Z\", \"action\": \"Problem Mapper V0 integrated\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_5",
+    "definition": "Entry from journal[5]: {\"timestamp\": \"2026-10-13T16:03:02.779844Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_6",
+    "definition": "Entry from journal[6]: {\"timestamp\": \"2026-10-13T16:05:58.975538Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_7",
+    "definition": "Entry from journal[7]: {\"timestamp\": \"2026-10-13T16:06:18.652921Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_8",
+    "definition": "Entry from journal[8]: {\"timestamp\": \"2026-10-13T16:06:40.790516Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_9",
+    "definition": "Entry from journal[9]: {\"timestamp\": \"2026-10-13T16:06:55.796971Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_10",
+    "definition": "Entry from journal[10]: {\"timestamp\": \"2026-10-13T16:07:55.625927Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_11",
+    "definition": "Entry from journal[11]: {\"timestamp\": \"2026-10-13T16:13:43.091119Z\", \"action\": \"Reasoning Heatmap V0 built and integrated\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_12",
+    "definition": "Entry from journal[12]: {\"timestamp\": \"2026-10-13T16:20:00Z\", \"action\": \"First Reasoning Heatmap reuse hit logged for math_apples_001\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_13",
+    "definition": "Entry from journal[13]: {\"timestamp\": \"2026-10-13T16:18:09.446777Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_14",
+    "definition": "Entry from journal[14]: {\"timestamp\": \"2026-10-13T16:36:15.957997Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_15",
+    "definition": "Entry from journal[15]: {\"timestamp\": \"2026-10-13T16:36:15.970344Z\", \"action\": \"Index Layer V0 rebuilt on startup\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_16",
+    "definition": "Entry from journal[16]: {\"timestamp\": \"2026-10-13T16:36:15.985250Z\", \"action\": \"Project Graph selection for route General: HSCL v1, Response Cache v0\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_17",
+    "definition": "Entry from journal[17]: {\"timestamp\": \"2026-10-13T16:41:43.920793Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_18",
+    "definition": "Entry from journal[18]: {\"timestamp\": \"2026-10-13T16:41:43.931510Z\", \"action\": \"Index Layer V0 rebuilt on startup\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_journal_19",
+    "definition": "Entry from journal[19]: {\"timestamp\": \"2026-10-13T16:49:42.132133Z\", \"action\": \"Translation OS V1 session started\"}",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "workspace_memory_project_book",
+    "definition": "Workspace memory file project_book: {\"project\": \"Translation OS v1\", \"version\": \"1.0\", \"last_updated\": \"2026-10-13T00:00:00Z\", \"infrastructure\": [\"HSCL v1\", \"HSCL Word Reuse v1\", \"HSCL Semantic Grouping v0\", \"Dictionary Layer V0\", \"Encyclopedia Layer V0\", \"Knowledge Layer V0\", \"Response Cache v0\", \"Prompt Classifier Router v0\", \"Problem Mapper V0\"], \"blocked\": [\"Math-Boost v1\", \"GPU Acceleration V1\"], \"current_goal\": \"Workspace Memory V1\", \"next_goal\": \"Re-enable specialist training\", \"metrics\": {\"infrastructure_count\": 9, \"blocke",
+    "aliases": [],
+    "category": "workspace_memory"
+  },
+  {
+    "term": "report_dictionary_encyclopedia_validation",
+    "definition": "Report dictionary_encyclopedia_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"matcher\": \"Exact term/alias match after intent extraction\", \"tests\": [{\"query\": \"what is entropy\", \"dictionary_normalized\": \"what is entropy\", \"extracted_term\": \"entropy\", \"encyclopedia_hit\": true, \"source\": \"encyclopedia\", \"response\": \"A measure of uncertainty and energy distribution in a system.\", \"model_called\": false}, {\"query\": \"what is ai\", \"dictionary_normalized\": \"what is artificial intelligence\", \"extracted_term\": \"artificial int",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_dictionary_v0_report",
+    "definition": "Report dictionary_v0_report.json: {\"component\": \"Dictionary Layer V0\", \"role\": \"Normalize synonyms, abbreviations, alternate spellings and aliases before HSCL\", \"pipeline_position\": \"Raw Text -> Dictionary -> HSCL -> ...\", \"dictionary_entries\": 19, \"test_queries\": [\"The automobile is fast\", \"I use GPU for training\", \"AI and ML are related\", \"API design matters\"], \"metrics\": {\"dictionary_hit_rate\": 1.0, \"normalization_success_rate\": 1.0, \"latency_ms\": 0.05, \"memory_cost_kb\": 2.1, \"accuracy_retention\": \"100%\"}, \"examples\": [{\"input\": \"automobile\", \"normalized\": \"car\"}, {\"input\": \"GPU\", \"normalized\": \"graphics processing unit\"}, ",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_encyclopedia_v0_report",
+    "definition": "Report encyclopedia_v0_report.json: {\"component\": \"Encyclopedia Layer V0\", \"role\": \"Return known concept definitions before model inference\", \"pipeline_position\": \"Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"entries\": 10, \"test_queries\": [\"what is entropy\", \"define api\", \"explain gpu\", \"what is overfitting\"], \"metrics\": {\"encyclopedia_hit_rate\": 1.0, \"model_calls_avoided\": 4, \"latency_reduction_ms\": 28.5, \"memory_cost_kb\": 3.4, \"accuracy_retention\": \"100%\"}, \"examples\": [{\"query\": \"what is entropy\", \"source\": \"encyclopedia\", \"definition\": \"A measure of uncertainty and energy distribution in a sys",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_future_book_v0_report",
+    "definition": "Report future_book_v0_report.json: {\"component\": \"Future Book V0\", \"created\": \"2026-10-13\", \"metrics\": {\"roadmap_accuracy\": \"TBD\", \"dependency_tracking_accuracy\": \"TBD\", \"blocked_goal_detection\": true, \"project_continuity\": \"improved\", \"latency_delta_ms\": \"TBD\"}, \"current_goal\": \"GPU Support\", \"blocked_goals\": 1, \"future_goals\": 4, \"status\": \"KEEP\", \"notes\": \"Future Book stores current goals, future goals, milestones, blockers, dependencies, priorities, execution order\"}",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_gpu_acceleration_report",
+    "definition": "Report gpu_acceleration_report.json: {\"gpu_detection\": {\"backend\": \"cuda\", \"gpu_name\": \"NVIDIA GeForce RTX 4090\", \"vram_gb\": \"unknown\"}, \"backends\": {\"cpu\": {\"binary\": \"dttq/llama.cpp/build/bin/Release/llama-simple.exe\", \"tokens_per_second\": \"2.5\", \"status\": \"working\"}, \"cuda\": {\"binary\": \"dttq/llama.cpp/build/bin/Release/cuda/llama-simple.exe\", \"status\": \"not_built\", \"note\": \"NVIDIA GPU detected but CUDA llama.cpp build not present\"}, \"rocm\": {\"binary\": \"dttq/llama.cpp/build/bin/Release/rocm/llama-simple.exe\", \"status\": \"not_available\"}}, \"auto_selection\": {\"gpu_mode\": \"auto\", \"cpu_fallback\": true, \"n_gpu_layers\": \"auto\"}, \"benc",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_gpu_detection_report",
+    "definition": "Report gpu_detection_report.json: {\"backend\": \"cuda\", \"gpu_name\": \"NVIDIA GeForce RTX 4090\", \"vram_gb\": \"unknown\"}",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_hscl_semantic_grouping_v0_report",
+    "definition": "Report hscl_semantic_grouping_v0_report.json: {\"component\": \"HSCL Semantic Grouping v0\", \"type\": \"experimental HSCL extension\", \"scope\": \"technical concepts that are effectively equivalent\", \"dictionary\": \"hscl_semantic_grouping_v0.json\", \"base\": \"HSCL v1\", \"benchmark\": \"hscl_benchmark.json\", \"metrics\": {\"hscl_v1_avg_compression_ratio\": 1.299, \"hscl_semantic_grouping_v0_avg_compression_ratio\": 1.319, \"compression_improvement_vs_hscl_v1_percent\": 1.54, \"overall_compression_percent\": 31.9, \"preprocess_latency_delta_ms\": \"<0.01\", \"complexity_cost\": \"LOW\", \"accuracy_delta\": \"pending\"}, \"decision_rule\": \"KEEP if measurable gain with no quality",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_hscl_v1_report",
+    "definition": "Report hscl_v1_report.json: {\"benchmark_version\": \"HSCL V1\", \"phase\": \"V1 phrase compression only - FINAL\", \"model\": \"Muse-Glimmer-Dequantized-Q4_K_M-real.gguf\", \"dictionary\": \"hscl_dictionary_v1.json\", \"preprocessor\": \"hscl_preprocessor.py\", \"validation_date\": \"2026-10-13\", \"total_prompts\": 20, \"average_compression_ratio_whitespace\": 1.299, \"average_compression_percent\": 29.9, \"average_preprocess_latency_ms\": 0.082, \"quality_check\": {\"method\": \"model inference original vs compressed prompt\", \"semantic_equivalence\": \"verified on sampled prompts, model outputs semantically equivalent\", \"quality_delta_estimate\": \"<1%\", \"no",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_hscl_word_reuse_v1_report",
+    "definition": "Report hscl_word_reuse_v1_report.json: {\"component\": \"HSCL Word Reuse v1\", \"base\": \"HSCL v1 infrastructure\", \"dictionary\": \"hscl_word_reuse_dictionary_v1.json\", \"benchmark\": \"hscl_benchmark.json\", \"metrics\": {\"hscl_v1_avg_compression_ratio\": 1.299, \"hscl_word_reuse_v1_avg_compression_ratio\": 1.314, \"compression_improvement_percent\": 1.15, \"preprocess_latency_delta_ms\": \"<0.01\", \"complexity_cost\": \"LOW\"}, \"evaluation\": {\"test_prompts\": 20, \"method\": \"whitespace token count approximation\"}, \"decision_rule\": {\"required_improvement\": \"meaningful gain over HSCL v1 baseline with no quality loss\"}, \"status\": \"PENDING_REVIEW\", \"notes\": \"Wo",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_knowledge_layer_v0_report",
+    "definition": "Report knowledge_layer_v0_report.json: {\"component\": \"Knowledge Layer V0\", \"role\": \"Store word meanings, definitions, facts, and concept relationships outside model\", \"pipeline_position\": \"Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"knowledge_dictionary_v0.json\", \"knowledge_encyclopedia_v0.json\", \"knowledge_lookup.py\"], \"dictionary_entries\": 7, \"encyclopedia_entries\": 6, \"test_queries\": [{\"query\": \"what is entropy\", \"source\": \"knowledge_encyclopedia\", \"hit\": true}, {\"query\": \"define gpu\", \"source\": \"knowledge_dictionary\", \"hit\": true}, {\"query\": \"what is api\", \"source\"",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_knowledge_problem_mapper_validation",
+    "definition": "Report knowledge_problem_mapper_validation.json: {\"validation_date\": \"2026-10-13\", \"pipeline\": \"Raw Text -> Dictionary -> HSCL -> Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"tests\": [{\"query\": \"what is entropy\", \"layer_hit\": \"Knowledge Layer\", \"source\": \"knowledge_dictionary\", \"response\": \"measure of uncertainty or energy distribution\", \"model_called\": false, \"latency_ms\": 0.12}, {\"query\": \"define gpu\", \"layer_hit\": \"Knowledge Layer\", \"source\": \"knowledge_dictionary\", \"response\": \"graphics processing unit\", \"model_called\": false, \"latency_ms\": 0.11}, {\"query\": \"what is api\", \"layer_hit\": ",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_math_specialist_v1_report",
+    "definition": "Report math_specialist_v1_report.json: {\"component\": \"Math-Boost v1\", \"base_model\": \"Muse-Glimmer-Dequantized-Q4_K_M-real.gguf\", \"pipeline\": \"Raw Text -> HSCL v1 -> Tokenizer -> Muse-Glimmer -> Math-Boost v1\", \"target_tensors\": \"FFN only\", \"excluded_tensors\": \"embeddings, norm layers, output projection\", \"artifacts\": {\"math_lora.safetensors\": \"not produced - training requires GPU LoRA implementation\", \"Muse-Glimmer-MathBoost-Q5_0.gguf\": \"not produced\"}, \"evaluation_set\": {\"math_core\": [\"17*23\", \"145/5\", \"15% of 240\", \"37*14\", \"125*17\", \"7^2\", \"12% of 350\", \"18+26\"], \"novel_math\": [\"19*27\", \"312/8\", \"23% of 480\", \"41*13\"], \"language",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_memory_reuse_v0_report",
+    "definition": "Report memory_reuse_v0_report.json: {\"component\": \"Memory Reuse Layer V0\", \"role\": \"Reuse previous solutions, plans, and work products\", \"pipeline_position\": \"Response Cache -> Memory Reuse Layer -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"memory_reuse_v0.json\", \"reasoning_templates_v0.json\", \"memory_reuse_engine.py\"], \"memory_entries\": 3, \"template_entries\": 5, \"test_queries\": [{\"query\": \"Add GPU support to Translation OS\", \"hit\": true, \"source\": \"memory_reuse\", \"title\": \"GPU Support Plan\", \"solution\": [\"detect hardware\", \"load CUDA backend\", \"load ROCm backend\", \"CPU fallback\"]}, {\"query\": \"What about Math-Boost?\"",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_problem_mapper_v0_report",
+    "definition": "Report problem_mapper_v0_report.json: {\"component\": \"Problem Mapper V0\", \"role\": \"Break complex problems into structured chunks before inference\", \"pipeline_position\": \"Router -> Problem Mapper -> Muse-Glimmer\", \"categories\": [\"math\", \"coding\", \"comparison\", \"planning\", \"explanation\"], \"test_cases\": [{\"input\": \"John has 3 boxes with 12 apples each and gives away 5.\", \"category\": \"math\", \"facts_extracted\": [{\"type\": \"quantity\", \"value\": \"3 boxes\"}, {\"type\": \"quantity\", \"value\": \"12 apples\"}, {\"type\": \"operation\", \"value\": \"gives away\"}], \"steps\": [\"multiply\", \"subtract\"]}, {\"input\": \"Write a Python function to find the maximum in a",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_reasoning_heatmap_v0_report",
+    "definition": "Report reasoning_heatmap_v0_report.json: {\"component\": \"Reasoning Heatmap V0\", \"role\": \"Track fact importance, knowledge sources, and reasoning paths for reuse\", \"pipeline_position\": \"Problem Mapper -> Reasoning Heatmap -> Router -> Muse-Glimmer\", \"layers\": [\"Fact Heatmap\", \"Knowledge Heatmap\", \"Reasoning Heatmap\", \"Overlay\"], \"files\": [\"reasoning_heatmap_v0.py\", \"reasoning_templates.json\", \"heatmap_storage.json\"], \"metrics\": {\"reuse_hits\": 0, \"problem_solving_accuracy\": \"TBD\", \"latency_delta\": \"TBD\", \"reasoning_reuse_rate\": \"TBD\", \"memory_cost_kb\": 8.5}, \"status\": \"KEEP\", \"keep_rule\": \"Reasoning accuracy improves OR repeated work de",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_response_cache_v0_report",
+    "definition": "Report response_cache_v0_report.json: {\"component\": \"Response Cache v0\", \"pipeline\": \"Raw Text -> HSCL v1 -> Question Canonicalizer -> Response Cache -> Muse-Glimmer\", \"phase\": \"V0 prototype\", \"test_queries\": 8, \"cache_entries\": 5, \"hits\": 6, \"cache_hit_rate\": 0.75, \"avg_lookup_latency_ms\": 0.204, \"memory_cost_kb\": 1.03, \"accuracy_retention\": \"100% on hits - cached answers are deterministic\", \"latency_reduction_on_hit\": \"near instant vs model inference ~30s\", \"complexity_cost\": \"LOW\", \"decision_rule\": {\"cache_hit_rate_meaningful\": true, \"latency_reduction_meaningful\": true, \"accuracy_unchanged\": true}, \"status\": \"PENDING_REVIEW\", ",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_translation_os_v1_validation",
+    "definition": "Report translation_os_v1_validation.json: {\"results\": [{\"query\": \"What is 2+2?\", \"hscl_compressed\": \"What is 2+2?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is the capital of France?\", \"hscl_compressed\": \"What is the capital of France?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What does API stand for?\", \"hscl_compressed\": \"What does API stand for?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is JSON?\", \"hscl_compressed\": \"What is JSON?\", \"compression_ratio\": 1.0, \"route\": \"Cache\", \"source\": \"cache\"}, {\"query\": \"What is an ope",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "infra_infrastructure_abbreviation_abbreviation_dictionary_v0.json",
+    "definition": "Infrastructure file abbreviation_dictionary_v0.json: {\"AI\": {\"canonical\": \"AI_CONCEPT\", \"expanded\": \"artificial intelligence\"}, \"LLM\": {\"canonical\": \"LLM_CONCEPT\", \"expanded\": \"large language model\"}, \"GPU\": {\"canonical\": \"GPU_CONCEPT\", \"expanded\": \"graphics processing unit\"}, \"CPU\": {\"canonical\": \"CPU_CONCEPT\", \"expanded\": \"central processing unit\"}, \"API\": {\"canonical\": \"API_CONCEPT\", \"expanded\": \"application programming interface\"}, \"NLP\": {\"canonical\": \"NLP_CONCEPT\", \"expanded\": \"natural language processing\"}, \"ML\": {\"canonical\": \"ML_CONCEPT\", \"expanded\": \"machine learning\"}}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_abbreviation_abbreviation_report.json",
+    "definition": "Infrastructure file abbreviation_report.json: {\"component\": \"Abbreviation Dictionary V0\", \"created\": \"2026-10-13\", \"metrics\": {\"abbreviation_hits\": \"TBD\", \"cache_hit_improvement\": \"TBD\", \"compression_improvement\": \"TBD\", \"latency_delta_ms\": \"TBD\", \"memory_cost_kb\": 2.5}, \"status\": \"KEEP\", \"notes\": \"Normalizes abbreviations/acronyms to canonical concepts before inference\"}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_cache_response_cache_v0.json",
+    "definition": "Infrastructure file response_cache_v0.json: {\"MATH_ADD_2_2\": {\"patterns\": [\"2+2\", \"what is 2+2\", \"calculate 2+2\", \"what's 2 plus 2\", \"2 plus 2\"], \"answer\": \"4\", \"question_id\": \"MATH_ADD_2_2\"}, \"MATH_ADD_3_3\": {\"patterns\": [\"3+3\", \"what is 3+3\"], \"answer\": \"6\", \"question_id\": \"MATH_ADD_3_3\"}, \"CAPITAL_FRANCE\": {\"patterns\": [\"capital of france\", \"what is the capital of france\", \"france capital\"], \"answer\": \"Paris\", \"question_id\": \"CAPITAL_FRANCE\"}, \"WHAT_IS_API\": {\"patterns\": [\"what is an api\", \"what is api\", \"define api\"], \"answer\": \"API stands for Application Programming Interface, a set of rules that allows different software applicati",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_debate_debate_history.json",
+    "definition": "Infrastructure file debate_history.json: {\"history\": [{\"query\": \"How should Translation OS add GPU support?\", \"problem_type\": \"gpu_support\", \"mode\": \"alternative_approaches\", \"approaches\": [{\"debater\": \"Debater A\", \"approach\": \"Approach A for gpu_support\", \"pros\": [\"Benefit 1\", \"Benefit 2\"], \"cons\": [\"Cost 1\", \"Cost 2\"]}, {\"debater\": \"Debater B\", \"approach\": \"Approach B for gpu_support\", \"pros\": [\"Benefit 1\", \"Benefit 2\"], \"cons\": [\"Cost 1\", \"Cost 2\"]}], \"judge\": {\"criteria\": [\"consistency\", \"completeness\", \"confidence\", \"dependency_awareness\", \"alignment\"], \"selected\": {\"debater\": \"Debater A\", \"approach\": \"Approach A for gpu_support",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_debate_debate_layer_report.json",
+    "definition": "Infrastructure file debate_layer_report.json: {\"component\": \"Debate Layer V0\", \"role\": \"Generate multiple solution approaches before selecting final answer\", \"pipeline_position\": \"Problem Solve Layer -> Debate Layer -> Reasoning Heatmap -> Master Orchestrator -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"modes\": [\"Pro / Con\", \"Fast Solution vs Accurate Solution\", \"Optimistic vs Critical\", \"Planner vs Builder\", \"Alternative Approaches\"], \"metrics\": {\"reasoning_accuracy\": \"TBD\", \"error_reduction\": \"TBD\", \"solution_quality\": \"TBD\", \"latency_delta_ms\": \"TBD\", \"reuse_rate\": \"TBD\"}, \"validation_tests\": [{\"query\": \"How shou",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_debate_debate_templates.json",
+    "definition": "Infrastructure file debate_templates.json: {\"modes\": {\"pro_con\": {\"name\": \"Pro / Con\", \"description\": \"Generate pros and cons for a decision\"}, \"fast_vs_accurate\": {\"name\": \"Fast Solution vs Accurate Solution\", \"description\": \"Compare speed vs correctness tradeoffs\"}, \"optimistic_vs_critical\": {\"name\": \"Optimistic vs Critical\", \"description\": \"Explore best case and worst case views\"}, \"planner_vs_builder\": {\"name\": \"Planner vs Builder\", \"description\": \"Strategic planning vs implementation details\"}, \"alternative_approaches\": {\"name\": \"Alternative Approaches\", \"description\": \"Generate multiple solution paths\"}}, \"templates\": {\"planning\"",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_decision_tree_decision_tree_report.json",
+    "definition": "Infrastructure file decision_tree_report.json: {\"component\": \"Decision Tree V0\", \"created\": \"2026-10-13\", \"metrics\": {\"decision_accuracy\": \"TBD\", \"model_call_reduction\": \"TBD\", \"latency_reduction\": \"TBD\", \"cache_hit_improvement\": \"TBD\", \"workflow_efficiency\": \"TBD\"}, \"status\": \"KEEP\", \"notes\": \"Chooses best path for solving request before invoking model\"}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_decision_tree_decision_tree_v0.json",
+    "definition": "Infrastructure file decision_tree_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"tree\": {\"root\": \"User Request\", \"steps\": [{\"step\": 1, \"layer\": \"Dictionary\", \"question\": \"Can Dictionary answer?\"}, {\"step\": 2, \"layer\": \"Encyclopedia\", \"question\": \"Can Encyclopedia answer?\"}, {\"step\": 3, \"layer\": \"Response Cache\", \"question\": \"Can Response Cache answer?\"}, {\"step\": 4, \"layer\": \"Memory Reuse\", \"question\": \"Can Memory Reuse answer?\"}, {\"step\": 5, \"layer\": \"Rule Engine\", \"question\": \"Can Rule Engine answer?\"}, {\"step\": 6, \"layer\": \"Problem Mapper\", \"question\": \"Can Problem Mapper simplify?\"}, {\"step\": 7, \"layer\": \"Muse-Glimmer\", \"que",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_dictionary_dictionary_v0.json",
+    "definition": "Infrastructure file dictionary_v0.json: {\"automobile\": \"car\", \"auto\": \"car\", \"gpu\": \"graphics processing unit\", \"cpu\": \"central processing unit\", \"llm\": \"large language model\", \"ai\": \"artificial intelligence\", \"ml\": \"machine learning\", \"nlp\": \"natural language processing\", \"api\": \"application programming interface\", \"os\": \"operating system\", \"ram\": \"random access memory\", \"ssd\": \"solid state drive\", \"hdd\": \"hard disk drive\", \"url\": \"uniform resource locator\", \"http\": \"hypertext transfer protocol\", \"https\": \"hypertext transfer protocol secure\", \"json\": \"javascript object notation\", \"csv\": \"comma separated values\", \"sql\": \"structured ",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_hscl_hscl_dictionary_v1.json",
+    "definition": "Infrastructure file hscl_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL\", \"computer vision\": \"CV\", \"reinforcement learning\": \"RL\", \"generative adversarial network\": \"GAN\", \"convolutional neural network\": \"CNN\", \"recurrent neural network\": \"RNN\", \"transformer architecture\": \"Transformer\", \"self attention\": \"self-attn\", \"tokenizer\": \"tok\", \"embedding layer\": \"emb\", \"feed forward network\": \"FFN\", \"attention head\": \"attn-head\",",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_hscl_hscl_semantic_grouping_v0.json",
+    "definition": "Infrastructure file hscl_semantic_grouping_v0.json: {\"semantic_groups\": [{\"group_id\": \"NN\", \"phrases\": [\"artificial neural network\", \"deep neural network\", \"neural network\"], \"abbreviation\": \"NN\"}, {\"group_id\": \"DL\", \"phrases\": [\"deep learning\", \"deep neural network\"], \"abbreviation\": \"DL\"}, {\"group_id\": \"NLP\", \"phrases\": [\"natural language processing\", \"natural language understanding\"], \"abbreviation\": \"NLP\"}, {\"group_id\": \"ML\", \"phrases\": [\"machine learning\", \"supervised learning\", \"unsupervised learning\", \"semi supervised learning\"], \"abbreviation\": \"ML\"}, {\"group_id\": \"AI\", \"phrases\": [\"artificial intelligence\"], \"abbreviation\": \"AI\"}, {\"gr",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_hscl_hscl_word_reuse_dictionary_v1.json",
+    "definition": "Infrastructure file hscl_word_reuse_dictionary_v1.json: {\"artificial intelligence\": \"AI\", \"machine learning\": \"ML\", \"large language model\": \"LLM\", \"natural language processing\": \"NLP\", \"New York City\": \"NYC\", \"United States of America\": \"USA\", \"artificial neural network\": \"ANN\", \"deep learning\": \"DL\", \"computer vision\": \"CV\", \"reinforcement learning\": \"RL\", \"generative adversarial network\": \"GAN\", \"convolutional neural network\": \"CNN\", \"recurrent neural network\": \"RNN\", \"transformer architecture\": \"Transformer\", \"self attention\": \"self-attn\", \"tokenizer\": \"tok\", \"embedding layer\": \"emb\", \"feed forward network\": \"FFN\", \"attention head\": \"attn-head\",",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_index_index_report.json",
+    "definition": "Infrastructure file index_report.json: {\"component\": \"Index Layer V0\", \"created\": \"2026-10-13\", \"metrics\": {\"lookup_speed_ms\": \"TBD\", \"memory_retrieval_accuracy\": \"TBD\", \"duplicate_work_reduction\": \"TBD\", \"project_continuity_improvement\": \"TBD\", \"latency_delta_ms\": \"TBD\", \"built\": \"2026-10-13\", \"sources_indexed\": 9, \"sources_successfully_indexed\": 9}, \"sources_indexed\": [\"Dictionary Entries\", \"Encyclopedia Entries\", \"Response Cache Entries\", \"Memory Reuse Entries\", \"Diary Entries\", \"Journal Entries\", \"Project Book Entries\", \"Project Graph Nodes\", \"Infrastructure Components\", \"Blocked Components\", \"Keep/Delete Decisions\"], \"status\":",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_index_index_v0.json",
+    "definition": "Infrastructure file index_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"sources\": [\"dictionary\", \"encyclopedia\", \"response_cache\", \"memory_reuse\", \"debate_templates\", \"debate_history\", \"debate_report\", \"problem_solve_templates\", \"problem_solve_report\", \"knowledge_grid\", \"knowledge_grid_report\", \"weave_layer\", \"weave_report\", \"policy\", \"policy_report\", \"memory_weights\", \"memory_weight_report\", \"reasoning_scoreboard\", \"reasoning_scoreboard_report\", \"reasoning_weights\", \"reasoning_weight_report\", \"diary\", \"journal\", \"project_book\", \"project_graph\", \"scoreboard\"]}, \"entries\": {\"dictionary\": {\"file\": \"infrastructu",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_knowledge_knowledge_dictionary_v0.json",
+    "definition": "Infrastructure file knowledge_dictionary_v0.json: [{\"word\": \"entropy\", \"definition\": \"measure of uncertainty or energy distribution\", \"aliases\": [\"thermodynamic entropy\", \"information entropy\"], \"synonyms\": []}, {\"word\": \"gpu\", \"definition\": \"graphics processing unit\", \"aliases\": [\"graphics card\", \"video card\", \"graphics processing unit\"], \"synonyms\": []}, {\"word\": \"cpu\", \"definition\": \"central processing unit\", \"aliases\": [\"central processor\", \"central processing unit\"], \"synonyms\": []}, {\"word\": \"api\", \"definition\": \"application programming interface\", \"aliases\": [\"application programming interface\"], \"synonyms\": []}, {\"word\": \"llm\", \"defin",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_knowledge_grid_knowledge_grid_report.json",
+    "definition": "Infrastructure file knowledge_grid_report.json: {\"component\": \"Knowledge Grid V0\", \"role\": \"Weighted connections between major Translation OS knowledge systems\", \"pipeline_position\": \"Knowledge Layer -> Knowledge Grid -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"nodes_connected\": [\"Dictionary\", \"Encyclopedia\", \"History Book\", \"Future Book\", \"Project Book\", \"Project Graph\", \"Memory Reuse\", \"Response Cache\"], \"metrics\": {\"connection_count\": 8, \"avg_weight\": 0.8, \"query_latency_ms\": \"<0.5\", \"related_concept_recall\": \"TBD\", \"dependency_accuracy\": \"TBD\"}, \"capabilities\": [\"Find related c",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_knowledge_grid_knowledge_grid_v0.json",
+    "definition": "Infrastructure file knowledge_grid_v0.json: {\"nodes\": [{\"id\": \"dictionary\", \"type\": \"knowledge\", \"name\": \"Dictionary Layer V0\"}, {\"id\": \"encyclopedia\", \"type\": \"knowledge\", \"name\": \"Encyclopedia Layer V0\"}, {\"id\": \"history_book\", \"type\": \"memory\", \"name\": \"History Book V0\"}, {\"id\": \"future_book\", \"type\": \"memory\", \"name\": \"Future Book V0\"}, {\"id\": \"project_book\", \"type\": \"memory\", \"name\": \"Project Book\"}, {\"id\": \"project_graph\", \"type\": \"structure\", \"name\": \"Project Graph V0\"}, {\"id\": \"memory_reuse\", \"type\": \"memory\", \"name\": \"Memory Reuse Layer V0\"}, {\"id\": \"response_cache\", \"type\": \"cache\", \"name\": \"Response Cache V0\"}], \"edges\": [{\"f",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_memory_weights_memory_weights_v0.json",
+    "definition": "Infrastructure file memory_weights_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Memory weight system for Translation OS\"}, \"weight_factors\": [\"usage_frequency\", \"reuse_count\", \"project_importance\", \"dependency_count\", \"historical_significance\", \"recency\", \"success_impact\"], \"tiers\": {\"core\": {\"range\": [0.9, 1.0], \"label\": \"CORE MEMORY\", \"action\": \"Never remove\"}, \"important\": {\"range\": [0.7, 0.89], \"label\": \"IMPORTANT MEMORY\", \"action\": \"Keep active\"}, \"standard\": {\"range\": [0.5, 0.69], \"label\": \"STANDARD MEMORY\", \"action\": \"Keep until space needed\"}, \"archive\": {\"range\": [0.2, 0.49], \"label\": \"ARCHIVE MEM",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_memory_weights_memory_weight_report.json",
+    "definition": "Infrastructure file memory_weight_report.json: {\"component\": \"Memory Weight System V0\", \"role\": \"Determine what memory should be kept, archived, or forgotten\", \"pipeline_position\": \"New Memory -> Memory Weight Engine -> Assign Weight -> Store In Tiered Memory\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"weight_factors\": [\"usage_frequency\", \"reuse_count\", \"project_importance\", \"dependency_count\", \"historical_significance\", \"recency\", \"success_impact\"], \"tiers\": {\"core\": {\"range\": [0.9, 1.0], \"label\": \"CORE MEMORY\", \"action\": \"Never remove\"}, \"important\": {\"range\": [0.7, 0.89], \"label\": \"IMPORTANT MEMORY\", \"action\": \"Keep active\"}, \"s",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_policy_policy_report.json",
+    "definition": "Infrastructure file policy_report.json: {\"component\": \"Policy Layer V0\", \"role\": \"Define decision philosophy and how system chooses between actions\", \"pipeline_position\": \"Master Orchestrator -> Policy Layer -> Decision Tree -> Knowledge Grid -> Weave Layer -> Execution Path\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"default_policies\": [\"reuse_before_rebuild\", \"cache_before_model\", \"history_before_guessing\", \"facts_before_reasoning\", \"resolve_blockers_before_new_work\", \"measure_before_keep\", \"keep_before_expand\", \"project_continuity_first\"], \"metrics\": {\"decision_quality\": \"TBD\", \"duplicate_work_reduction\": \"TBD\", \"blocker_",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_policy_policy_v0.json",
+    "definition": "Infrastructure file policy_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Decision philosophy for Translation OS\"}, \"policies\": [{\"rule\": \"reuse_before_rebuild\", \"weight\": 0.95, \"description\": \"Reuse existing solutions before rebuilding\"}, {\"rule\": \"cache_before_model\", \"weight\": 1.0, \"description\": \"Use cache before invoking model\"}, {\"rule\": \"history_before_guessing\", \"weight\": 0.9, \"description\": \"Prefer historical data over guessing\"}, {\"rule\": \"facts_before_reasoning\", \"weight\": 0.85, \"description\": \"Use known facts before reasoning\"}, {\"rule\": \"resolve_blockers_before_new_work\", \"weight\": 0.9, ",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_problem_mapper_problem_patterns_v0.json",
+    "definition": "Infrastructure file problem_patterns_v0.json: [{\"category\": \"math\", \"patterns\": [\"has.*boxes.*each\", \"apples.*each\", \"gives away\", \"total.*\", \"multiply\", \"subtract\", \"percent of\", \"times\", \"divided by\"], \"extractors\": [{\"type\": \"quantity\", \"regex\": \"(\\\\d+)\\\\s*boxes\"}, {\"type\": \"quantity\", \"regex\": \"(\\\\d+)\\\\s*apples?\"}, {\"type\": \"operation\", \"regex\": \"gives away|subtract\"}], \"steps_template\": [\"multiply\", \"subtract\"]}, {\"category\": \"coding\", \"patterns\": [\"write code\", \"implement\", \"function\", \"bug\", \"error\", \"script\"], \"extractors\": [{\"type\": \"language\", \"regex\": \"(python|javascript|java|c\\\\+\\\\+)\"}, {\"type\": \"task\", \"regex\": \"write|impleme",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_problem_solve_problem_solve_report.json",
+    "definition": "Infrastructure file problem_solve_report.json: {\"component\": \"Problem Solve Layer V0\", \"role\": \"Convert problem into explicit solution plan before model inference\", \"pipeline_position\": \"Problem Mapper -> Problem Solve Layer -> Router -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"metrics\": {\"problem_types_supported\": [\"planning\", \"math\", \"coding\", \"gpu_support\"], \"plan_generation_latency_ms\": \"<0.1\", \"model_call_reduction\": \"TBD\", \"latency_reduction_ms\": \"TBD\", \"accuracy_retention\": \"100%\", \"memory_cost_kb\": 2.5, \"complexity_cost\": \"LOW\"}, \"templates\": {\"planning\": \"Plan and execute\", \"math\": \"Solve math problem\", \"co",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_problem_solve_problem_solve_templates.json",
+    "definition": "Infrastructure file problem_solve_templates.json: {\"planning\": {\"goal_template\": \"Plan and execute\", \"steps\": [\"Verify blockers\", \"Review roadmap\", \"Select next task\", \"Execute\", \"Measure\", \"Update scoreboard\"]}, \"math\": {\"goal_template\": \"Solve math problem\", \"steps\": [\"Extract numbers\", \"Identify operations\", \"Perform operations\", \"Verify answer\"]}, \"coding\": {\"goal_template\": \"Fix or implement code\", \"steps\": [\"Identify error\", \"Locate source file\", \"Create fix\", \"Validate fix\"]}, \"gpu_support\": {\"goal\": \"Add GPU Support\", \"subgoals\": [\"Detect Nvidia\", \"Detect AMD\", \"CPU fallback\", \"Benchmark performance\"], \"dependencies\": [\"CUDA backend\",",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_audit_reasoning_audit.json",
+    "definition": "Infrastructure file reasoning_audit.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Verify reasoning layers improve answers\"}, \"categories\": [\"Arithmetic\", \"Algebra\", \"Number Theory\", \"Combinatorics\", \"Planning\", \"Coding\", \"General Reasoning\"], \"layers\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"correctness\", \"reasoning_quality\", \"token_count\", \"latency\", \"confidence\"], \"results\": [{\"category\": \"Arithmetic\", \"query\": \"Compute 123456789 * 987654321\", \"baseline\": {\"correctness\": 0.0, \"reasoning_quality\": 0.0, \"tokens\": 100, \"late",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_audit_reasoning_audit_report.json",
+    "definition": "Infrastructure file reasoning_audit_report.json: {\"component\": \"Reasoning Effectiveness Audit V0\", \"role\": \"Verify reasoning layers improve answers, not just generate additional context\", \"method\": \"Run Model Only vs Full Translation OS per benchmark problem\", \"categories\": [\"Arithmetic\", \"Algebra\", \"Number Theory\", \"Combinatorics\", \"Planning\", \"Coding\", \"General Reasoning\"], \"layers\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"correctness\", \"reasoning_quality\", \"token_count\", \"latency\", \"confidence\"], \"output\": \"reasoning_audit.json\", \"status\": \"KEEP\", \"promo",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_graph_reasoning_graph_v0.json",
+    "definition": "Infrastructure file reasoning_graph_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"purpose\": \"Track how a problem fits together before reasoning\", \"nodes\": [], \"edges\": []}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_heatmap_heatmap_storage.json",
+    "definition": "Infrastructure file heatmap_storage.json: [{\"problem_id\": \"math_apples_001\", \"query\": \"John has 3 boxes with 12 apples each and gives away 5.\", \"fact_heatmap\": {\"3 boxes\": 0.9, \"12 apples each\": 1.0, \"gave away 5\": 0.95}, \"knowledge_heatmap\": {\"dictionary\": 0.1, \"encyclopedia\": 0.0, \"cache\": 0.0, \"problem_mapper\": 1.0, \"model\": 0.8}, \"reasoning_heatmap\": [{\"step\": \"multiply\", \"importance\": 1.0}, {\"step\": \"subtract\", \"importance\": 1.0}], \"answer\": 31, \"success\": true, \"created\": \"2026-10-13\"}]",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_heatmap_reasoning_heatmap_report.json",
+    "definition": "Infrastructure file reasoning_heatmap_report.json: {\"component\": \"Reasoning Heatmap V0\", \"validation_date\": \"2026-10-13\", \"metrics\": {\"reuse_hits\": 1, \"total_prompts_evaluated\": 100, \"reasoning_reuse_rate\": 0.01, \"problem_solving_accuracy\": 0.98, \"latency_delta_ms\": 0.4, \"memory_cost_kb\": 8.5, \"fact_heatmap_coverage\": 0.92, \"knowledge_source_diversity\": 4}, \"pipeline_integration\": \"verified\", \"scoreboard_update\": \"pending\", \"notes\": \"First heatmap reuse hit logged. Real model runs required for full accuracy validation. Latency delta measured vs baseline pipeline without heatmap lookup.\"}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_heatmap_reasoning_templates.json",
+    "definition": "Infrastructure file reasoning_templates.json: [{\"type\": \"Multi-Step Math\", \"steps\": [{\"step\": \"extract_numbers\", \"importance\": 0.9}, {\"step\": \"identify_operations\", \"importance\": 0.95}, {\"step\": \"perform_operations\", \"importance\": 1.0}, {\"step\": \"verify_answer\", \"importance\": 0.8}]}, {\"type\": \"Coding Implementation\", \"steps\": [{\"step\": \"identify_language\", \"importance\": 0.9}, {\"step\": \"define_inputs\", \"importance\": 0.95}, {\"step\": \"implement_logic\", \"importance\": 1.0}, {\"step\": \"test_edge_cases\", \"importance\": 0.85}]}, {\"type\": \"Comparison\", \"steps\": [{\"step\": \"list_attributes\", \"importance\": 0.9}, {\"step\": \"contrast\", \"importance\": 1.0},",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard.json",
+    "definition": "Infrastructure file reasoning_scoreboard.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Measure effectiveness of reasoning layers\"}, \"layers\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"accuracy\", \"latency\", \"token_usage\", \"reasoning_quality\"], \"results\": []}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard_report.json",
+    "definition": "Infrastructure file reasoning_scoreboard_report.json: {\"component\": \"Reasoning Scoreboard V0\", \"role\": \"Measure effectiveness of every reasoning layer\", \"layers_tracked\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"accuracy\", \"latency\", \"token_usage\", \"reasoning_quality\"], \"method\": \"Run Baseline Model only, then Full Translation OS, compare deltas\", \"output\": \"reasoning_scoreboard.json\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"keep_rule\": \"Layers survive only if they improve outcomes. Not because they exist.\", \"example\": {\"Problem Mapper\": {\"accuracy_delt",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_weights_reasoning_weights.json",
+    "definition": "Infrastructure file reasoning_weights.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Adaptive reasoning layer weights for Translation OS\"}, \"layers\": [{\"name\": \"Problem Mapper\", \"accuracy_delta\": 0.12, \"latency_delta_ms\": 2, \"reuse_rate\": 0.9, \"success_rate\": 0.95}, {\"name\": \"Problem Solve Layer\", \"accuracy_delta\": 0.08, \"latency_delta_ms\": 5, \"reuse_rate\": 0.85, \"success_rate\": 0.9}, {\"name\": \"Debate Layer\", \"accuracy_delta\": 0.005, \"latency_delta_ms\": 200, \"reuse_rate\": 0.3, \"success_rate\": 0.5}, {\"name\": \"Reasoning Heatmap\", \"accuracy_delta\": 0.03, \"latency_delta_ms\": 10, \"reuse_rate\": 0.7, \"success_rate\": 0",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_reasoning_weights_reasoning_weight_report.json",
+    "definition": "Infrastructure file reasoning_weight_report.json: {\"component\": \"Adaptive Reasoning Weights V0\", \"role\": \"Dynamically decide which reasoning layers are worth running\", \"pipeline_position\": \"Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"data_source\": \"Reasoning Scoreboard V0\", \"weight_calculation\": \"weight = accuracy_gain + reuse_rate + success_rate - latency_cost, normalized 0.00 to 1.00\", \"tiers\": {\"core\": {\"range\": [0.9, 1.0], \"label\": \"CORE REASONING\", \"action\": \"Always run\"}, \"important\": {\"range\": [0.7, 0.89], \"label\": \"I",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_weave_weave_layer_v0.json",
+    "definition": "Infrastructure file weave_layer_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Cross-link Translation OS systems and identify indirect relationships\"}, \"links\": [{\"from\": \"Dictionary\", \"to\": \"Encyclopedia\", \"relationship\": \"expands\", \"weight\": 0.9}, {\"from\": \"History Book\", \"to\": \"Future Book\", \"relationship\": \"informs\", \"weight\": 0.85}, {\"from\": \"Project Book\", \"to\": \"Project Graph\", \"relationship\": \"maps_to\", \"weight\": 0.9}, {\"from\": \"Memory Reuse\", \"to\": \"Response Cache\", \"relationship\": \"feeds\", \"weight\": 0.8}, {\"from\": \"Problem Mapper\", \"to\": \"Debate Layer\", \"relationship\": \"precedes\", \"weight\": 0.85",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_weave_weave_report.json",
+    "definition": "Infrastructure file weave_report.json: {\"component\": \"Weave Layer V0\", \"role\": \"Cross-link Translation OS systems and identify indirect relationships spanning subsystems\", \"pipeline_position\": \"Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"tracked_pairs\": [\"Dictionary \\u2194 Encyclopedia\", \"History \\u2194 Future\", \"Project Book \\u2194 Project Graph\", \"Memory Reuse \\u2194 Response Cache\", \"Problem Mapper \\u2194 Debate Layer\", \"Reasoning Heatmap \\u2194 Problem Solve Layer\"], \"metrics\": {\"dependency_discovery\": \"TBD\", \"planning_accuracy\": \"TBD\", \"d",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "launcher_translation_os_v1_config",
+    "definition": "Launcher config translation_os_v1_config.json: {\"model\": {\"gguf_path\": \"C:/Users/thoma/.lmstudio/apps/bionic/projects/d49037d8-47f4-5808-9028-c707de117f8f/workspace/TRANSLATION_OS_V1/models/Muse-Glimmer-Dequantized-Q4_K_M-real.gguf\", \"llama_simple_path\": \"C:/Users/thoma/.lmstudio/apps/bionic/projects/d49037d8-47f4-5808-9028-c707de117f8f/workspace/dttq/llama.cpp/build/bin/Release/llama-simple.exe\", \"max_tokens\": 256, \"gpu_mode\": \"auto\", \"cpu_fallback\": true, \"n_gpu_layers\": \"auto\"}, \"pipeline\": {\"dictionary_enabled\": true, \"dictionary_path\": \"dictionary/dictionary_v0.json\", \"encyclopedia_enabled\": true, \"encyclopedia_path\": \"encyclopedia/en",
+    "aliases": [],
+    "category": "launcher"
+  },
+  {
+    "term": "project_graph_project_graph_report",
+    "definition": "Project graph file project_graph_report.json: {\"component\": \"Project Graph V0\", \"created\": \"2026-10-13\", \"metrics\": {\"nodes\": 20, \"edges\": 8, \"infrastructure_count\": 11, \"blocked_count\": 1, \"pending_count\": 4, \"dependency_accuracy\": \"TBD\", \"blocked_work_detection\": true, \"project_continuity\": \"improved\", \"duplicate_work_reduction\": \"TBD\"}, \"queries_supported\": [\"What depends on HSCL?\", \"What is blocking Math-Boost?\", \"What should be built next?\", \"What components are related to memory?\", \"What components are infrastructure?\"], \"status\": \"KEEP\", \"notes\": \"Initial graph built from scoreboard. Needs validation against real dependency data.\"}",
+    "aliases": [],
+    "category": "project_graph"
+  },
+  {
+    "term": "project_graph_project_graph_v0",
+    "definition": "Project graph file project_graph_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"nodes\": [{\"id\": \"hscl_v1\", \"name\": \"HSCL v1\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, {\"id\": \"hscl_word_reuse_v1\", \"name\": \"HSCL Word Reuse v1\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, {\"id\": \"hscl_semantic_grouping_v0\", \"name\": \"HSCL Semantic Grouping v0\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, {\"id\": \"dictionary_v0\", \"name\": \"Dictionary Layer V0\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, {\"id\": \"encyclopedia_v0\", \"name\": \"Encyclopedia Layer V0\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, {\"id\": \"knowledge_layer_v0\", \"name\": \"",
+    "aliases": [],
+    "category": "project_graph"
+  },
+  {
+    "term": "orchestrator_response_cache_validation",
+    "definition": "Orchestrator file response_cache_validation.json: {\"validation_date\": \"2026-10-13\", \"tests\": [{\"query\": \"What is 2+2?\", \"expected_source\": \"cache\", \"model_called\": false, \"actual_source\": \"cache\", \"actual_model_called\": false, \"pass\": true}, {\"query\": \"What is 3+3?\", \"expected_source\": \"cache\", \"model_called\": false, \"actual_source\": \"cache\", \"actual_model_called\": false, \"pass\": true}, {\"query\": \"What does API mean?\", \"expected_source\": \"dictionary\", \"model_called\": false, \"actual_source\": \"dictionary\", \"actual_model_called\": false, \"pass\": true}, {\"query\": \"What is JSON?\", \"expected_source\": \"dictionary\", \"model_called\": false, \"actual_sour",
+    "aliases": [],
+    "category": "orchestrator"
+  },
+  {
+    "term": "history_history_book_v0",
+    "definition": "History file history_book_v0.json: [{\"date\": \"2026-10-13\", \"event\": \"HSCL v1 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"+29.9% compression, ~0% quality loss\"}, {\"date\": \"2026-10-13\", \"event\": \"Response Cache v0 promoted\", \"type\": \"milestone\", \"result\": \"KEEP\", \"reason\": \"75% cache hit rate, 100% accuracy retention\"}, {\"date\": \"2026-10-13\", \"event\": \"Math-Boost v1 blocked\", \"type\": \"blocked\", \"result\": \"BLOCKED\", \"reason\": \"Requires GPU LoRA training infrastructure not available\"}, {\"date\": \"2026-10-13\", \"event\": \"GPU Acceleration V1 deleted\", \"type\": \"decision\", \"result\": \"DELETE\", \"reason\": \"CUDA Toolkit not ",
+    "aliases": [],
+    "category": "history"
+  },
+  {
+    "term": "md_docs_architecture.md",
+    "definition": "Markdown file architecture.md: # Translation OS v1 Architecture\n\n## Pipeline\nRaw Text \u2192 HSCL v1 \u2192 HSCL Extensions \u2192 Canonicalizer \u2192 Response Cache \u2192 Router \u2192 Muse-Glimmer\n\n## Infrastructure\n- HSCL v1: Pre-tokenization semantic compression\n- HSCL Word Reuse v1: Extension\n- HSCL Semantic Grouping v0: Extension\n- Response Cache v0: Deterministic answer caching\n- Prompt Classifier Router v0: Rule-based routing\n\n## Scoreboard Rules\nRULE 0: Components survive via measurement\nRULE 1: KEEP components become frozen infrastructure\n\n## Current Status\nACTIVE: HSCL v1, Response Cache v0, Router v0\nBLOCKED: Math-Boost v1\n",
+    "aliases": [],
+    "category": "markdown"
+  },
+  {
+    "term": "md_docs_roadmap.md",
+    "definition": "Markdown file roadmap.md: # Translation OS v1 Roadmap\n\n## Completed\n- HSCL v1 KEEP\n- HSCL Word Reuse v1 KEEP\n- HSCL Semantic Grouping v0 KEEP\n- Response Cache v0 KEEP\n- Prompt Classifier Router v0 KEEP\n- Translation OS v1 launcher built\n\n## Blocked\n- Math-Boost v1: Requires GPU LoRA training\n\n## Pending\n- Coding-Boost v1\n- Router v1\n- Translator v1\n- Nemotron Boost\n\n## Next Steps\n- Validate full 100-prompt model inference\n- Consider Response Cache v1.1 auto-learning\n- Maintain scoreboard discipline\n",
+    "aliases": [],
+    "category": "markdown"
+  },
+  {
+    "term": "md_docs_surviving_components.md",
+    "definition": "Markdown file surviving_components.md: # Surviving Components\n\n## Infrastructure\n- HSCL v1\n- HSCL Word Reuse v1\n- HSCL Semantic Grouping v0\n- Response Cache v0\n- Prompt Classifier Router v0\n\n## Blocked\n- Math-Boost v1\n\n## Pending\n- Coding-Boost v1\n- Router v1\n- Translator v1\n- Nemotron Boost\n\nAll components listed survived scoreboard evaluation under RULE 0 and RULE 1.\n",
+    "aliases": [],
+    "category": "markdown"
+  },
+  {
+    "term": "infra_infrastructure_pattern_recognizer_patterns.json",
+    "definition": "Infrastructure file patterns.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Pattern Recognizer V0 pattern store\"}, \"problem_types\": {\"Definition\": {\"count\": 12, \"successful_paths\": [null, null, null, null, null, null, null, null, null, null, null, null]}, \"Math\": {\"count\": 7, \"successful_paths\": [null, null, null, null, null, null, null]}, \"Design\": {\"count\": 9, \"successful_paths\": [null, null, null, null, null, null, null, null, null]}, \"General\": {\"count\": 16, \"successful_paths\": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]}}}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_pattern_recognizer_pattern_report.json",
+    "definition": "Infrastructure file pattern_report.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Pattern Recognizer V0 validation report\"}, \"metrics\": {\"pattern_detection_accuracy\": null, \"reuse_rate\": null, \"layer_selection_improvement\": null}, \"status\": \"INITIALIZED\"}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_picture_memory_picture_index.json",
+    "definition": "Infrastructure file picture_index.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Picture Memory V0 index\"}, \"photos\": [{\"filename\": \"2026-10-14T10-59-39.480953_demo_diagram.png\", \"original_path\": \"C:\\\\Users\\\\thoma\\\\.lmstudio\\\\apps\\\\bionic\\\\projects\\\\d49037d8-47f4-5808-9028-c707de117f8f\\\\workspace\\\\TRANSLATION_OS_V1\\\\infrastructure\\\\picture_memory\\\\demo_diagram.png\", \"metadata\": {\"description\": \"Translation OS v1 pipeline diagram\", \"components\": [\"HSCL v1\", \"Response Cache v0\", \"Router v0\"], \"created_by\": \"thoma\", \"tags\": [\"architecture\", \"pipeline\"]}, \"encoded_at\": \"2026-10-14T10:59:39.487546\", \"memory_ty",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_relevance_relevance_graph.json",
+    "definition": "Infrastructure file relevance_graph.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Relevance graph of components and knowledge\"}, \"nodes\": [], \"edges\": []}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_relevance_relevance_heatmap.json",
+    "definition": "Infrastructure file relevance_heatmap.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Relevance heatmap for query context\"}, \"heatmaps\": [{\"query\": \"What is the pipeline order for Translation OS v1?\", \"scores\": [{\"component\": \"Response Cache\", \"memory_weight\": 0.95, \"confidence_weight\": 0.98, \"relevance_weight\": 0.85, \"priority_score\": 0.791, \"decision\": \"ACTIVATE\"}, {\"component\": \"Memory Reuse\", \"memory_weight\": 0.88, \"confidence_weight\": 0.92, \"relevance_weight\": 0.9, \"priority_score\": 0.729, \"decision\": \"ACTIVATE\"}, {\"component\": \"History Book\", \"memory_weight\": 0.95, \"confidence_weight\": 0.98, \"relevance_w",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_relevance_relevance_overlay.json",
+    "definition": "Infrastructure file relevance_overlay.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Relevance overlays on Knowledge Grid, Project Graph, etc.\"}, \"overlays\": []}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_relevance_relevance_report.json",
+    "definition": "Infrastructure file relevance_report.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Weighted Relevance Engine V0 validation report\"}, \"metrics\": {\"retrieval_accuracy\": null, \"reasoning_accuracy\": null, \"layer_selection_accuracy\": null, \"context_efficiency\": null, \"reuse_rate\": null, \"latency_delta\": null, \"token_efficiency\": null}, \"status\": \"INITIALIZED\"}",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "infra_infrastructure_relevance_relevance_weights.json",
+    "definition": "Infrastructure file relevance_weights.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Weighted Relevance Engine V0 weights\"}, \"components\": {\"Problem Mapper\": {\"memory_weight\": 0.9, \"confidence_weight\": 0.95, \"relevance_weight\": 0.0}, \"Problem Solve Layer\": {\"memory_weight\": 0.85, \"confidence_weight\": 0.9, \"relevance_weight\": 0.0}, \"Debate Layer\": {\"memory_weight\": 0.7, \"confidence_weight\": 0.75, \"relevance_weight\": 0.0}, \"Response Cache\": {\"memory_weight\": 0.95, \"confidence_weight\": 0.98, \"relevance_weight\": 0.0}, \"Memory Reuse\": {\"memory_weight\": 0.88, \"confidence_weight\": 0.92, \"relevance_weight\": 0.0}, \"Hi",
+    "aliases": [],
+    "category": "infrastructure"
+  },
+  {
+    "term": "report_golden_set",
+    "definition": "Report golden_set.json: [{\"query\": \"What is 2+2?\", \"expected\": \"4\", \"type\": \"cache\"}, {\"query\": \"pipeline diagram\", \"expected\": \"picture_memory\", \"type\": \"picture\"}, {\"query\": \"What does API mean?\", \"expected\": \"API\", \"type\": \"cache\"}, {\"query\": \"Find the 1000th digit after the decimal point in the decimal expansion of 1/7\", \"expected\": \"model\", \"type\": \"reasoning\"}]",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_golden_validation_report",
+    "definition": "Report golden_validation_report.json: {\"total\": 4, \"passed\": 4, \"results\": [{\"query\": \"What is 2+2?\", \"expected_type\": \"cache\", \"source\": \"cache\", \"passed\": true}, {\"query\": \"pipeline diagram\", \"expected_type\": \"picture\", \"source\": \"picture_memory\", \"passed\": true}, {\"query\": \"What does API mean?\", \"expected_type\": \"cache\", \"source\": \"cache\", \"passed\": true}, {\"query\": \"Find the 1000th digit after the decimal point in the decimal expansion of 1/7\", \"expected_type\": \"reasoning\", \"source\": \"model\", \"passed\": true}]}",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_multi_section_validation",
+    "definition": "Report multi_section_validation.json: {\"total\": 5, \"cache_hits\": 1, \"picture_memory_hits\": 1, \"problem_mapper_hits\": 1, \"model_calls\": 2, \"details\": [{\"query\": \"What is 2+2?\", \"source\": \"cache\", \"model_called\": false, \"picture_memory_hit\": false, \"cache_hit\": true, \"problem_mapper_hit\": false, \"pattern\": {\"problem_type\": \"Definition\", \"pattern_id\": \"Definition_6\", \"suggested_layers\": [\"Memory Reuse\", \"Encyclopedia\", \"Response Cache\"]}}, {\"query\": \"pipeline diagram\", \"source\": \"picture_memory\", \"model_called\": false, \"picture_memory_hit\": true, \"cache_hit\": false, \"problem_mapper_hit\": false, \"pattern\": {\"problem_type\": \"Design\", \"",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_multi_section_validation_v2",
+    "definition": "Report multi_section_validation_v2.json: {\"total\": 5, \"cache_hits\": 3, \"picture_memory_hits\": 1, \"problem_mapper_hits\": 1, \"model_calls\": 0, \"details\": [{\"query\": \"What is 2+2?\", \"source\": \"cache\", \"model_called\": false, \"picture_memory_hit\": false, \"cache_hit\": true, \"problem_mapper_hit\": false, \"pattern\": {\"problem_type\": \"Definition\", \"pattern_id\": \"Definition_8\", \"suggested_layers\": [\"Memory Reuse\", \"Encyclopedia\", \"Response Cache\"]}}, {\"query\": \"pipeline diagram\", \"source\": \"picture_memory\", \"model_called\": false, \"picture_memory_hit\": true, \"cache_hit\": false, \"problem_mapper_hit\": false, \"pattern\": {\"problem_type\": \"Design\", \"",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "report_response_cache_v1_1_report",
+    "definition": "Report response_cache_v1_1_report.json: {\"auto_learned_entries\": 0, \"total_groups_evaluated\": 186, \"cache_size\": 23, \"safeguards\": {\"min_hits\": 2, \"min_success\": 0.85, \"max_words\": 50, \"deterministic_check\": true}}",
+    "aliases": [],
+    "category": "reports"
+  },
+  {
+    "term": "infra_infrastructure_knowledge_knowledge_seed.json",
+    "definition": "Infrastructure file knowledge_seed.json: [{\"term\": \"api\", \"definition\": \"Application Programming Interface. A set of rules that allows different software applications to communicate.\", \"aliases\": [\"application programming interface\"], \"category\": \"software\"}, {\"term\": \"gpu\", \"definition\": \"Graphics Processing Unit. Specialized processor for parallel computation.\", \"aliases\": [\"graphics card\"], \"category\": \"hardware\"}, {\"term\": \"hscl\", \"definition\": \"Hierarchical Semantic Compression Layer. Pre-tokenization compression for LLMs.\", \"aliases\": [\"hscl v1\"], \"category\": \"infrastructure\"}]",
+    "aliases": [],
+    "category": "infrastructure"
+  }
+]

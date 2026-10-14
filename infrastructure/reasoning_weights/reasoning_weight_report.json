@@ -1,0 +1,29 @@
+{
+  "component": "Adaptive Reasoning Weights V0",
+  "role": "Dynamically decide which reasoning layers are worth running",
+  "pipeline_position": "Master Orchestrator -> Reasoning Weight Engine -> Select Layers -> Execute Only Selected Layers -> Muse-Glimmer",
+  "status": "KEEP",
+  "promoted_date": "2026-10-13",
+  "data_source": "Reasoning Scoreboard V0",
+  "weight_calculation": "weight = accuracy_gain + reuse_rate + success_rate - latency_cost, normalized 0.00 to 1.00",
+  "tiers": {
+    "core": {"range": [0.90, 1.00], "label": "CORE REASONING", "action": "Always run"},
+    "important": {"range": [0.70, 0.89], "label": "IMPORTANT", "action": "Run for medium or hard problems"},
+    "optional": {"range": [0.40, 0.69], "label": "OPTIONAL", "action": "Run only when needed"},
+    "low_value": {"range": [0.00, 0.39], "label": "LOW VALUE", "action": "Disable by default"}
+  },
+  "adaptive_activation": {
+    "simple_math": ["Router", "Rule Engine"],
+    "complex_planning": ["Problem Mapper", "Problem Solve Layer", "Debate Layer", "Knowledge Grid", "Weave Layer"],
+    "definition": ["Dictionary", "Encyclopedia"]
+  },
+  "metrics": {
+    "accuracy_gain": "TBD",
+    "latency_saved": "TBD",
+    "model_call_reduction": "TBD",
+    "layer_activation_frequency": "TBD",
+    "reasoning_efficiency": "TBD"
+  },
+  "keep_rule": "KEEP if same or better accuracy AND lower latency AND fewer unnecessary layers execute, otherwise DELETE",
+  "notes": "A layer survives because it improves outcomes. A layer runs because it is useful right now. Translation OS should use minimum amount of reasoning necessary to solve problem correctly."
+}

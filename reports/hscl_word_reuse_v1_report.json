@@ -1,0 +1,22 @@
+{
+  "component": "HSCL Word Reuse v1",
+  "base": "HSCL v1 infrastructure",
+  "dictionary": "hscl_word_reuse_dictionary_v1.json",
+  "benchmark": "hscl_benchmark.json",
+  "metrics": {
+    "hscl_v1_avg_compression_ratio": 1.299,
+    "hscl_word_reuse_v1_avg_compression_ratio": 1.314,
+    "compression_improvement_percent": 1.15,
+    "preprocess_latency_delta_ms": "<0.01",
+    "complexity_cost": "LOW"
+  },
+  "evaluation": {
+    "test_prompts": 20,
+    "method": "whitespace token count approximation"
+  },
+  "decision_rule": {
+    "required_improvement": "meaningful gain over HSCL v1 baseline with no quality loss"
+  },
+  "status": "PENDING_REVIEW",
+  "notes": "Word Reuse v1 adds high-frequency multi-word technical phrases. Average compression improvement is ~1.15% over HSCL v1 on benchmark set. Improvement is marginal; scoreboard may decide DELETE if gain not meaningful relative to dictionary maintenance cost."
+}

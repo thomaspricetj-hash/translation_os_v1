@@ -1,0 +1,92 @@
+{
+  "total": 5,
+  "cache_hits": 1,
+  "picture_memory_hits": 1,
+  "problem_mapper_hits": 1,
+  "model_calls": 2,
+  "details": [
+    {
+      "query": "What is 2+2?",
+      "source": "cache",
+      "model_called": false,
+      "picture_memory_hit": false,
+      "cache_hit": true,
+      "problem_mapper_hit": false,
+      "pattern": {
+        "problem_type": "Definition",
+        "pattern_id": "Definition_6",
+        "suggested_layers": [
+          "Memory Reuse",
+          "Encyclopedia",
+          "Response Cache"
+        ]
+      }
+    },
+    {
+      "query": "pipeline diagram",
+      "source": "picture_memory",
+      "model_called": false,
+      "picture_memory_hit": true,
+      "cache_hit": false,
+      "problem_mapper_hit": false,
+      "pattern": {
+        "problem_type": "Design",
+        "pattern_id": "Design_6",
+        "suggested_layers": [
+          "Memory Reuse",
+          "Encyclopedia",
+          "Project Graph"
+        ]
+      }
+    },
+    {
+      "query": "What does API mean?",
+      "source": "model",
+      "model_called": true,
+      "picture_memory_hit": false,
+      "cache_hit": false,
+      "problem_mapper_hit": false,
+      "pattern": {
+        "problem_type": "General",
+        "pattern_id": "General_4",
+        "suggested_layers": [
+          "Memory Reuse",
+          "Response Cache"
+        ]
+      }
+    },
+    {
+      "query": "John buys 3 boxes with 12 apples each and gives away 5. How many remain?",
+      "source": "model",
+      "model_called": true,
+      "picture_memory_hit": false,
+      "cache_hit": false,
+      "problem_mapper_hit": false,
+      "pattern": {
+        "problem_type": "General",
+        "pattern_id": "General_5",
+        "suggested_layers": [
+          "Memory Reuse",
+          "Response Cache"
+        ]
+      }
+    },
+    {
+      "query": "Calculate 17 * 23",
+      "source": "problem_mapper",
+      "model_called": false,
+      "picture_memory_hit": false,
+      "cache_hit": false,
+      "problem_mapper_hit": true,
+      "pattern": {
+        "problem_type": "Math",
+        "pattern_id": "Math_4",
+        "suggested_layers": [
+          "Problem Mapper",
+          "Problem Solve Layer",
+          "Debate Layer"
+        ]
+      }
+    }
+  ]
+}

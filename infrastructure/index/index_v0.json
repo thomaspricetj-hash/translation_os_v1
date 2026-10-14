@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "built": "2026-10-13",
+    "sources": [
+      "dictionary",
+      "encyclopedia",
+      "response_cache",
+      "memory_reuse",
+      "relevance_weights",
+      "relevance_graph",
+      "relevance_heatmap",
+      "relevance_overlay",
+      "relevance_report",
+      "pattern_recognizer",
+      "pattern_report",
+      "picture_index",
+      "debate_templates",
+      "debate_history",
+      "debate_report",
+      "problem_solve_templates",
+      "problem_solve_report",
+      "knowledge_grid",
+      "knowledge_grid_report",
+      "weave_layer",
+      "weave_report",
+      "policy",
+      "policy_report",
+      "memory_weights",
+      "memory_weight_report",
+      "reasoning_scoreboard",
+      "reasoning_scoreboard_report",
+      "reasoning_weights",
+      "reasoning_weight_report",
+      "diary",
+      "journal",
+      "project_book",
+      "project_graph",
+      "scoreboard"
+    ]
+  },
+  "entries": {
+    "dictionary": {
+      "file": "infrastructure\\dictionary\\dictionary_v0.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "encyclopedia": {
+      "file": "infrastructure\\encyclopedia\\encyclopedia_v0.json",
+      "indexed": true,
+      "entries_count": 192
+    },
+    "response_cache": {
+      "file": "infrastructure\\cache\\response_cache_v0.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "memory_reuse": {
+      "file": "infrastructure\\memory_reuse\\memory_reuse_v0.json",
+      "indexed": true,
+      "entries_count": 1110
+    },
+    "relevance_weights": {
+      "file": "infrastructure\\relevance\\relevance_weights.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "relevance_graph": {
+      "file": "infrastructure\\relevance\\relevance_graph.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "relevance_heatmap": {
+      "file": "infrastructure\\relevance\\relevance_heatmap.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "relevance_overlay": {
+      "file": "infrastructure\\relevance\\relevance_overlay.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "relevance_report": {
+      "file": "infrastructure\\relevance\\relevance_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "pattern_recognizer": {
+      "file": "infrastructure\\pattern_recognizer\\patterns.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "pattern_report": {
+      "file": "infrastructure\\pattern_recognizer\\pattern_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "picture_index": {
+      "file": "infrastructure\\picture_memory\\picture_index.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "debate_templates": {
+      "file": "infrastructure\\debate\\debate_templates.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "debate_history": {
+      "file": "infrastructure\\debate\\debate_history.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "debate_report": {
+      "file": "infrastructure\\debate\\debate_layer_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "problem_solve_templates": {
+      "file": "infrastructure\\problem_solve\\problem_solve_templates.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "problem_solve_report": {
+      "file": "infrastructure\\problem_solve\\problem_solve_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "knowledge_grid": {
+      "file": "infrastructure\\knowledge_grid\\knowledge_grid_v0.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "knowledge_grid_report": {
+      "file": "infrastructure\\knowledge_grid\\knowledge_grid_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "weave_layer": {
+      "file": "infrastructure\\weave\\weave_layer_v0.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "weave_report": {
+      "file": "infrastructure\\weave\\weave_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "policy": {
+      "file": "infrastructure\\policy\\policy_v0.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "policy_report": {
+      "file": "infrastructure\\policy\\policy_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "memory_weights": {
+      "file": "infrastructure\\memory_weights\\memory_weights_v0.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "memory_weight_report": {
+      "file": "infrastructure\\memory_weights\\memory_weight_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "reasoning_scoreboard": {
+      "file": "infrastructure\\reasoning_scoreboard\\reasoning_scoreboard.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "reasoning_scoreboard_report": {
+      "file": "infrastructure\\reasoning_scoreboard\\reasoning_scoreboard_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "reasoning_weights": {
+      "file": "infrastructure\\reasoning_weights\\reasoning_weights.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "reasoning_weight_report": {
+      "file": "infrastructure\\reasoning_weights\\reasoning_weight_report.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "diary": {
+      "file": "workspace_memory\\diary.json",
+      "indexed": true,
+      "entries_count": 201
+    },
+    "journal": {
+      "file": "workspace_memory\\journal.json",
+      "indexed": true,
+      "entries_count": 298
+    },
+    "project_book": {
+      "file": "workspace_memory\\project_book.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "project_graph": {
+      "file": "project_graph\\project_graph_v0.json",
+      "indexed": true,
+      "entries_count": 1
+    },
+    "scoreboard": {
+      "file": "scoreboard\\capability_scoreboard.json",
+      "indexed": true,
+      "entries_count": 1
+    }
+  }
+}

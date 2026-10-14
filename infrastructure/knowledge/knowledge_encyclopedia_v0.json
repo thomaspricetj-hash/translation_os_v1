@@ -1,0 +1,38 @@
+[
+  {
+    "concept": "entropy",
+    "description": "A measure of uncertainty or energy distribution in a system.",
+    "related": ["thermodynamics", "information theory", "statistical mechanics"],
+    "category": "physics"
+  },
+  {
+    "concept": "gpu",
+    "description": "Graphics Processing Unit, specialized processor for parallel computation and graphics.",
+    "related": ["cuda", "vram", "parallel processing"],
+    "category": "hardware"
+  },
+  {
+    "concept": "api",
+    "description": "Application Programming Interface, set of rules and tools for building software.",
+    "related": ["sdk", "endpoint", "rest"],
+    "category": "software"
+  },
+  {
+    "concept": "llm",
+    "description": "Large Language Model, neural network trained on large text corpora to generate human-like language.",
+    "related": ["transformer", "tokenizer", "fine-tuning"],
+    "category": "ai"
+  },
+  {
+    "concept": "ai",
+    "description": "Artificial Intelligence, systems that can perform tasks requiring human-like intelligence.",
+    "related": ["machine learning", "deep learning", "neural network"],
+    "category": "ai"
+  },
+  {
+    "concept": "machine learning",
+    "description": "Subset of AI where systems learn from data without explicit programming.",
+    "related": ["supervised learning", "unsupervised learning", "reinforcement learning"],
+    "category": "ai"
+  }
+]

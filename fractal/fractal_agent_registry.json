@@ -1,0 +1,48 @@
+{
+  "agents": [
+    {
+      "agent_id": "research_agent",
+      "type": "Research Agent",
+      "tags": ["research", "knowledge", "validation"],
+      "capabilities": ["gather information", "verify facts", "retrieve from encyclopedia"],
+      "status": "active"
+    },
+    {
+      "agent_id": "planning_agent",
+      "type": "Planning Agent",
+      "tags": ["planning", "breakdown", "roadmap"],
+      "capabilities": ["task breakdown", "dependency analysis", "milestone planning"],
+      "status": "active"
+    },
+    {
+      "agent_id": "coding_agent",
+      "type": "Coding Agent",
+      "tags": ["coding", "implementation"],
+      "capabilities": ["write code", "implement features", "refactor"],
+      "status": "active"
+    },
+    {
+      "agent_id": "validation_agent",
+      "type": "Validation Agent",
+      "tags": ["validation", "testing", "benchmark"],
+      "capabilities": ["run tests", "benchmark", "verify correctness"],
+      "status": "active"
+    },
+    {
+      "agent_id": "documentation_agent",
+      "type": "Documentation Agent",
+      "tags": ["documentation", "knowledge"],
+      "capabilities": ["write docs", "update manifests", "summarize"],
+      "status": "active"
+    },
+    {
+      "agent_id": "reasoning_agent",
+      "type": "Reasoning Agent",
+      "tags": ["reasoning", "debate"],
+      "capabilities": ["analyze", "compare solutions", "judge conflicts"],
+      "status": "active"
+    }
+  ],
+  "version": "0.0",
+  "created": "2026-10-14"
+}

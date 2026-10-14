@@ -1,0 +1,20 @@
+[
+  {
+    "term": "api",
+    "definition": "Application Programming Interface. A set of rules that allows different software applications to communicate.",
+    "aliases": ["application programming interface"],
+    "category": "software"
+  },
+  {
+    "term": "gpu",
+    "definition": "Graphics Processing Unit. Specialized processor for parallel computation.",
+    "aliases": ["graphics card"],
+    "category": "hardware"
+  },
+  {
+    "term": "hscl",
+    "definition": "Hierarchical Semantic Compression Layer. Pre-tokenization compression for LLMs.",
+    "aliases": ["hscl v1"],
+    "category": "infrastructure"
+  }
+]

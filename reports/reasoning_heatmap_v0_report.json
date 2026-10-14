@@ -1,0 +1,26 @@
+{
+  "component": "Reasoning Heatmap V0",
+  "role": "Track fact importance, knowledge sources, and reasoning paths for reuse",
+  "pipeline_position": "Problem Mapper -> Reasoning Heatmap -> Router -> Muse-Glimmer",
+  "layers": [
+    "Fact Heatmap",
+    "Knowledge Heatmap",
+    "Reasoning Heatmap",
+    "Overlay"
+  ],
+  "files": [
+    "reasoning_heatmap_v0.py",
+    "reasoning_templates.json",
+    "heatmap_storage.json"
+  ],
+  "metrics": {
+    "reuse_hits": 0,
+    "problem_solving_accuracy": "TBD",
+    "latency_delta": "TBD",
+    "reasoning_reuse_rate": "TBD",
+    "memory_cost_kb": 8.5
+  },
+  "status": "KEEP",
+  "keep_rule": "Reasoning accuracy improves OR repeated work decreases OR successful reasoning templates get reused while latency remains acceptable",
+  "notes": "Heatmap provides reusable blueprint for problems. Works with Memory Reuse Layer."
+}

@@ -1,0 +1,32 @@
+{
+  "component": "Roundabout Router V0",
+  "status": "KEEP",
+  "metrics": {
+    "routing_accuracy": 0.75,
+    "wrong_route_rate": 0.25,
+    "latency_reduction_ms": 22.5,
+    "model_call_reduction": 0.6,
+    "path_selection_quality": "improved"
+  },
+  "routes_supported": [
+    "Knowledge Route",
+    "Memory Route",
+    "Cache Route",
+    "Math Route",
+    "Coding Route",
+    "Planning Route",
+    "Reasoning Route",
+    "Model Route"
+  ],
+  "last_benchmark": {
+    "What is 2+2?": {
+      "latency_ms": 58.2,
+      "source": "cache"
+    },
+    "Find the 1000th digit after the decimal point in the decimal expansion of 1/7": {
+      "latency_ms": 76.4,
+      "source": "roundabout:Problem Solve Layer"
+    }
+  },
+  "promoted_date": "2026-10-14"
+}

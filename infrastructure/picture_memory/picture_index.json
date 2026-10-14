@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "created": "2026-10-14",
+    "purpose": "Picture Memory V0 index"
+  },
+  "photos": [
+    {
+      "filename": "2026-10-14T10-59-39.480953_demo_diagram.png",
+      "original_path": "C:\\Users\\thoma\\.lmstudio\\apps\\bionic\\projects\\d49037d8-47f4-5808-9028-c707de117f8f\\workspace\\TRANSLATION_OS_V1\\infrastructure\\picture_memory\\demo_diagram.png",
+      "metadata": {
+        "description": "Translation OS v1 pipeline diagram",
+        "components": [
+          "HSCL v1",
+          "Response Cache v0",
+          "Router v0"
+        ],
+        "created_by": "thoma",
+        "tags": [
+          "architecture",
+          "pipeline"
+        ]
+      },
+      "encoded_at": "2026-10-14T10:59:39.487546",
+      "memory_type": "picture_memory"
+    }
+  ]
+}

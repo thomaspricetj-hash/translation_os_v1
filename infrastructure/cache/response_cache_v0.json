@@ -1,0 +1,1830 @@
+{
+  "WORD_PROBLEM_APPLES": {
+    "patterns": [
+      "john buys 3 boxes with 12 apples each and gives away 5",
+      "john buys 3 boxes 12 apples each gives away 5"
+    ],
+    "answer": "3 boxes \u00c3\u2014 12 apples = 36 apples, minus 5 given away = 31 apples remain.",
+    "question_id": "WORD_PROBLEM_APPLES"
+  },
+  "MATH_ADD_2_2": {
+    "patterns": [
+      "2+2",
+      "what is 2+2",
+      "calculate 2+2",
+      "what's 2 plus 2",
+      "2 plus 2"
+    ],
+    "answer": "4",
+    "question_id": "MATH_ADD_2_2"
+  },
+  "MATH_ADD_3_3": {
+    "patterns": [
+      "3+3",
+      "what is 3+3"
+    ],
+    "answer": "6",
+    "question_id": "MATH_ADD_3_3"
+  },
+  "CAPITAL_FRANCE": {
+    "patterns": [
+      "capital of france",
+      "what is the capital of france",
+      "france capital"
+    ],
+    "answer": "Paris",
+    "question_id": "CAPITAL_FRANCE"
+  },
+  "WHAT_IS_API": {
+    "patterns": [
+      "what is an api",
+      "what is api",
+      "define api",
+      "what does api mean",
+      "what does an api mean"
+    ],
+    "answer": "API stands for Application Programming Interface, a set of rules that allows different software applications to communicate with each other.",
+    "question_id": "WHAT_IS_API"
+  },
+  "HELLO": {
+    "patterns": [
+      "hello",
+      "hi",
+      "hey"
+    ],
+    "answer": "Hello! How can I help you today?",
+    "question_id": "HELLO"
+  },
+  "AUTO_20473": {
+    "question_id": "AUTO_20473",
+    "patterns": [
+      "what is hscl in translation os?"
+    ],
+    "answer": "Infrastructure: HSCL v1: Pre-tokenization semantic compression",
+    "auto_learned": true,
+    "hits": 18,
+    "avg_success": 1.0
+  },
+  "AUTO_9111": {
+    "question_id": "AUTO_9111",
+    "patterns": [
+      "what is response in translation os?"
+    ],
+    "answer": "Infrastructure: Response Cache v0: Deterministic answer caching",
+    "auto_learned": true,
+    "hits": 6,
+    "avg_success": 1.0
+  },
+  "AUTO_68991": {
+    "question_id": "AUTO_68991",
+    "patterns": [
+      "what is prompt in translation os?"
+    ],
+    "answer": "Infrastructure: Prompt Classifier Router v0: Rule-based routing",
+    "auto_learned": true,
+    "hits": 6,
+    "avg_success": 1.0
+  },
+  "AUTO_92923": {
+    "question_id": "AUTO_92923",
+    "patterns": [
+      "what is translation in translation os?"
+    ],
+    "answer": "Completed: Translation OS v1 launcher built",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_27166": {
+    "question_id": "AUTO_27166",
+    "patterns": [
+      "what is math-boost in translation os?"
+    ],
+    "answer": "Blocked: Math-Boost v1: Requires GPU LoRA training",
+    "auto_learned": true,
+    "hits": 4,
+    "avg_success": 1.0
+  },
+  "AUTO_40451": {
+    "question_id": "AUTO_40451",
+    "patterns": [
+      "what is coding-boost in translation os?"
+    ],
+    "answer": "Pending: Coding-Boost v1",
+    "auto_learned": true,
+    "hits": 4,
+    "avg_success": 1.0
+  },
+  "AUTO_41206": {
+    "question_id": "AUTO_41206",
+    "patterns": [
+      "what is router in translation os?"
+    ],
+    "answer": "Pending: Router v1",
+    "auto_learned": true,
+    "hits": 4,
+    "avg_success": 1.0
+  },
+  "AUTO_97657": {
+    "question_id": "AUTO_97657",
+    "patterns": [
+      "what is translator in translation os?"
+    ],
+    "answer": "Pending: Translator v1",
+    "auto_learned": true,
+    "hits": 4,
+    "avg_success": 1.0
+  },
+  "AUTO_39840": {
+    "question_id": "AUTO_39840",
+    "patterns": [
+      "what is nemotron in translation os?"
+    ],
+    "answer": "Pending: Nemotron Boost",
+    "auto_learned": true,
+    "hits": 4,
+    "avg_success": 1.0
+  },
+  "AUTO_35704": {
+    "question_id": "AUTO_35704",
+    "patterns": [
+      "what is validate in translation os?"
+    ],
+    "answer": "Next Steps: Validate full 100-prompt model inference",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_6016": {
+    "question_id": "AUTO_6016",
+    "patterns": [
+      "what is maintain in translation os?"
+    ],
+    "answer": "Next Steps: Maintain scoreboard discipline",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_60437": {
+    "question_id": "AUTO_60437",
+    "patterns": [
+      "what is report_hscl_v1_report?"
+    ],
+    "answer": "Report hscl_v1_report.json: {\"benchmark_version\": \"HSCL V1\", \"phase\": \"V1 phrase compression only - FINAL\", \"model\": \"Muse-Glimmer-Dequantized-Q4_K_M-real.gguf\", \"dictionary\": \"hscl_dictionary_v1.json\", \"preprocessor\": \"hscl_preprocessor.py\", \"validation_date\": \"2026-10-13\", \"total_prompts\": 20, \"average_compression_ratio_whitespace\": 1.299, \"average_compression_percent\": 29.9, \"average_preprocess_latency_ms\": 0.082, \"quality_check\": {\"method\": \"model inference original vs compressed prompt\", \"s",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_54114": {
+    "question_id": "AUTO_54114",
+    "patterns": [
+      "what is the pipeline order for translation os v1?"
+    ],
+    "answer": "Raw Text \u2192 HSCL v1 \u2192 HSCL Extensions \u2192 Canonicalizer \u2192 Response Cache \u2192 Router \u2192 Muse-Glimmer",
+    "auto_learned": true,
+    "hits": 6,
+    "avg_success": 1.0
+  },
+  "AUTO_23697": {
+    "question_id": "AUTO_23697",
+    "patterns": [
+      "which components are blocked and why?"
+    ],
+    "answer": "Math-Boost v1 is blocked because it requires GPU LoRA training infrastructure not available in current environment",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_90143": {
+    "question_id": "AUTO_90143",
+    "patterns": [
+      "what is scoreboard rule 0?"
+    ],
+    "answer": "Components must survive compression/accuracy/latency gates to be KEEP",
+    "auto_learned": true,
+    "hits": 4,
+    "avg_success": 1.0
+  },
+  "AUTO_65721": {
+    "question_id": "AUTO_65721",
+    "patterns": [
+      "what is 2+2?"
+    ],
+    "answer": "4",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_97986": {
+    "question_id": "AUTO_97986",
+    "patterns": [
+      "explain why math-boost v1 is blocked in translation os v1"
+    ],
+    "answer": "Previously blocked because GPU training unavailable.",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_10880": {
+    "question_id": "AUTO_10880",
+    "patterns": [
+      "what is dictionary_layer_v0 in translation os?"
+    ],
+    "answer": "Infrastructure component: Dictionary Layer V0. Role: Normalize synonyms, abbreviations, alternate spellings and aliases. Status: INFRASTRUCTURE",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_19430": {
+    "question_id": "AUTO_19430",
+    "patterns": [
+      "what is encyclopedia_layer_v0 in translation os?"
+    ],
+    "answer": "Infrastructure component: Encyclopedia Layer V0. Role: Return known concept definitions before model inference. Status: INFRASTRUCTURE",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_91466": {
+    "question_id": "AUTO_91466",
+    "patterns": [
+      "what is hscl_v1 in translation os?"
+    ],
+    "answer": "Infrastructure component: HSCL v1. Role: Pre-tokenization semantic compression. Status: INFRASTRUCTURE",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_98151": {
+    "question_id": "AUTO_98151",
+    "patterns": [
+      "what is response_cache_v0 in translation os?"
+    ],
+    "answer": "Infrastructure component: Response Cache v0. Role: Deterministic answer caching with question canonicalization. Status: INFRASTRUCTURE",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_26157": {
+    "question_id": "AUTO_26157",
+    "patterns": [
+      "what is prompt_classifier_router_v0 in translation os?"
+    ],
+    "answer": "Infrastructure component: Prompt Classifier Router v0. Role: Rule-based prompt routing. Status: KEEP",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_50536": {
+    "question_id": "AUTO_50536",
+    "patterns": [
+      "what is gpu_acceleration_v1 in translation os?"
+    ],
+    "answer": "Component: GPU Acceleration V1. Status: DELETE. Reason: ",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_78511": {
+    "question_id": "AUTO_78511",
+    "patterns": [
+      "what is math-boost_v1 in translation os?"
+    ],
+    "answer": "Component: Math-Boost v1. Status: BLOCKED. Reason: Requires GPU LoRA training infrastructure not available in current environment",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_54957": {
+    "question_id": "AUTO_54957",
+    "patterns": [
+      "what is response_cache_v1.1 in translation os?"
+    ],
+    "answer": "Component: Response Cache v1.1. Status: PENDING_REVIEW. Reason: ",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_36368": {
+    "question_id": "AUTO_36368",
+    "patterns": [
+      "what is coding-boost_v1 in translation os?"
+    ],
+    "answer": "Pending component: Coding-Boost v1",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_44020": {
+    "question_id": "AUTO_44020",
+    "patterns": [
+      "what is router_v1 in translation os?"
+    ],
+    "answer": "Pending component: Router v1",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_87411": {
+    "question_id": "AUTO_87411",
+    "patterns": [
+      "what is translator_v1 in translation os?"
+    ],
+    "answer": "Pending component: Translator v1",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_55093": {
+    "question_id": "AUTO_55093",
+    "patterns": [
+      "what is nemotron_boost in translation os?"
+    ],
+    "answer": "Pending component: Nemotron Boost",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_87658": {
+    "question_id": "AUTO_87658",
+    "patterns": [
+      "what is launcher_translation_os_v1_py in translation os?"
+    ],
+    "answer": "File: launcher/translation_os_v1.py. Purpose: Single executable entry point for Translation OS v1",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_22619": {
+    "question_id": "AUTO_22619",
+    "patterns": [
+      "what is launcher_translation_os_v1_config_json in translation os?"
+    ],
+    "answer": "File: launcher/translation_os_v1_config.json. Purpose: Pipeline configuration and toggles",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_32887": {
+    "question_id": "AUTO_32887",
+    "patterns": [
+      "what is infrastructure_hscl_hscl_dictionary_v1_json in translation os?"
+    ],
+    "answer": "File: infrastructure/hscl/hscl_dictionary_v1.json. Purpose: HSCL phrase to abbreviation map",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_65208": {
+    "question_id": "AUTO_65208",
+    "patterns": [
+      "what is infrastructure_hscl_hscl_word_reuse_dictionary_v1_json in translation os?"
+    ],
+    "answer": "File: infrastructure/hscl/hscl_word_reuse_dictionary_v1.json. Purpose: HSCL Word Reuse extension dictionary",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_49893": {
+    "question_id": "AUTO_49893",
+    "patterns": [
+      "what is infrastructure_hscl_hscl_semantic_grouping_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/hscl/hscl_semantic_grouping_v0.json. Purpose: Semantic grouping definitions for HSCL",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_58692": {
+    "question_id": "AUTO_58692",
+    "patterns": [
+      "what is infrastructure_hscl_hscl_preprocessor_py in translation os?"
+    ],
+    "answer": "File: infrastructure/hscl/hscl_preprocessor.py. Purpose: HSCL compression preprocessor",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_58997": {
+    "question_id": "AUTO_58997",
+    "patterns": [
+      "what is infrastructure_dictionary_dictionary_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/dictionary/dictionary_v0.json. Purpose: Dictionary Layer V0 synonym/abbreviation normalization map",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_34510": {
+    "question_id": "AUTO_34510",
+    "patterns": [
+      "what is infrastructure_knowledge_knowledge_dictionary_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/knowledge/knowledge_dictionary_v0.json. Purpose: Knowledge Layer V0 dictionary of words definitions and aliases",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_24381": {
+    "question_id": "AUTO_24381",
+    "patterns": [
+      "what is infrastructure_knowledge_knowledge_encyclopedia_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/knowledge/knowledge_encyclopedia_v0.json. Purpose: Knowledge Layer V0 encyclopedia of concepts",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_75972": {
+    "question_id": "AUTO_75972",
+    "patterns": [
+      "what is infrastructure_knowledge_knowledge_lookup_py in translation os?"
+    ],
+    "answer": "File: infrastructure/knowledge/knowledge_lookup.py. Purpose: Knowledge Layer V0 lookup implementation",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_17828": {
+    "question_id": "AUTO_17828",
+    "patterns": [
+      "what is infrastructure_encyclopedia_encyclopedia_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/encyclopedia/encyclopedia_v0.json. Purpose: Encyclopedia Layer V0 concept definitions and aliases",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_23249": {
+    "question_id": "AUTO_23249",
+    "patterns": [
+      "what is infrastructure_problem_mapper_problem_patterns_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/problem_mapper/problem_patterns_v0.json. Purpose: Problem Mapper V0 pattern definitions for categories",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_96537": {
+    "question_id": "AUTO_96537",
+    "patterns": [
+      "what is infrastructure_problem_mapper_problem_mapper_v0_py in translation os?"
+    ],
+    "answer": "File: infrastructure/problem_mapper/problem_mapper_v0.py. Purpose: Problem Mapper V0 implementation",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_86801": {
+    "question_id": "AUTO_86801",
+    "patterns": [
+      "what is infrastructure_cache_response_cache_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/cache/response_cache_v0.json. Purpose: Response cache database",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_22012": {
+    "question_id": "AUTO_22012",
+    "patterns": [
+      "what is infrastructure_cache_response_cache_v0_py in translation os?"
+    ],
+    "answer": "File: infrastructure/cache/response_cache_v0.py. Purpose: Response cache implementation",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_47119": {
+    "question_id": "AUTO_47119",
+    "patterns": [
+      "what is infrastructure_router_prompt_classifier_router_v0_py in translation os?"
+    ],
+    "answer": "File: infrastructure/router/prompt_classifier_router_v0.py. Purpose: Rule-based prompt classifier",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_21743": {
+    "question_id": "AUTO_21743",
+    "patterns": [
+      "what is models_muse-glimmer-dequantized-q4_k_m-real_gguf in translation os?"
+    ],
+    "answer": "File: models/Muse-Glimmer-Dequantized-Q4_K_M-real.gguf. Purpose: Backend LLM model",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_54946": {
+    "question_id": "AUTO_54946",
+    "patterns": [
+      "what is models_active_model_json in translation os?"
+    ],
+    "answer": "File: models/active_model.json. Purpose: Active model metadata and infrastructure list",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_12440": {
+    "question_id": "AUTO_12440",
+    "patterns": [
+      "what is reports_hscl_v1_report_json in translation os?"
+    ],
+    "answer": "File: reports/hscl_v1_report.json. Purpose: HSCL v1 validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_46742": {
+    "question_id": "AUTO_46742",
+    "patterns": [
+      "what is reports_hscl_word_reuse_v1_report_json in translation os?"
+    ],
+    "answer": "File: reports/hscl_word_reuse_v1_report.json. Purpose: HSCL Word Reuse validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_55408": {
+    "question_id": "AUTO_55408",
+    "patterns": [
+      "what is reports_hscl_semantic_grouping_v0_report_json in translation os?"
+    ],
+    "answer": "File: reports/hscl_semantic_grouping_v0_report.json. Purpose: HSCL Semantic Grouping validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_60324": {
+    "question_id": "AUTO_60324",
+    "patterns": [
+      "what is reports_dictionary_v0_report_json in translation os?"
+    ],
+    "answer": "File: reports/dictionary_v0_report.json. Purpose: Dictionary Layer V0 validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_63674": {
+    "question_id": "AUTO_63674",
+    "patterns": [
+      "what is reports_encyclopedia_v0_report_json in translation os?"
+    ],
+    "answer": "File: reports/encyclopedia_v0_report.json. Purpose: Encyclopedia Layer V0 validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_62013": {
+    "question_id": "AUTO_62013",
+    "patterns": [
+      "what is reports_dictionary_encyclopedia_validation_json in translation os?"
+    ],
+    "answer": "File: reports/dictionary_encyclopedia_validation.json. Purpose: Combined Dictionary + Encyclopedia validation with tightened matcher",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_1580": {
+    "question_id": "AUTO_1580",
+    "patterns": [
+      "what is reports_knowledge_layer_v0_report_json in translation os?"
+    ],
+    "answer": "File: reports/knowledge_layer_v0_report.json. Purpose: Knowledge Layer V0 validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_90197": {
+    "question_id": "AUTO_90197",
+    "patterns": [
+      "what is reports_knowledge_problem_mapper_validation_json in translation os?"
+    ],
+    "answer": "File: reports/knowledge_problem_mapper_validation.json. Purpose: Combined Knowledge Layer + Problem Mapper validation",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_58052": {
+    "question_id": "AUTO_58052",
+    "patterns": [
+      "what is reports_problem_mapper_v0_report_json in translation os?"
+    ],
+    "answer": "File: reports/problem_mapper_v0_report.json. Purpose: Problem Mapper V0 validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_18560": {
+    "question_id": "AUTO_18560",
+    "patterns": [
+      "what is reports_response_cache_v0_report_json in translation os?"
+    ],
+    "answer": "File: reports/response_cache_v0_report.json. Purpose: Response Cache validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_42636": {
+    "question_id": "AUTO_42636",
+    "patterns": [
+      "what is reports_translation_os_v1_validation_json in translation os?"
+    ],
+    "answer": "File: reports/translation_os_v1_validation.json. Purpose: End-to-end pipeline validation",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_66225": {
+    "question_id": "AUTO_66225",
+    "patterns": [
+      "what is reports_math_specialist_v1_report_json in translation os?"
+    ],
+    "answer": "File: reports/math_specialist_v1_report.json. Purpose: Math-Boost v1 evaluation",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_41717": {
+    "question_id": "AUTO_41717",
+    "patterns": [
+      "what is scoreboard_capability_scoreboard_json in translation os?"
+    ],
+    "answer": "File: scoreboard/capability_scoreboard.json. Purpose: KEEP/DELETE decisions and infrastructure list",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_66345": {
+    "question_id": "AUTO_66345",
+    "patterns": [
+      "what is workspace_memory_scratchpad_json in translation os?"
+    ],
+    "answer": "File: workspace_memory/scratchpad.json. Purpose: Temporary notes for current task",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_83034": {
+    "question_id": "AUTO_83034",
+    "patterns": [
+      "what is workspace_memory_diary_json in translation os?"
+    ],
+    "answer": "File: workspace_memory/diary.json. Purpose: Lessons learned log, append only",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_29250": {
+    "question_id": "AUTO_29250",
+    "patterns": [
+      "what is workspace_memory_journal_json in translation os?"
+    ],
+    "answer": "File: workspace_memory/journal.json. Purpose: Chronological activity log",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_20093": {
+    "question_id": "AUTO_20093",
+    "patterns": [
+      "what is workspace_memory_project_book_json in translation os?"
+    ],
+    "answer": "File: workspace_memory/project_book.json. Purpose: Long-term project state single source of truth",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_70232": {
+    "question_id": "AUTO_70232",
+    "patterns": [
+      "what is workspace_memory_workspace_memory_loader_py in translation os?"
+    ],
+    "answer": "File: workspace_memory/workspace_memory_loader.py. Purpose: Workspace Memory V1 loader with load order and journal/diary helpers",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_70330": {
+    "question_id": "AUTO_70330",
+    "patterns": [
+      "what is infrastructure_memory_reuse_memory_reuse_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/memory_reuse/memory_reuse_v0.json. Purpose: Memory Reuse Layer V0 solved problems and project decisions",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_67125": {
+    "question_id": "AUTO_67125",
+    "patterns": [
+      "what is infrastructure_memory_reuse_reasoning_templates_v0_json in translation os?"
+    ],
+    "answer": "File: infrastructure/memory_reuse/reasoning_templates_v0.json. Purpose: Reasoning templates for problem types",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_5118": {
+    "question_id": "AUTO_5118",
+    "patterns": [
+      "what is infrastructure_memory_reuse_memory_reuse_engine_py in translation os?"
+    ],
+    "answer": "File: infrastructure/memory_reuse/memory_reuse_engine.py. Purpose: Memory Reuse Layer V0 lookup implementation",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_9943": {
+    "question_id": "AUTO_9943",
+    "patterns": [
+      "what is infrastructure_reasoning_heatmap_reasoning_heatmap_v0_py in translation os?"
+    ],
+    "answer": "File: infrastructure/reasoning_heatmap/reasoning_heatmap_v0.py. Purpose: Reasoning Heatmap V0 implementation",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_26987": {
+    "question_id": "AUTO_26987",
+    "patterns": [
+      "what is infrastructure_reasoning_heatmap_reasoning_templates_json in translation os?"
+    ],
+    "answer": "File: infrastructure/reasoning_heatmap/reasoning_templates.json. Purpose: Reasoning templates for problem types",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_49685": {
+    "question_id": "AUTO_49685",
+    "patterns": [
+      "what is infrastructure_reasoning_heatmap_heatmap_storage_json in translation os?"
+    ],
+    "answer": "File: infrastructure/reasoning_heatmap/heatmap_storage.json. Purpose: Stored reasoning heatmaps",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_16423": {
+    "question_id": "AUTO_16423",
+    "patterns": [
+      "what is infrastructure_reasoning_heatmap_reasoning_heatmap_report_json in translation os?"
+    ],
+    "answer": "File: infrastructure/reasoning_heatmap/reasoning_heatmap_report.json. Purpose: Reasoning Heatmap V0 validation report",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_8220": {
+    "question_id": "AUTO_8220",
+    "patterns": [
+      "what is workspace_memory_scratchpad in translation os?"
+    ],
+    "answer": "Workspace memory file scratchpad: {\"active_objectives\": [], \"extracted_facts\": [], \"pending_actions\": [], \"temporary_calculations\": [], \"task_id\": null, \"created_at\": \"2026-10-13T18:15:14.848003Z\", \"last_updated\": \"2026-10-13T18:15:14.848009Z\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_77132": {
+    "question_id": "AUTO_77132",
+    "patterns": [
+      "what is workspace_memory_diary_0 in translation os?"
+    ],
+    "answer": "Entry from diary[0]: {\"date\": \"2026-10-13\", \"entries\": [\"HSCL v1 promoted to infrastructure.\", \"Response Cache v0 promoted.\", \"Math-Boost blocked because GPU training infrastructure unavailable.\", \"Knowledge Layer V0 built as infrastructure.\", \"Problem Mapper V0 integrated.\", \"Workspace Memory V1 integrated into launcher startup\", \"Workspace Memory V1 integrated into launcher startup\", \"Workspace Memory V1 integrated ",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_40644": {
+    "question_id": "AUTO_40644",
+    "patterns": [
+      "what is workspace_memory_journal_0 in translation os?"
+    ],
+    "answer": "Entry from journal[0]: {\"timestamp\": \"2026-10-13T10:14:00Z\", \"action\": \"HSCL benchmark started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_63477": {
+    "question_id": "AUTO_63477",
+    "patterns": [
+      "what is workspace_memory_journal_1 in translation os?"
+    ],
+    "answer": "Entry from journal[1]: {\"timestamp\": \"2026-10-13T10:18:00Z\", \"action\": \"HSCL benchmark completed\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_67604": {
+    "question_id": "AUTO_67604",
+    "patterns": [
+      "what is workspace_memory_journal_2 in translation os?"
+    ],
+    "answer": "Entry from journal[2]: {\"timestamp\": \"2026-10-13T10:25:00Z\", \"action\": \"Scoreboard updated\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_81251": {
+    "question_id": "AUTO_81251",
+    "patterns": [
+      "what is workspace_memory_journal_3 in translation os?"
+    ],
+    "answer": "Entry from journal[3]: {\"timestamp\": \"2026-10-13T11:00:00Z\", \"action\": \"Knowledge Layer V0 built\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_98591": {
+    "question_id": "AUTO_98591",
+    "patterns": [
+      "what is workspace_memory_journal_4 in translation os?"
+    ],
+    "answer": "Entry from journal[4]: {\"timestamp\": \"2026-10-13T11:15:00Z\", \"action\": \"Problem Mapper V0 integrated\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_17545": {
+    "question_id": "AUTO_17545",
+    "patterns": [
+      "what is workspace_memory_journal_5 in translation os?"
+    ],
+    "answer": "Entry from journal[5]: {\"timestamp\": \"2026-10-13T16:03:02.779844Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_34252": {
+    "question_id": "AUTO_34252",
+    "patterns": [
+      "what is workspace_memory_journal_6 in translation os?"
+    ],
+    "answer": "Entry from journal[6]: {\"timestamp\": \"2026-10-13T16:05:58.975538Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_43644": {
+    "question_id": "AUTO_43644",
+    "patterns": [
+      "what is workspace_memory_journal_7 in translation os?"
+    ],
+    "answer": "Entry from journal[7]: {\"timestamp\": \"2026-10-13T16:06:18.652921Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_70624": {
+    "question_id": "AUTO_70624",
+    "patterns": [
+      "what is workspace_memory_journal_8 in translation os?"
+    ],
+    "answer": "Entry from journal[8]: {\"timestamp\": \"2026-10-13T16:06:40.790516Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_76524": {
+    "question_id": "AUTO_76524",
+    "patterns": [
+      "what is workspace_memory_journal_9 in translation os?"
+    ],
+    "answer": "Entry from journal[9]: {\"timestamp\": \"2026-10-13T16:06:55.796971Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_74740": {
+    "question_id": "AUTO_74740",
+    "patterns": [
+      "what is workspace_memory_journal_10 in translation os?"
+    ],
+    "answer": "Entry from journal[10]: {\"timestamp\": \"2026-10-13T16:07:55.625927Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_71742": {
+    "question_id": "AUTO_71742",
+    "patterns": [
+      "what is workspace_memory_journal_11 in translation os?"
+    ],
+    "answer": "Entry from journal[11]: {\"timestamp\": \"2026-10-13T16:13:43.091119Z\", \"action\": \"Reasoning Heatmap V0 built and integrated\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_36727": {
+    "question_id": "AUTO_36727",
+    "patterns": [
+      "what is workspace_memory_journal_12 in translation os?"
+    ],
+    "answer": "Entry from journal[12]: {\"timestamp\": \"2026-10-13T16:20:00Z\", \"action\": \"First Reasoning Heatmap reuse hit logged for math_apples_001\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_81452": {
+    "question_id": "AUTO_81452",
+    "patterns": [
+      "what is workspace_memory_journal_13 in translation os?"
+    ],
+    "answer": "Entry from journal[13]: {\"timestamp\": \"2026-10-13T16:18:09.446777Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_33530": {
+    "question_id": "AUTO_33530",
+    "patterns": [
+      "what is workspace_memory_journal_14 in translation os?"
+    ],
+    "answer": "Entry from journal[14]: {\"timestamp\": \"2026-10-13T16:36:15.957997Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_82847": {
+    "question_id": "AUTO_82847",
+    "patterns": [
+      "what is workspace_memory_journal_15 in translation os?"
+    ],
+    "answer": "Entry from journal[15]: {\"timestamp\": \"2026-10-13T16:36:15.970344Z\", \"action\": \"Index Layer V0 rebuilt on startup\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_14580": {
+    "question_id": "AUTO_14580",
+    "patterns": [
+      "what is workspace_memory_journal_16 in translation os?"
+    ],
+    "answer": "Entry from journal[16]: {\"timestamp\": \"2026-10-13T16:36:15.985250Z\", \"action\": \"Project Graph selection for route General: HSCL v1, Response Cache v0\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_72277": {
+    "question_id": "AUTO_72277",
+    "patterns": [
+      "what is workspace_memory_journal_17 in translation os?"
+    ],
+    "answer": "Entry from journal[17]: {\"timestamp\": \"2026-10-13T16:41:43.920793Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_24301": {
+    "question_id": "AUTO_24301",
+    "patterns": [
+      "what is workspace_memory_journal_18 in translation os?"
+    ],
+    "answer": "Entry from journal[18]: {\"timestamp\": \"2026-10-13T16:41:43.931510Z\", \"action\": \"Index Layer V0 rebuilt on startup\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_33954": {
+    "question_id": "AUTO_33954",
+    "patterns": [
+      "what is workspace_memory_journal_19 in translation os?"
+    ],
+    "answer": "Entry from journal[19]: {\"timestamp\": \"2026-10-13T16:49:42.132133Z\", \"action\": \"Translation OS V1 session started\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_18273": {
+    "question_id": "AUTO_18273",
+    "patterns": [
+      "what is report_encyclopedia_v0_report in translation os?"
+    ],
+    "answer": "Report encyclopedia_v0_report.json: {\"component\": \"Encyclopedia Layer V0\", \"role\": \"Return known concept definitions before model inference\", \"pipeline_position\": \"Canonicalizer -> Encyclopedia -> Response Cache -> Router -> Muse-Glimmer\", \"entries\": 10, \"test_queries\": [\"what is entropy\", \"define api\", \"explain gpu\", \"what is overfitting\"], \"metrics\": {\"encyclopedia_hit_rate\": 1.0, \"model_calls_avoided\": 4, \"latency_reduction_ms\": 28.5, \"memory_cost_kb\": 3.4, \"accuracy_retention\": \"100%\"}, \"exa",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_90093": {
+    "question_id": "AUTO_90093",
+    "patterns": [
+      "what is report_future_book_v0_report in translation os?"
+    ],
+    "answer": "Report future_book_v0_report.json: {\"component\": \"Future Book V0\", \"created\": \"2026-10-13\", \"metrics\": {\"roadmap_accuracy\": \"TBD\", \"dependency_tracking_accuracy\": \"TBD\", \"blocked_goal_detection\": true, \"project_continuity\": \"improved\", \"latency_delta_ms\": \"TBD\"}, \"current_goal\": \"GPU Support\", \"blocked_goals\": 1, \"future_goals\": 4, \"status\": \"KEEP\", \"notes\": \"Future Book stores current goals, future goals, milestones, blockers, dependencies, priorities, execution order\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_45583": {
+    "question_id": "AUTO_45583",
+    "patterns": [
+      "what is report_gpu_acceleration_report in translation os?"
+    ],
+    "answer": "Report gpu_acceleration_report.json: {\"gpu_detection\": {\"backend\": \"cuda\", \"gpu_name\": \"NVIDIA GeForce RTX 4090\", \"vram_gb\": \"unknown\"}, \"backends\": {\"cpu\": {\"binary\": \"dttq/llama.cpp/build/bin/Release/llama-simple.exe\", \"tokens_per_second\": \"2.5\", \"status\": \"working\"}, \"cuda\": {\"binary\": \"dttq/llama.cpp/build/bin/Release/cuda/llama-simple.exe\", \"status\": \"not_built\", \"note\": \"NVIDIA GPU detected but CUDA llama.cpp build not present\"}, \"rocm\": {\"binary\": \"dttq/llama.cpp/build/bin/Release/rocm/ll",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_66020": {
+    "question_id": "AUTO_66020",
+    "patterns": [
+      "what is report_gpu_detection_report in translation os?"
+    ],
+    "answer": "Report gpu_detection_report.json: {\"backend\": \"cuda\", \"gpu_name\": \"NVIDIA GeForce RTX 4090\", \"vram_gb\": \"unknown\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_58471": {
+    "question_id": "AUTO_58471",
+    "patterns": [
+      "what is report_hscl_semantic_grouping_v0_report in translation os?"
+    ],
+    "answer": "Report hscl_semantic_grouping_v0_report.json: {\"component\": \"HSCL Semantic Grouping v0\", \"type\": \"experimental HSCL extension\", \"scope\": \"technical concepts that are effectively equivalent\", \"dictionary\": \"hscl_semantic_grouping_v0.json\", \"base\": \"HSCL v1\", \"benchmark\": \"hscl_benchmark.json\", \"metrics\": {\"hscl_v1_avg_compression_ratio\": 1.299, \"hscl_semantic_grouping_v0_avg_compression_ratio\": 1.319, \"compression_improvement_vs_hscl_v1_percent\": 1.54, \"overall_compression_percent\": 31.9, \"prepro",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_55569": {
+    "question_id": "AUTO_55569",
+    "patterns": [
+      "what is report_hscl_v1_report in translation os?"
+    ],
+    "answer": "Report hscl_v1_report.json: {\"benchmark_version\": \"HSCL V1\", \"phase\": \"V1 phrase compression only - FINAL\", \"model\": \"Muse-Glimmer-Dequantized-Q4_K_M-real.gguf\", \"dictionary\": \"hscl_dictionary_v1.json\", \"preprocessor\": \"hscl_preprocessor.py\", \"validation_date\": \"2026-10-13\", \"total_prompts\": 20, \"average_compression_ratio_whitespace\": 1.299, \"average_compression_percent\": 29.9, \"average_preprocess_latency_ms\": 0.082, \"quality_check\": {\"method\": \"model inference original vs compressed prompt\", \"s",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_36412": {
+    "question_id": "AUTO_36412",
+    "patterns": [
+      "what is report_hscl_word_reuse_v1_report in translation os?"
+    ],
+    "answer": "Report hscl_word_reuse_v1_report.json: {\"component\": \"HSCL Word Reuse v1\", \"base\": \"HSCL v1 infrastructure\", \"dictionary\": \"hscl_word_reuse_dictionary_v1.json\", \"benchmark\": \"hscl_benchmark.json\", \"metrics\": {\"hscl_v1_avg_compression_ratio\": 1.299, \"hscl_word_reuse_v1_avg_compression_ratio\": 1.314, \"compression_improvement_percent\": 1.15, \"preprocess_latency_delta_ms\": \"<0.01\", \"complexity_cost\": \"LOW\"}, \"evaluation\": {\"test_prompts\": 20, \"method\": \"whitespace token count approximation\"}, \"decis",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_79077": {
+    "question_id": "AUTO_79077",
+    "patterns": [
+      "what is report_knowledge_layer_v0_report in translation os?"
+    ],
+    "answer": "Report knowledge_layer_v0_report.json: {\"component\": \"Knowledge Layer V0\", \"role\": \"Store word meanings, definitions, facts, and concept relationships outside model\", \"pipeline_position\": \"Canonicalizer -> Knowledge Layer -> Response Cache -> Problem Mapper -> Router -> Muse-Glimmer\", \"files\": [\"knowledge_dictionary_v0.json\", \"knowledge_encyclopedia_v0.json\", \"knowledge_lookup.py\"], \"dictionary_entries\": 7, \"encyclopedia_entries\": 6, \"test_queries\": [{\"query\": \"what is entropy\", \"source\": \"knowl",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_48898": {
+    "question_id": "AUTO_48898",
+    "patterns": [
+      "what is report_math_specialist_v1_report in translation os?"
+    ],
+    "answer": "Report math_specialist_v1_report.json: {\"component\": \"Math-Boost v1\", \"base_model\": \"Muse-Glimmer-Dequantized-Q4_K_M-real.gguf\", \"pipeline\": \"Raw Text -> HSCL v1 -> Tokenizer -> Muse-Glimmer -> Math-Boost v1\", \"target_tensors\": \"FFN only\", \"excluded_tensors\": \"embeddings, norm layers, output projection\", \"artifacts\": {\"math_lora.safetensors\": \"not produced - training requires GPU LoRA implementation\", \"Muse-Glimmer-MathBoost-Q5_0.gguf\": \"not produced\"}, \"evaluation_set\": {\"math_core\": [\"17*23\", ",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_37287": {
+    "question_id": "AUTO_37287",
+    "patterns": [
+      "what is report_reasoning_heatmap_v0_report in translation os?"
+    ],
+    "answer": "Report reasoning_heatmap_v0_report.json: {\"component\": \"Reasoning Heatmap V0\", \"role\": \"Track fact importance, knowledge sources, and reasoning paths for reuse\", \"pipeline_position\": \"Problem Mapper -> Reasoning Heatmap -> Router -> Muse-Glimmer\", \"layers\": [\"Fact Heatmap\", \"Knowledge Heatmap\", \"Reasoning Heatmap\", \"Overlay\"], \"files\": [\"reasoning_heatmap_v0.py\", \"reasoning_templates.json\", \"heatmap_storage.json\"], \"metrics\": {\"reuse_hits\": 0, \"problem_solving_accuracy\": \"TBD\", \"latency_delta\": ",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_43889": {
+    "question_id": "AUTO_43889",
+    "patterns": [
+      "what is infra_infrastructure_abbreviation_abbreviation_dictionary_v0.json in translation os?"
+    ],
+    "answer": "Infrastructure file abbreviation_dictionary_v0.json: {\"AI\": {\"canonical\": \"AI_CONCEPT\", \"expanded\": \"artificial intelligence\"}, \"LLM\": {\"canonical\": \"LLM_CONCEPT\", \"expanded\": \"large language model\"}, \"GPU\": {\"canonical\": \"GPU_CONCEPT\", \"expanded\": \"graphics processing unit\"}, \"CPU\": {\"canonical\": \"CPU_CONCEPT\", \"expanded\": \"central processing unit\"}, \"API\": {\"canonical\": \"API_CONCEPT\", \"expanded\": \"application programming interface\"}, \"NLP\": {\"canonical\": \"NLP_CONCEPT\", \"expanded\": \"natural lan",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_43459": {
+    "question_id": "AUTO_43459",
+    "patterns": [
+      "what is infra_infrastructure_abbreviation_abbreviation_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file abbreviation_report.json: {\"component\": \"Abbreviation Dictionary V0\", \"created\": \"2026-10-13\", \"metrics\": {\"abbreviation_hits\": \"TBD\", \"cache_hit_improvement\": \"TBD\", \"compression_improvement\": \"TBD\", \"latency_delta_ms\": \"TBD\", \"memory_cost_kb\": 2.5}, \"status\": \"KEEP\", \"notes\": \"Normalizes abbreviations/acronyms to canonical concepts before inference\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_44029": {
+    "question_id": "AUTO_44029",
+    "patterns": [
+      "what is infra_infrastructure_decision_tree_decision_tree_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file decision_tree_report.json: {\"component\": \"Decision Tree V0\", \"created\": \"2026-10-13\", \"metrics\": {\"decision_accuracy\": \"TBD\", \"model_call_reduction\": \"TBD\", \"latency_reduction\": \"TBD\", \"cache_hit_improvement\": \"TBD\", \"workflow_efficiency\": \"TBD\"}, \"status\": \"KEEP\", \"notes\": \"Chooses best path for solving request before invoking model\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_89297": {
+    "question_id": "AUTO_89297",
+    "patterns": [
+      "what is infra_infrastructure_hscl_hscl_semantic_grouping_v0.json in translation os?"
+    ],
+    "answer": "Infrastructure file hscl_semantic_grouping_v0.json: {\"semantic_groups\": [{\"group_id\": \"NN\", \"phrases\": [\"artificial neural network\", \"deep neural network\", \"neural network\"], \"abbreviation\": \"NN\"}, {\"group_id\": \"DL\", \"phrases\": [\"deep learning\", \"deep neural network\"], \"abbreviation\": \"DL\"}, {\"group_id\": \"NLP\", \"phrases\": [\"natural language processing\", \"natural language understanding\"], \"abbreviation\": \"NLP\"}, {\"group_id\": \"ML\", \"phrases\": [\"machine learning\", \"supervised learning\", \"unsupervis",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_64457": {
+    "question_id": "AUTO_64457",
+    "patterns": [
+      "what is infra_infrastructure_index_index_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file index_report.json: {\"component\": \"Index Layer V0\", \"created\": \"2026-10-13\", \"metrics\": {\"lookup_speed_ms\": \"TBD\", \"memory_retrieval_accuracy\": \"TBD\", \"duplicate_work_reduction\": \"TBD\", \"project_continuity_improvement\": \"TBD\", \"latency_delta_ms\": \"TBD\", \"built\": \"2026-10-13\", \"sources_indexed\": 9, \"sources_successfully_indexed\": 9}, \"sources_indexed\": [\"Dictionary Entries\", \"Encyclopedia Entries\", \"Response Cache Entries\", \"Memory Reuse Entries\", \"Diary Entries\", \"Journal Entr",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_50514": {
+    "question_id": "AUTO_50514",
+    "patterns": [
+      "what is infra_infrastructure_index_index_v0.json in translation os?"
+    ],
+    "answer": "Infrastructure file index_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"sources\": [\"dictionary\", \"encyclopedia\", \"response_cache\", \"memory_reuse\", \"debate_templates\", \"debate_history\", \"debate_report\", \"problem_solve_templates\", \"problem_solve_report\", \"knowledge_grid\", \"knowledge_grid_report\", \"weave_layer\", \"weave_report\", \"policy\", \"policy_report\", \"memory_weights\", \"memory_weight_report\", \"reasoning_scoreboard\", \"reasoning_scoreboard_report\", \"reasoning_weights\", \"reasonin",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_95741": {
+    "question_id": "AUTO_95741",
+    "patterns": [
+      "what is infra_infrastructure_knowledge_knowledge_dictionary_v0.json in translation os?"
+    ],
+    "answer": "Infrastructure file knowledge_dictionary_v0.json: [{\"word\": \"entropy\", \"definition\": \"measure of uncertainty or energy distribution\", \"aliases\": [\"thermodynamic entropy\", \"information entropy\"], \"synonyms\": []}, {\"word\": \"gpu\", \"definition\": \"graphics processing unit\", \"aliases\": [\"graphics card\", \"video card\", \"graphics processing unit\"], \"synonyms\": []}, {\"word\": \"cpu\", \"definition\": \"central processing unit\", \"aliases\": [\"central processor\", \"central processing unit\"], \"synonyms\": []}, {\"word",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_41793": {
+    "question_id": "AUTO_41793",
+    "patterns": [
+      "what is infra_infrastructure_memory_weights_memory_weights_v0.json in translation os?"
+    ],
+    "answer": "Infrastructure file memory_weights_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Memory weight system for Translation OS\"}, \"weight_factors\": [\"usage_frequency\", \"reuse_count\", \"project_importance\", \"dependency_count\", \"historical_significance\", \"recency\", \"success_impact\"], \"tiers\": {\"core\": {\"range\": [0.9, 1.0], \"label\": \"CORE MEMORY\", \"action\": \"Never remove\"}, \"important\": {\"range\": [0.7, 0.89], \"label\": \"IMPORTANT MEMORY\", \"action\": \"Keep active\"}, \"standard\": ",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_66495": {
+    "question_id": "AUTO_66495",
+    "patterns": [
+      "what is infra_infrastructure_memory_weights_memory_weight_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file memory_weight_report.json: {\"component\": \"Memory Weight System V0\", \"role\": \"Determine what memory should be kept, archived, or forgotten\", \"pipeline_position\": \"New Memory -> Memory Weight Engine -> Assign Weight -> Store In Tiered Memory\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"weight_factors\": [\"usage_frequency\", \"reuse_count\", \"project_importance\", \"dependency_count\", \"historical_significance\", \"recency\", \"success_impact\"], \"tiers\": {\"core\": {\"range\": [0.9, 1.0",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_85195": {
+    "question_id": "AUTO_85195",
+    "patterns": [
+      "what is infra_infrastructure_policy_policy_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file policy_report.json: {\"component\": \"Policy Layer V0\", \"role\": \"Define decision philosophy and how system chooses between actions\", \"pipeline_position\": \"Master Orchestrator -> Policy Layer -> Decision Tree -> Knowledge Grid -> Weave Layer -> Execution Path\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"default_policies\": [\"reuse_before_rebuild\", \"cache_before_model\", \"history_before_guessing\", \"facts_before_reasoning\", \"resolve_blockers_before_new_work\", \"measure_before_k",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_53377": {
+    "question_id": "AUTO_53377",
+    "patterns": [
+      "what is infra_infrastructure_policy_policy_v0.json in translation os?"
+    ],
+    "answer": "Infrastructure file policy_v0.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Decision philosophy for Translation OS\"}, \"policies\": [{\"rule\": \"reuse_before_rebuild\", \"weight\": 0.95, \"description\": \"Reuse existing solutions before rebuilding\"}, {\"rule\": \"cache_before_model\", \"weight\": 1.0, \"description\": \"Use cache before invoking model\"}, {\"rule\": \"history_before_guessing\", \"weight\": 0.9, \"description\": \"Prefer historical data over guessing\"}, {\"rule\": \"facts_before_reas",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_69709": {
+    "question_id": "AUTO_69709",
+    "patterns": [
+      "what is infra_infrastructure_problem_mapper_problem_patterns_v0.json in translation os?"
+    ],
+    "answer": "Infrastructure file problem_patterns_v0.json: [{\"category\": \"math\", \"patterns\": [\"has.*boxes.*each\", \"apples.*each\", \"gives away\", \"total.*\", \"multiply\", \"subtract\", \"percent of\", \"times\", \"divided by\"], \"extractors\": [{\"type\": \"quantity\", \"regex\": \"(\\\\d+)\\\\s*boxes\"}, {\"type\": \"quantity\", \"regex\": \"(\\\\d+)\\\\s*apples?\"}, {\"type\": \"operation\", \"regex\": \"gives away|subtract\"}], \"steps_template\": [\"multiply\", \"subtract\"]}, {\"category\": \"coding\", \"patterns\": [\"write code\", \"implement\", \"function\", \"bu",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_53584": {
+    "question_id": "AUTO_53584",
+    "patterns": [
+      "what is infra_infrastructure_problem_solve_problem_solve_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file problem_solve_report.json: {\"component\": \"Problem Solve Layer V0\", \"role\": \"Convert problem into explicit solution plan before model inference\", \"pipeline_position\": \"Problem Mapper -> Problem Solve Layer -> Router -> Muse-Glimmer\", \"status\": \"KEEP\", \"promoted_date\": \"2026-10-13\", \"metrics\": {\"problem_types_supported\": [\"planning\", \"math\", \"coding\", \"gpu_support\"], \"plan_generation_latency_ms\": \"<0.1\", \"model_call_reduction\": \"TBD\", \"latency_reduction_ms\": \"TBD\", \"accuracy_re",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_85997": {
+    "question_id": "AUTO_85997",
+    "patterns": [
+      "what is infra_infrastructure_reasoning_audit_reasoning_audit.json in translation os?"
+    ],
+    "answer": "Infrastructure file reasoning_audit.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Verify reasoning layers improve answers\"}, \"categories\": [\"Arithmetic\", \"Algebra\", \"Number Theory\", \"Combinatorics\", \"Planning\", \"Coding\", \"General Reasoning\"], \"layers\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"correctness\", \"reasoning_quality\", \"token_count\", \"latency\", \"confidence\"], \"results\": [{\"cate",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_2621": {
+    "question_id": "AUTO_2621",
+    "patterns": [
+      "what is infra_infrastructure_reasoning_graph_reasoning_graph_v0.json in translation os?"
+    ],
+    "answer": "Infrastructure file reasoning_graph_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"purpose\": \"Track how a problem fits together before reasoning\", \"nodes\": [], \"edges\": []}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_64119": {
+    "question_id": "AUTO_64119",
+    "patterns": [
+      "what is infra_infrastructure_reasoning_heatmap_reasoning_heatmap_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file reasoning_heatmap_report.json: {\"component\": \"Reasoning Heatmap V0\", \"validation_date\": \"2026-10-13\", \"metrics\": {\"reuse_hits\": 1, \"total_prompts_evaluated\": 100, \"reasoning_reuse_rate\": 0.01, \"problem_solving_accuracy\": 0.98, \"latency_delta_ms\": 0.4, \"memory_cost_kb\": 8.5, \"fact_heatmap_coverage\": 0.92, \"knowledge_source_diversity\": 4}, \"pipeline_integration\": \"verified\", \"scoreboard_update\": \"pending\", \"notes\": \"First heatmap reuse hit logged. Real model runs required for f",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_63428": {
+    "question_id": "AUTO_63428",
+    "patterns": [
+      "what is infra_infrastructure_reasoning_heatmap_reasoning_templates.json in translation os?"
+    ],
+    "answer": "Infrastructure file reasoning_templates.json: [{\"type\": \"Multi-Step Math\", \"steps\": [{\"step\": \"extract_numbers\", \"importance\": 0.9}, {\"step\": \"identify_operations\", \"importance\": 0.95}, {\"step\": \"perform_operations\", \"importance\": 1.0}, {\"step\": \"verify_answer\", \"importance\": 0.8}]}, {\"type\": \"Coding Implementation\", \"steps\": [{\"step\": \"identify_language\", \"importance\": 0.9}, {\"step\": \"define_inputs\", \"importance\": 0.95}, {\"step\": \"implement_logic\", \"importance\": 1.0}, {\"step\": \"test_edge_cases\"",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_95945": {
+    "question_id": "AUTO_95945",
+    "patterns": [
+      "what is infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard.json in translation os?"
+    ],
+    "answer": "Infrastructure file reasoning_scoreboard.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Measure effectiveness of reasoning layers\"}, \"layers\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"accuracy\", \"latency\", \"token_usage\", \"reasoning_quality\"], \"results\": []}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_26247": {
+    "question_id": "AUTO_26247",
+    "patterns": [
+      "what is infra_infrastructure_reasoning_scoreboard_reasoning_scoreboard_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file reasoning_scoreboard_report.json: {\"component\": \"Reasoning Scoreboard V0\", \"role\": \"Measure effectiveness of every reasoning layer\", \"layers_tracked\": [\"Problem Mapper\", \"Problem Solve Layer\", \"Debate Layer\", \"Reasoning Heatmap\", \"Knowledge Grid\", \"Weave Layer\"], \"metrics\": [\"accuracy\", \"latency\", \"token_usage\", \"reasoning_quality\"], \"method\": \"Run Baseline Model only, then Full Translation OS, compare deltas\", \"output\": \"reasoning_scoreboard.json\", \"status\": \"KEEP\", \"promote",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_51810": {
+    "question_id": "AUTO_51810",
+    "patterns": [
+      "what is infra_infrastructure_reasoning_weights_reasoning_weights.json in translation os?"
+    ],
+    "answer": "Infrastructure file reasoning_weights.json: {\"metadata\": {\"version\": \"0.0\", \"built\": \"2026-10-13\", \"purpose\": \"Adaptive reasoning layer weights for Translation OS\"}, \"layers\": [{\"name\": \"Problem Mapper\", \"accuracy_delta\": 0.12, \"latency_delta_ms\": 2, \"reuse_rate\": 0.9, \"success_rate\": 0.95}, {\"name\": \"Problem Solve Layer\", \"accuracy_delta\": 0.08, \"latency_delta_ms\": 5, \"reuse_rate\": 0.85, \"success_rate\": 0.9}, {\"name\": \"Debate Layer\", \"accuracy_delta\": 0.005, \"latency_delta_ms\": 200, \"reuse_rate",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_15280": {
+    "question_id": "AUTO_15280",
+    "patterns": [
+      "what is launcher_translation_os_v1_config in translation os?"
+    ],
+    "answer": "Launcher config translation_os_v1_config.json: {\"model\": {\"gguf_path\": \"C:/Users/thoma/.lmstudio/apps/bionic/projects/d49037d8-47f4-5808-9028-c707de117f8f/workspace/TRANSLATION_OS_V1/models/Muse-Glimmer-Dequantized-Q4_K_M-real.gguf\", \"llama_simple_path\": \"C:/Users/thoma/.lmstudio/apps/bionic/projects/d49037d8-47f4-5808-9028-c707de117f8f/workspace/dttq/llama.cpp/build/bin/Release/llama-simple.exe\", \"max_tokens\": 256, \"gpu_mode\": \"auto\", \"cpu_fallback\": true, \"n_gpu_layers\": \"auto\"}, \"pipeline\": {",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_89441": {
+    "question_id": "AUTO_89441",
+    "patterns": [
+      "what is project_graph_project_graph_v0 in translation os?"
+    ],
+    "answer": "Project graph file project_graph_v0.json: {\"version\": \"0.0\", \"created\": \"2026-10-13\", \"nodes\": [{\"id\": \"hscl_v1\", \"name\": \"HSCL v1\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, {\"id\": \"hscl_word_reuse_v1\", \"name\": \"HSCL Word Reuse v1\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, {\"id\": \"hscl_semantic_grouping_v0\", \"name\": \"HSCL Semantic Grouping v0\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, {\"id\": \"dictionary_v0\", \"name\": \"Dictionary Layer V0\", \"type\": \"Infrastructure\", \"status\": \"KEEP\"}, ",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_75908": {
+    "question_id": "AUTO_75908",
+    "patterns": [
+      "what is orchestrator_response_cache_validation in translation os?"
+    ],
+    "answer": "Orchestrator file response_cache_validation.json: {\"validation_date\": \"2026-10-13\", \"tests\": [{\"query\": \"What is 2+2?\", \"expected_source\": \"cache\", \"model_called\": false, \"actual_source\": \"cache\", \"actual_model_called\": false, \"pass\": true}, {\"query\": \"What is 3+3?\", \"expected_source\": \"cache\", \"model_called\": false, \"actual_source\": \"cache\", \"actual_model_called\": false, \"pass\": true}, {\"query\": \"What does API mean?\", \"expected_source\": \"dictionary\", \"model_called\": false, \"actual_source\": \"dic",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_21776": {
+    "question_id": "AUTO_21776",
+    "patterns": [
+      "what is scoreboard rule 1?"
+    ],
+    "answer": "KEEP components become frozen infrastructure and are no longer re-evaluated every cycle. Only regressions can remove them",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_7300": {
+    "question_id": "AUTO_7300",
+    "patterns": [
+      "what is the relationship between hscl v1 response cache v0 and prompt classifier router v0?"
+    ],
+    "answer": "HSCL v1 compresses prompts before inference, Response Cache v0 short-circuits deterministic answers before model, Prompt Classifier Router v0 routes prompts to appropriate handling. Order is HSCL \u2192 Cache \u2192 Router \u2192 Muse-Glimmer",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_6383": {
+    "question_id": "AUTO_6383",
+    "patterns": [
+      "why is math-boost v1 blocked?"
+    ],
+    "answer": "Math-Boost v1 requires GPU LoRA training infrastructure which is not available. Status is BLOCKED not FAILED",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_57943": {
+    "question_id": "AUTO_57943",
+    "patterns": [
+      "what is the compression delta for hscl v1?"
+    ],
+    "answer": "HSCL v1 provides +29.9% compression with ~0% accuracy loss and +0.08ms latency",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_83463": {
+    "question_id": "AUTO_83463",
+    "patterns": [
+      "which components survived scoreboard evaluation?"
+    ],
+    "answer": "HSCL v1, HSCL Word Reuse v1, HSCL Semantic Grouping v0, Response Cache v0, Prompt Classifier Router v0 are INFRASTRUCTURE. Math-Boost v1 is BLOCKED",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_25646": {
+    "question_id": "AUTO_25646",
+    "patterns": [
+      "what is the role of response cache v0?"
+    ],
+    "answer": "Response Cache v0 provides deterministic answer caching with question canonicalization to avoid model inference for repeated questions",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_42275": {
+    "question_id": "AUTO_42275",
+    "patterns": [
+      "what is the role of prompt classifier router v0?"
+    ],
+    "answer": "Prompt Classifier Router v0 performs rule-based prompt routing into Math, Coding, Reasoning, Conversation, General",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_33887": {
+    "question_id": "AUTO_33887",
+    "patterns": [
+      "what is infra_infrastructure_pattern_recognizer_pattern_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file pattern_report.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Pattern Recognizer V0 validation report\"}, \"metrics\": {\"pattern_detection_accuracy\": null, \"reuse_rate\": null, \"layer_selection_improvement\": null}, \"status\": \"INITIALIZED\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_37092": {
+    "question_id": "AUTO_37092",
+    "patterns": [
+      "what is infra_infrastructure_picture_memory_picture_index.json in translation os?"
+    ],
+    "answer": "Infrastructure file picture_index.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Picture Memory V0 index\"}, \"photos\": [{\"filename\": \"2026-10-14T10-59-39.480953_demo_diagram.png\", \"original_path\": \"C:\\\\Users\\\\thoma\\\\.lmstudio\\\\apps\\\\bionic\\\\projects\\\\d49037d8-47f4-5808-9028-c707de117f8f\\\\workspace\\\\TRANSLATION_OS_V1\\\\infrastructure\\\\picture_memory\\\\demo_diagram.png\", \"metadata\": {\"description\": \"Translation OS v1 pipeline diagram\", \"components\": [\"HSCL v1\", \"Response C",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_84129": {
+    "question_id": "AUTO_84129",
+    "patterns": [
+      "what is infra_infrastructure_relevance_relevance_graph.json in translation os?"
+    ],
+    "answer": "Infrastructure file relevance_graph.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Relevance graph of components and knowledge\"}, \"nodes\": [], \"edges\": []}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_88108": {
+    "question_id": "AUTO_88108",
+    "patterns": [
+      "what is infra_infrastructure_relevance_relevance_heatmap.json in translation os?"
+    ],
+    "answer": "Infrastructure file relevance_heatmap.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Relevance heatmap for query context\"}, \"heatmaps\": [{\"query\": \"What is the pipeline order for Translation OS v1?\", \"scores\": [{\"component\": \"Response Cache\", \"memory_weight\": 0.95, \"confidence_weight\": 0.98, \"relevance_weight\": 0.85, \"priority_score\": 0.791, \"decision\": \"ACTIVATE\"}, {\"component\": \"Memory Reuse\", \"memory_weight\": 0.88, \"confidence_weight\": 0.92, \"relevance_weight\": 0.9",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_39320": {
+    "question_id": "AUTO_39320",
+    "patterns": [
+      "what is infra_infrastructure_relevance_relevance_overlay.json in translation os?"
+    ],
+    "answer": "Infrastructure file relevance_overlay.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Relevance overlays on Knowledge Grid, Project Graph, etc.\"}, \"overlays\": []}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_17319": {
+    "question_id": "AUTO_17319",
+    "patterns": [
+      "what is infra_infrastructure_relevance_relevance_report.json in translation os?"
+    ],
+    "answer": "Infrastructure file relevance_report.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Weighted Relevance Engine V0 validation report\"}, \"metrics\": {\"retrieval_accuracy\": null, \"reasoning_accuracy\": null, \"layer_selection_accuracy\": null, \"context_efficiency\": null, \"reuse_rate\": null, \"latency_delta\": null, \"token_efficiency\": null}, \"status\": \"INITIALIZED\"}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_82921": {
+    "question_id": "AUTO_82921",
+    "patterns": [
+      "what is infra_infrastructure_relevance_relevance_weights.json in translation os?"
+    ],
+    "answer": "Infrastructure file relevance_weights.json: {\"metadata\": {\"version\": \"0.0\", \"created\": \"2026-10-14\", \"purpose\": \"Weighted Relevance Engine V0 weights\"}, \"components\": {\"Problem Mapper\": {\"memory_weight\": 0.9, \"confidence_weight\": 0.95, \"relevance_weight\": 0.0}, \"Problem Solve Layer\": {\"memory_weight\": 0.85, \"confidence_weight\": 0.9, \"relevance_weight\": 0.0}, \"Debate Layer\": {\"memory_weight\": 0.7, \"confidence_weight\": 0.75, \"relevance_weight\": 0.0}, \"Response Cache\": {\"memory_weight\": 0.95, \"conf",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_68539": {
+    "question_id": "AUTO_68539",
+    "patterns": [
+      "what is report_golden_set in translation os?"
+    ],
+    "answer": "Report golden_set.json: [{\"query\": \"What is 2+2?\", \"expected\": \"4\", \"type\": \"cache\"}, {\"query\": \"pipeline diagram\", \"expected\": \"picture_memory\", \"type\": \"picture\"}, {\"query\": \"What does API mean?\", \"expected\": \"API\", \"type\": \"cache\"}, {\"query\": \"Find the 1000th digit after the decimal point in the decimal expansion of 1/7\", \"expected\": \"model\", \"type\": \"reasoning\"}]",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_13013": {
+    "question_id": "AUTO_13013",
+    "patterns": [
+      "what is report_multi_section_validation in translation os?"
+    ],
+    "answer": "Report multi_section_validation.json: {\"total\": 5, \"cache_hits\": 1, \"picture_memory_hits\": 1, \"problem_mapper_hits\": 1, \"model_calls\": 2, \"details\": [{\"query\": \"What is 2+2?\", \"source\": \"cache\", \"model_called\": false, \"picture_memory_hit\": false, \"cache_hit\": true, \"problem_mapper_hit\": false, \"pattern\": {\"problem_type\": \"Definition\", \"pattern_id\": \"Definition_6\", \"suggested_layers\": [\"Memory Reuse\", \"Encyclopedia\", \"Response Cache\"]}}, {\"query\": \"pipeline diagram\", \"source\": \"picture_memory\", \"",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_37349": {
+    "question_id": "AUTO_37349",
+    "patterns": [
+      "what is report_multi_section_validation_v2 in translation os?"
+    ],
+    "answer": "Report multi_section_validation_v2.json: {\"total\": 5, \"cache_hits\": 3, \"picture_memory_hits\": 1, \"problem_mapper_hits\": 1, \"model_calls\": 0, \"details\": [{\"query\": \"What is 2+2?\", \"source\": \"cache\", \"model_called\": false, \"picture_memory_hit\": false, \"cache_hit\": true, \"problem_mapper_hit\": false, \"pattern\": {\"problem_type\": \"Definition\", \"pattern_id\": \"Definition_8\", \"suggested_layers\": [\"Memory Reuse\", \"Encyclopedia\", \"Response Cache\"]}}, {\"query\": \"pipeline diagram\", \"source\": \"picture_memory\"",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_82570": {
+    "question_id": "AUTO_82570",
+    "patterns": [
+      "what is report_response_cache_v1_1_report in translation os?"
+    ],
+    "answer": "Report response_cache_v1_1_report.json: {\"auto_learned_entries\": 0, \"total_groups_evaluated\": 186, \"cache_size\": 23, \"safeguards\": {\"min_hits\": 2, \"min_success\": 0.85, \"max_words\": 50, \"deterministic_check\": true}}",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "AUTO_62119": {
+    "question_id": "AUTO_62119",
+    "patterns": [
+      "what is infra_infrastructure_knowledge_knowledge_seed.json in translation os?"
+    ],
+    "answer": "Infrastructure file knowledge_seed.json: [{\"term\": \"api\", \"definition\": \"Application Programming Interface. A set of rules that allows different software applications to communicate.\", \"aliases\": [\"application programming interface\"], \"category\": \"software\"}, {\"term\": \"gpu\", \"definition\": \"Graphics Processing Unit. Specialized processor for parallel computation.\", \"aliases\": [\"graphics card\"], \"category\": \"hardware\"}, {\"term\": \"hscl\", \"definition\": \"Hierarchical Semantic Compression Layer. Pre-t",
+    "auto_learned": true,
+    "hits": 2,
+    "avg_success": 1.0
+  },
+  "DISTILL_33407": {
+    "question_id": "DISTILL_33407",
+    "patterns": [
+      "what is an api?"
+    ],
+    "answer": "[Error: Expecting value: line 1 column 1 (char 0)]",
+    "auto_learned": true,
+    "source": "model_distill"
+  },
+  "DISTILL_63640": {
+    "question_id": "DISTILL_63640",
+    "patterns": [
+      "what is a gpu?"
+    ],
+    "answer": "[Error: Expecting value: line 1 column 1 (char 0)]",
+    "auto_learned": true,
+    "source": "model_distill"
+  },
+  "DISTILL_53557": {
+    "question_id": "DISTILL_53557",
+    "patterns": [
+      "what is entropy in information theory?"
+    ],
+    "answer": "[Error: Expecting value: line 1 column 1 (char 0)]",
+    "auto_learned": true,
+    "source": "model_distill"
+  },
+  "DISTILL_73857": {
+    "question_id": "DISTILL_73857",
+    "patterns": [
+      "what is hscl?"
+    ],
+    "answer": "[Error: Expecting value: line 1 column 1 (char 0)]",
+    "auto_learned": true,
+    "source": "model_distill"
+  },
+  "DISTILL_87134": {
+    "question_id": "DISTILL_87134",
+    "patterns": [
+      "what is a large language model?"
+    ],
+    "answer": "[Error: Expecting value: line 1 column 1 (char 0)]",
+    "auto_learned": true,
+    "source": "model_distill"
+  },
+  "DISTILL_48263": {
+    "question_id": "DISTILL_48263",
+    "patterns": [
+      "what is tokenization?"
+    ],
+    "answer": "[Error: Expecting value: line 1 column 1 (char 0)]",
+    "auto_learned": true,
+    "source": "model_distill"
+  },
+  "DISTILL_29966": {
+    "question_id": "DISTILL_29966",
+    "patterns": [
+      "what is overfitting?"
+    ],
+    "answer": "[Error: Expecting value: line 1 column 1 (char 0)]",
+    "auto_learned": true,
+    "source": "model_distill"
+  },
+  "DISTILL_18193": {
+    "question_id": "DISTILL_18193",
+    "patterns": [
+      "what is gradient descent?"
+    ],
+    "answer": "[Error: Expecting value: line 1 column 1 (char 0)]",
+    "auto_learned": true,
+    "source": "model_distill"
+  },
+  "MATH_PRIME": {
+    "question_id": "MATH_PRIME",
+    "patterns": [
+      "what is a prime number?"
+    ],
+    "answer": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.",
+    "source": "model_distill"
+  },
+  "MATH_PYTHAGOREAN": {
+    "question_id": "MATH_PYTHAGOREAN",
+    "patterns": [
+      "what is the pythagorean theorem?"
+    ],
+    "answer": "In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides: a\u00c2\u00b2 + b\u00c2\u00b2 = c\u00c2\u00b2.",
+    "source": "model_distill"
+  },
+  "SCIENCE_RELATIVITY": {
+    "question_id": "SCIENCE_RELATIVITY",
+    "patterns": [
+      "what is the theory of relativity?"
+    ],
+    "answer": "Theory of relativity describes how space and time are interwoven and how gravity affects motion. Includes special and general relativity.",
+    "source": "model_distill"
+  },
+  "HIST_NEWTON": {
+    "question_id": "HIST_NEWTON",
+    "patterns": [
+      "who was isaac newton?"
+    ],
+    "answer": "Isaac Newton was an English physicist and mathematician who formulated the laws of motion and universal gravitation.",
+    "source": "model_distill"
+  },
+  "HIST_INDUSTRIAL": {
+    "question_id": "HIST_INDUSTRIAL",
+    "patterns": [
+      "what was the industrial revolution?"
+    ],
+    "answer": "The Industrial Revolution was a period of major industrialization and innovation, mainly in Britain from the 18th century, transforming economies and society.",
+    "source": "model_distill"
+  },
+  "MATH_CALCULUS": {
+    "question_id": "MATH_CALCULUS",
+    "patterns": [
+      "what is calculus?"
+    ],
+    "answer": "Calculus is the mathematical study of continuous change, dealing with derivatives and integrals.",
+    "source": "model_distill"
+  },
+  "SCIENCE_PHOTOSYNTHESIS": {
+    "question_id": "SCIENCE_PHOTOSYNTHESIS",
+    "patterns": [
+      "what is photosynthesis?"
+    ],
+    "answer": "Photosynthesis is the process plants use to convert sunlight into chemical energy, producing glucose and oxygen.",
+    "source": "model_distill"
+  },
+  "HIST_RENAISSANCE": {
+    "question_id": "HIST_RENAISSANCE",
+    "patterns": [
+      "what was the renaissance?"
+    ],
+    "answer": "The Renaissance was a European cultural movement from the 14th to 17th century marked by renewed interest in art, science, and classical learning.",
+    "source": "model_distill"
+  },
+  "SCIENCE_DNA": {
+    "question_id": "SCIENCE_DNA",
+    "patterns": [
+      "what is dna?"
+    ],
+    "answer": "DNA is the molecule that carries genetic instructions for growth, development, and function in living organisms.",
+    "source": "model_distill"
+  },
+  "MATH_DERIVATIVE": {
+    "question_id": "MATH_DERIVATIVE",
+    "patterns": [
+      "what is a derivative?"
+    ],
+    "answer": "A derivative measures the instantaneous rate of change of a function with respect to its variable.",
+    "source": "model_distill"
+  },
+  "MATH_INTEGRAL": {
+    "question_id": "MATH_INTEGRAL",
+    "patterns": [
+      "what is an integral?"
+    ],
+    "answer": "An integral represents the accumulation of quantities and the area under a curve in calculus.",
+    "source": "model_distill"
+  },
+  "SCIENCE_QUANTUM": {
+    "question_id": "SCIENCE_QUANTUM",
+    "patterns": [
+      "what is quantum mechanics?"
+    ],
+    "answer": "Quantum mechanics is the physics theory describing the behavior of matter and energy at atomic and subatomic scales.",
+    "source": "model_distill"
+  },
+  "HIST_WWII": {
+    "question_id": "HIST_WWII",
+    "patterns": [
+      "what was world war ii?"
+    ],
+    "answer": "World War II was a global conflict from 1939 to 1945 involving many nations, centered on the Axis and Allies.",
+    "source": "model_distill"
+  },
+  "SCIENCE_BIGBANG": {
+    "question_id": "SCIENCE_BIGBANG",
+    "patterns": [
+      "what is the big bang theory?"
+    ],
+    "answer": "The Big Bang theory describes the universe expanding from an extremely hot, dense state about 13.8 billion years ago.",
+    "source": "model_distill"
+  },
+  "MATH_MATRIX": {
+    "question_id": "MATH_MATRIX",
+    "patterns": [
+      "what is a matrix?"
+    ],
+    "answer": "A matrix is a rectangular array of numbers arranged in rows and columns used in linear algebra.",
+    "source": "model_distill"
+  },
+  "MATH_CENTRAL_LIMIT": {
+    "question_id": "MATH_CENTRAL_LIMIT",
+    "patterns": [
+      "what is the central limit theorem?"
+    ],
+    "answer": "The Central Limit Theorem states that the sum of many independent random variables tends toward a normal distribution regardless of the original distribution.",
+    "source": "model_distill"
+  },
+  "SCIENCE_NEWTON_LAWS": {
+    "question_id": "SCIENCE_NEWTON_LAWS",
+    "patterns": [
+      "what are newton's laws of motion?"
+    ],
+    "answer": "Newton's laws describe the relationship between a body and the forces acting upon it, and its motion in response to those forces.",
+    "source": "model_distill"
+  },
+  "HIST_MARIE_CURIE": {
+    "question_id": "HIST_MARIE_CURIE",
+    "patterns": [
+      "who was marie curie?"
+    ],
+    "answer": "Marie Curie was a physicist and chemist who pioneered radioactivity research and won two Nobel Prizes.",
+    "source": "model_distill"
+  },
+  "SCIENCE_THERMODYNAMICS": {
+    "question_id": "SCIENCE_THERMODYNAMICS",
+    "patterns": [
+      "what is thermodynamics?"
+    ],
+    "answer": "Thermodynamics is the branch of physics dealing with heat, work, temperature, and energy in physical systems.",
+    "source": "model_distill"
+  },
+  "MATH_LINEAR_ALGEBRA": {
+    "question_id": "MATH_LINEAR_ALGEBRA",
+    "patterns": [
+      "what is linear algebra?"
+    ],
+    "answer": "Linear algebra is the branch of mathematics concerning linear equations, vectors, matrices, and vector spaces.",
+    "source": "model_distill"
+  },
+  "MATH_RIEMANN": {
+    "question_id": "MATH_RIEMANN",
+    "patterns": [
+      "what is the riemann hypothesis?"
+    ],
+    "answer": "The Riemann Hypothesis conjectures that all non-trivial zeros of the Riemann zeta function have real part one half.",
+    "source": "model_distill"
+  },
+  "SCIENCE_PERIODIC": {
+    "question_id": "SCIENCE_PERIODIC",
+    "patterns": [
+      "what is the periodic table?"
+    ],
+    "answer": "The periodic table is a tabular arrangement of chemical elements organized by atomic number, electron configuration, and recurring chemical properties.",
+    "source": "model_distill"
+  },
+  "HIST_PRINTING": {
+    "question_id": "HIST_PRINTING",
+    "patterns": [
+      "what was the invention of the printing press?"
+    ],
+    "answer": "The printing press, invented by Johannes Gutenberg in the 15th century, enabled mass production of books and spread knowledge rapidly.",
+    "source": "model_distill"
+  },
+  "SCIENCE_ATOM": {
+    "question_id": "SCIENCE_ATOM",
+    "patterns": [
+      "what is an atom?"
+    ],
+    "answer": "An atom is the basic unit of matter consisting of a nucleus of protons and neutrons surrounded by electrons.",
+    "source": "model_distill"
+  },
+  "MATH_PROBABILITY": {
+    "question_id": "MATH_PROBABILITY",
+    "patterns": [
+      "what is a probability distribution?"
+    ],
+    "answer": "A probability distribution describes the likelihood of each possible outcome of a random variable.",
+    "source": "model_distill"
+  },
+  "MATH_INTEGRAL2": {
+    "question_id": "MATH_INTEGRAL2",
+    "patterns": [
+      "what is an integral?"
+    ],
+    "answer": "An integral represents the accumulation of quantities and the area under a curve in calculus.",
+    "source": "model_distill"
+  },
+  "SCIENCE_PHOTOSYNTHESIS2": {
+    "question_id": "SCIENCE_PHOTOSYNTHESIS2",
+    "patterns": [
+      "what is photosynthesis?"
+    ],
+    "answer": "Photosynthesis is the process plants use to convert sunlight into chemical energy, producing glucose and oxygen.",
+    "source": "model_distill"
+  },
+  "HIST_RENAISSANCE2": {
+    "question_id": "HIST_RENAISSANCE2",
+    "patterns": [
+      "what was the renaissance?"
+    ],
+    "answer": "The Renaissance was a European cultural movement from the 14th to 17th century marked by renewed interest in art, science, and classical learning.",
+    "source": "model_distill"
+  },
+  "SCIENCE_DNA2": {
+    "question_id": "SCIENCE_DNA2",
+    "patterns": [
+      "what is dna?"
+    ],
+    "answer": "DNA is the molecule that carries genetic instructions for growth, development, and function in living organisms.",
+    "source": "model_distill"
+  },
+  "MATH_DERIVATIVE2": {
+    "question_id": "MATH_DERIVATIVE2",
+    "patterns": [
+      "what is a derivative?"
+    ],
+    "answer": "A derivative measures the instantaneous rate of change of a function with respect to its variable.",
+    "source": "model_distill"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "word": "entropy",
+    "definition": "measure of uncertainty or energy distribution",
+    "aliases": ["thermodynamic entropy", "information entropy"],
+    "synonyms": []
+  },
+  {
+    "word": "gpu",
+    "definition": "graphics processing unit",
+    "aliases": ["graphics card", "video card", "graphics processing unit"],
+    "synonyms": []
+  },
+  {
+    "word": "cpu",
+    "definition": "central processing unit",
+    "aliases": ["central processor", "central processing unit"],
+    "synonyms": []
+  },
+  {
+    "word": "api",
+    "definition": "application programming interface",
+    "aliases": ["application programming interface"],
+    "synonyms": []
+  },
+  {
+    "word": "llm",
+    "definition": "large language model",
+    "aliases": ["large language model"],
+    "synonyms": []
+  },
+  {
+    "word": "ai",
+    "definition": "artificial intelligence",
+    "aliases": ["artificial intelligence"],
+    "synonyms": []
+  },
+  {
+    "word": "automobile",
+    "definition": "car",
+    "aliases": [],
+    "synonyms": ["car", "auto"]
+  },
+  {
+    "word": "auto",
+    "definition": "car",
+    "aliases": [],
+    "synonyms": ["automobile", "car"]
+  }
+]

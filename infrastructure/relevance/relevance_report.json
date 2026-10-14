@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "created": "2026-10-14",
+    "purpose": "Weighted Relevance Engine V0 validation report"
+  },
+  "metrics": {
+    "retrieval_accuracy": null,
+    "reasoning_accuracy": null,
+    "layer_selection_accuracy": null,
+    "context_efficiency": null,
+    "reuse_rate": null,
+    "latency_delta": null,
+    "token_efficiency": null
+  },
+  "status": "INITIALIZED"
+}

@@ -1,0 +1,27 @@
+{
+  "component": "Reasoning Scoreboard V0",
+  "role": "Measure effectiveness of every reasoning layer",
+  "layers_tracked": [
+    "Problem Mapper",
+    "Problem Solve Layer",
+    "Debate Layer",
+    "Reasoning Heatmap",
+    "Knowledge Grid",
+    "Weave Layer"
+  ],
+  "metrics": [
+    "accuracy",
+    "latency",
+    "token_usage",
+    "reasoning_quality"
+  ],
+  "method": "Run Baseline Model only, then Full Translation OS, compare deltas",
+  "output": "reasoning_scoreboard.json",
+  "status": "KEEP",
+  "promoted_date": "2026-10-13",
+  "keep_rule": "Layers survive only if they improve outcomes. Not because they exist.",
+  "example": {
+    "Problem Mapper": {"accuracy_delta": "+12%", "latency_delta": "+2 ms", "decision": "KEEP"},
+    "Debate Layer": {"accuracy_delta": "+0.5%", "latency_delta": "+200 ms", "decision": "DELETE"}
+  }
+}

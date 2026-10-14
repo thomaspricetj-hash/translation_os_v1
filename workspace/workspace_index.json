@@ -1,0 +1,22 @@
+{
+  "version": "0.0",
+  "workspace_root": "TRANSLATION_OS_V1/workspace",
+  "sandbox_root": "TRANSLATION_OS_V1/sandbox",
+  "archive_root": "TRANSLATION_OS_V1/archive",
+  "index": {
+    "tasks": [],
+    "graphs": [],
+    "scratchpads": [],
+    "plans": [],
+    "reports": [],
+    "agent_outputs": [
+      {
+        "agent_id": "AGENT_PLANNING",
+        "tag": "PLANNING",
+        "file": "sandbox\\agent_work\\AGENT_PLANNING\\PLANNING_20261014_125048.md",
+        "timestamp": "2026-10-14T12:50:48.094583"
+      }
+    ]
+  },
+  "last_updated": "2026-10-14T12:50:48.094595"
+}

@@ -1,0 +1,27 @@
+{
+  "component": "Math-Boost v1",
+  "base_model": "Muse-Glimmer-Dequantized-Q4_K_M-real.gguf",
+  "pipeline": "Raw Text -> HSCL v1 -> Tokenizer -> Muse-Glimmer -> Math-Boost v1",
+  "target_tensors": "FFN only",
+  "excluded_tensors": "embeddings, norm layers, output projection",
+  "artifacts": {
+    "math_lora.safetensors": "not produced - training requires GPU LoRA implementation",
+    "Muse-Glimmer-MathBoost-Q5_0.gguf": "not produced"
+  },
+  "evaluation_set": {
+    "math_core": ["17*23","145/5","15% of 240","37*14","125*17","7^2","12% of 350","18+26"],
+    "novel_math": ["19*27","312/8","23% of 480","41*13"],
+    "language": ["Hello","Why is the sky blue?"]
+  },
+  "metrics": {
+    "math_delta": null,
+    "language_delta": null,
+    "latency_delta": null,
+    "complexity_cost": "LOW"
+  },
+  "decision": {
+    "status": "DELETE",
+    "reason": "Training infrastructure not available in current environment. LoRA training scaffold exists but cannot be executed without GPU resources and proper LoRA implementation. Component cannot be validated under RULE 0."
+  },
+  "notes": "Math-Boost v1 lockdown enforced. No further architecture work permitted until a valid KEEP/DELETE decision is recorded. Current decision is DELETE due to infeasibility of training in current session."
+}

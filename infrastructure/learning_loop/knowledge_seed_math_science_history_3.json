@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": "MATH_INTEGRAL",
+    "patterns": ["what is an integral?"],
+    "answer": "An integral represents the accumulation of quantities and the area under a curve in calculus.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_QUANTUM",
+    "patterns": ["what is quantum mechanics?"],
+    "answer": "Quantum mechanics is the physics theory describing the behavior of matter and energy at atomic and subatomic scales.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "HIST_WWII",
+    "patterns": ["what was world war ii?"],
+    "answer": "World War II was a global conflict from 1939 to 1945 involving many nations, centered on the Axis and Allies.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "SCIENCE_BIGBANG",
+    "patterns": ["what is the big bang theory?"],
+    "answer": "The Big Bang theory describes the universe expanding from an extremely hot, dense state about 13.8 billion years ago.",
+    "source": "model_distill"
+  },
+  {
+    "question_id": "MATH_MATRIX",
+    "patterns": ["what is a matrix?"],
+    "answer": "A matrix is a rectangular array of numbers arranged in rows and columns used in linear algebra.",
+    "source": "model_distill"
+  }
+]

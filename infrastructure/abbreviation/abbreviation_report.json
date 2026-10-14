@@ -1,0 +1,13 @@
+{
+  "component": "Abbreviation Dictionary V0",
+  "created": "2026-10-13",
+  "metrics": {
+    "abbreviation_hits": "TBD",
+    "cache_hit_improvement": "TBD",
+    "compression_improvement": "TBD",
+    "latency_delta_ms": "TBD",
+    "memory_cost_kb": 2.5
+  },
+  "status": "KEEP",
+  "notes": "Normalizes abbreviations/acronyms to canonical concepts before inference"
+}

@@ -1,0 +1,33 @@
+{
+  "component": "Reasoning Effectiveness Audit V0",
+  "role": "Verify reasoning layers improve answers, not just generate additional context",
+  "method": "Run Model Only vs Full Translation OS per benchmark problem",
+  "categories": [
+    "Arithmetic",
+    "Algebra",
+    "Number Theory",
+    "Combinatorics",
+    "Planning",
+    "Coding",
+    "General Reasoning"
+  ],
+  "layers": [
+    "Problem Mapper",
+    "Problem Solve Layer",
+    "Debate Layer",
+    "Reasoning Heatmap",
+    "Knowledge Grid",
+    "Weave Layer"
+  ],
+  "metrics": [
+    "correctness",
+    "reasoning_quality",
+    "token_count",
+    "latency",
+    "confidence"
+  ],
+  "output": "reasoning_audit.json",
+  "status": "KEEP",
+  "promoted_date": "2026-10-13",
+  "keep_rule": "Layers survive only if they improve outcomes. Not because they exist."
+}

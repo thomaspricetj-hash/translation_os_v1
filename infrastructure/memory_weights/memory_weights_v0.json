@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "0.0",
+    "built": "2026-10-13",
+    "purpose": "Memory weight system for Translation OS"
+  },
+  "weight_factors": [
+    "usage_frequency",
+    "reuse_count",
+    "project_importance",
+    "dependency_count",
+    "historical_significance",
+    "recency",
+    "success_impact"
+  ],
+  "tiers": {
+    "core": {"range": [0.90, 1.00], "label": "CORE MEMORY", "action": "Never remove"},
+    "important": {"range": [0.70, 0.89], "label": "IMPORTANT MEMORY", "action": "Keep active"},
+    "standard": {"range": [0.50, 0.69], "label": "STANDARD MEMORY", "action": "Keep until space needed"},
+    "archive": {"range": [0.20, 0.49], "label": "ARCHIVE MEMORY", "action": "Move to archive"},
+    "forgettable": {"range": [0.00, 0.19], "label": "FORGETTABLE MEMORY", "action": "Eligible for deletion"}
+  },
+  "examples": [
+    {
+      "component": "HSCL v1",
+      "usage_frequency": "high",
+      "project_importance": "high",
+      "reuse_count": "high",
+      "weight": 0.98,
+      "tier": "core"
+    },
+    {
+      "component": "Random temporary note",
+      "usage_frequency": "low",
+      "reuse_count": 0,
+      "project_importance": "low",
+      "weight": 0.10,
+      "tier": "forgettable"
+    }
+  ]
+}

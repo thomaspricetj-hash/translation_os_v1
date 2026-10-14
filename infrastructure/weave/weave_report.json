@@ -1,0 +1,37 @@
+{
+  "component": "Weave Layer V0",
+  "role": "Cross-link Translation OS systems and identify indirect relationships spanning subsystems",
+  "pipeline_position": "Knowledge Grid -> Weave Layer -> Response Cache -> Problem Mapper -> Muse-Glimmer",
+  "status": "KEEP",
+  "promoted_date": "2026-10-13",
+  "tracked_pairs": [
+    "Dictionary ↔ Encyclopedia",
+    "History ↔ Future",
+    "Project Book ↔ Project Graph",
+    "Memory Reuse ↔ Response Cache",
+    "Problem Mapper ↔ Debate Layer",
+    "Reasoning Heatmap ↔ Problem Solve Layer"
+  ],
+  "metrics": {
+    "dependency_discovery": "TBD",
+    "planning_accuracy": "TBD",
+    "duplicate_work_reduction": "TBD",
+    "cross_system_retrieval": "TBD",
+    "latency_delta_ms": "TBD"
+  },
+  "query_types": [
+    "Show related systems",
+    "Show indirect dependencies",
+    "Show strongest connections",
+    "Show likely next actions",
+    "Show recurring patterns"
+  ],
+  "validation_tests": [
+    {
+      "query": "What is preventing Math-Boost?",
+      "expected_chain": ["GPU Support", "CUDA Backend", "Infrastructure Roadmap", "Future Book"],
+      "result": "PASS"
+    }
+  ],
+  "notes": "Build as infrastructure. Do not modify Muse-Glimmer. Wired into orchestrator and index. Helper and micro helper support added."
+}

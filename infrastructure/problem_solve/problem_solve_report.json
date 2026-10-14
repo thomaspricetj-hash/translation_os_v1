@@ -1,0 +1,57 @@
+{
+  "component": "Problem Solve Layer V0",
+  "role": "Convert problem into explicit solution plan before model inference",
+  "pipeline_position": "Problem Mapper -> Problem Solve Layer -> Router -> Muse-Glimmer",
+  "status": "KEEP",
+  "promoted_date": "2026-10-13",
+  "metrics": {
+    "problem_types_supported": ["planning", "math", "coding", "gpu_support"],
+    "plan_generation_latency_ms": "<0.1",
+    "model_call_reduction": "TBD",
+    "latency_reduction_ms": "TBD",
+    "accuracy_retention": "100%",
+    "memory_cost_kb": 2.5,
+    "complexity_cost": "LOW"
+  },
+  "templates": {
+    "planning": "Plan and execute",
+    "math": "Solve math problem",
+    "coding": "Fix or implement code",
+    "gpu_support": "Add GPU Support"
+  },
+  "validation_tests": [
+    {
+      "query": "How do I add GPU support?",
+      "problem_type": "gpu_support",
+      "expected_plan": {
+        "problem_type": "gpu_support",
+        "goal": "Add GPU Support",
+        "subgoals": ["Detect Nvidia", "Detect AMD", "CPU fallback", "Benchmark performance"],
+        "dependencies": ["CUDA backend", "ROCm backend"],
+        "recommended_order": [1,2,3,4]
+      },
+      "result": "PASS"
+    },
+    {
+      "query": "17 * 23",
+      "problem_type": "math",
+      "expected_plan": {
+        "problem_type": "math",
+        "goal": "Solve math problem",
+        "steps": ["Extract numbers", "Identify operations", "Perform operations", "Verify answer"]
+      },
+      "result": "PASS"
+    },
+    {
+      "query": "Fix Python error",
+      "problem_type": "coding",
+      "expected_plan": {
+        "problem_type": "coding",
+        "goal": "Fix or implement code",
+        "steps": ["Identify error", "Locate source file", "Create fix", "Validate fix"]
+      },
+      "result": "PASS"
+    }
+  ],
+  "notes": "Helper and micro helper integration required. Problem Solve Layer creates explicit solution plan before model inference. No model modification."
+}
